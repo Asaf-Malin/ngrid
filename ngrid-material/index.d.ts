@@ -1,2 +1,2 @@
 export * from './lib/ngrid-material.module';
-export { CellTooltipOptions } from '@pebula/ngrid-material/cell-tooltip';
+export { CellTooltipOptions } from '@asafmalin/ngrid-material/cell-tooltip';

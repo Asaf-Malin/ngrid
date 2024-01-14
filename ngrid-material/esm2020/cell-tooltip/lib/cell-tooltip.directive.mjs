@@ -7,10 +7,10 @@ import { Overlay } from '@angular/cdk/overlay';
 import { ScrollDispatcher } from '@angular/cdk/scrolling';
 import { Platform } from '@angular/cdk/platform';
 import { MatTooltip, MAT_TOOLTIP_SCROLL_STRATEGY, MAT_TOOLTIP_DEFAULT_OPTIONS } from '@angular/material/tooltip';
-import { unrx, PblNgridConfigService } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { unrx, PblNgridConfigService } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 export const PLUGIN_KEY = 'cellTooltip';
 const DEFAULT_OPTIONS = {
     canShow: (event) => {

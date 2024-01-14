@@ -1,10 +1,10 @@
 import { Injector, OnDestroy } from '@angular/core';
 import { BooleanInput, NumberInput } from '@angular/cdk/coercion';
 import { TooltipPosition } from '@angular/material/tooltip';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
-import { PblNgridCellEvent } from '@pebula/ngrid/target-events';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
+import { PblNgridCellEvent } from '@asafmalin/ngrid/target-events';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
     interface PblNgridConfig {
         cellTooltip?: CellTooltipOptions & {
             /** When set to true will apply the default cell tooltip to ALL tables */
@@ -12,7 +12,7 @@ declare module '@pebula/ngrid/core/lib/configuration/type' {
         };
     }
 }
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         cellTooltip?: PblNgridCellTooltipDirective<any>;
     }

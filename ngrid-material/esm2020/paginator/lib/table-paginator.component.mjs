@@ -1,10 +1,10 @@
 import { ChangeDetectorRef, ChangeDetectionStrategy, Component, Input, Optional, ViewEncapsulation, } from '@angular/core';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
 import { MatPaginatorIntl } from '@angular/material/paginator';
-import { deprecatedWarning, unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent } from '@pebula/ngrid';
+import { deprecatedWarning, unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 import * as i2 from "@angular/material/paginator";
 import * as i3 from "@angular/common";
 import * as i4 from "@angular/material/form-field";

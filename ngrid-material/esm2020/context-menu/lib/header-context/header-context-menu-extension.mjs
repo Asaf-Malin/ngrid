@@ -1,4 +1,4 @@
-import { PblNgridMultiComponentRegistry } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry } from '@asafmalin/ngrid';
 import { PblNgridMatHeaderContextMenuPlugin } from './header-context-menu.directive';
 import { MatHeaderContextMenuTrigger } from './header-context-menu-trigger';
 export class MatHeaderContextMenuExtension extends PblNgridMultiComponentRegistry {

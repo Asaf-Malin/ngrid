@@ -1,11 +1,11 @@
-import { PblNgridConfigService } from '@pebula/ngrid/core';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
 import * as i0 from "@angular/core";
 import * as i1 from "./cell-tooltip.directive";
 import * as i2 from "@angular/common";
 import * as i3 from "@angular/material/tooltip";
 import * as i4 from "@angular/cdk/overlay";
-import * as i5 from "@pebula/ngrid";
-import * as i6 from "@pebula/ngrid/target-events";
+import * as i5 from "@asafmalin/ngrid";
+import * as i6 from "@asafmalin/ngrid/target-events";
 export declare class PblNgridCellTooltipModule {
     static readonly NGRID_PLUGIN: never;
     constructor(parentModule: PblNgridCellTooltipModule, configService: PblNgridConfigService);

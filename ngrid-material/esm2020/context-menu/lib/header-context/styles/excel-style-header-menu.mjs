@@ -1,8 +1,8 @@
 import { Component, ViewChild, ViewContainerRef, ViewEncapsulation } from '@angular/core';
 import { MatMenu } from '@angular/material/menu';
-import { PblNgridOverlayPanelRef } from '@pebula/ngrid/overlay-panel';
+import { PblNgridOverlayPanelRef } from '@asafmalin/ngrid/overlay-panel';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid/overlay-panel";
+import * as i1 from "@asafmalin/ngrid/overlay-panel";
 import * as i2 from "@angular/common";
 import * as i3 from "@angular/material/icon";
 import * as i4 from "@angular/material/button";

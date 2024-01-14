@@ -2,12 +2,12 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { PblNgridConfigService } from '@pebula/ngrid/core';
-import { PblNgridModule, PblNgridPluginController, ngridPlugin } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
+import { PblNgridModule, PblNgridPluginController, ngridPlugin } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 import { PblNgridCellTooltipDirective, PLUGIN_KEY } from './cell-tooltip.directive';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid/core";
+import * as i1 from "@asafmalin/ngrid/core";
 export class PblNgridCellTooltipModule {
     constructor(parentModule, configService) {
         if (parentModule) {

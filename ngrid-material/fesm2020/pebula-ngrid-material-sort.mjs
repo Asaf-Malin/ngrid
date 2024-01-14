@@ -2,9 +2,9 @@ import * as i0 from '@angular/core';
 import { Directive, NgModule } from '@angular/core';
 import * as i2 from '@angular/material/sort';
 import { MatSort, MatSortHeader, MatSortModule } from '@angular/material/sort';
-import { unrx, ON_INVALIDATE_HEADERS } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridMultiComponentRegistry, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import { unrx, ON_INVALIDATE_HEADERS } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridMultiComponentRegistry, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 

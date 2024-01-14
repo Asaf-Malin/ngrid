@@ -1,9 +1,9 @@
 import { Directive, Input } from '@angular/core';
-import { PblNgridPluginController } from '@pebula/ngrid';
-import { PblNgridOverlayPanelFactory } from '@pebula/ngrid/overlay-panel';
+import { PblNgridPluginController } from '@asafmalin/ngrid';
+import { PblNgridOverlayPanelFactory } from '@asafmalin/ngrid/overlay-panel';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid/overlay-panel";
-import * as i2 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid/overlay-panel";
+import * as i2 from "@asafmalin/ngrid";
 export const PLUGIN_KEY = 'matHeaderContextMenu';
 export class PblNgridMatHeaderContextMenuPlugin {
     constructor(overlayPanelFactory, pluginCtrl) {

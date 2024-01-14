@@ -1,6 +1,6 @@
 import { ComponentFactory, ComponentRef, ComponentFactoryResolver } from '@angular/core';
 import { MatSortHeader } from '@angular/material/sort';
-import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@asafmalin/ngrid';
 export declare class MatSortExtension extends PblNgridMultiComponentRegistry<MatSortHeader, 'dataHeaderExtensions'> {
     private cfr;
     readonly name: 'sortContainer';

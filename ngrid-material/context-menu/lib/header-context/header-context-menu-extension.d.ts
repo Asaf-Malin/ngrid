@@ -1,5 +1,5 @@
 import { ComponentFactory, ComponentRef, ComponentFactoryResolver } from '@angular/core';
-import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@asafmalin/ngrid';
 import { MatHeaderContextMenuTrigger } from './header-context-menu-trigger';
 export declare class MatHeaderContextMenuExtension extends PblNgridMultiComponentRegistry<MatHeaderContextMenuTrigger, 'dataHeaderExtensions'> {
     private cfr;

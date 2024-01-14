@@ -1,5 +1,5 @@
 import { ElementRef } from '@angular/core';
-import { PblNgridDataHeaderExtensionContext } from '@pebula/ngrid';
+import { PblNgridDataHeaderExtensionContext } from '@asafmalin/ngrid';
 import { PblNgridMatHeaderContextMenuPlugin } from './header-context-menu.directive';
 import * as i0 from "@angular/core";
 export declare class MatHeaderContextMenuTrigger {

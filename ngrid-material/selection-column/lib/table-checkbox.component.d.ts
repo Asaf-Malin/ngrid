@@ -1,7 +1,7 @@
 import { AfterViewInit, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { SelectionModel } from '@angular/cdk/collections';
 import { ThemePalette } from '@angular/material/core';
-import { PblNgridComponent, PblNgridHeaderCellDefDirective, PblNgridCellDefDirective, PblNgridFooterCellDefDirective } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridHeaderCellDefDirective, PblNgridCellDefDirective, PblNgridFooterCellDefDirective } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 export declare class PblNgridCheckboxComponent implements AfterViewInit, OnDestroy {
     table: PblNgridComponent<any>;

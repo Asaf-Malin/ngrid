@@ -1,9 +1,9 @@
 import * as i0 from '@angular/core';
 import { Component, ChangeDetectionStrategy, ViewEncapsulation, Optional, Input, NgModule } from '@angular/core';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import { unrx, deprecatedWarning } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridModule } from '@pebula/ngrid';
+import { unrx, deprecatedWarning } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridModule } from '@asafmalin/ngrid';
 import * as i2 from '@angular/material/paginator';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import * as i3 from '@angular/common';

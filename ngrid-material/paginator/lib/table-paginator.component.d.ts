@@ -1,7 +1,7 @@
 import { ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { BooleanInput } from '@angular/cdk/coercion';
 import { MatPaginatorIntl } from '@angular/material/paginator';
-import { PblNgridComponent, PblPaginator } from '@pebula/ngrid';
+import { PblNgridComponent, PblPaginator } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 export declare class PblPaginatorComponent implements OnDestroy {
     _intl: MatPaginatorIntl;

@@ -2,11 +2,11 @@ import { NgModule, ComponentFactoryResolver } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatSortModule } from '@angular/material/sort';
 import { MatButtonModule } from '@angular/material/button';
-import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
 import { PblNgridMatSortDirective, PLUGIN_KEY } from './mat-sort.directive';
 import { MatSortExtension } from './mat-sort-component-extension';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 export class PblNgridMatSortModule {
     constructor(registry, cfr) {
         this.registry = registry;

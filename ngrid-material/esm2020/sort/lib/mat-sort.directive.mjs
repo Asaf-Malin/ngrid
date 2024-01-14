@@ -1,9 +1,9 @@
 import { Directive } from '@angular/core';
 import { MatSort } from '@angular/material/sort';
-import { ON_INVALIDATE_HEADERS, unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { ON_INVALIDATE_HEADERS, unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 import * as i2 from "@angular/material/sort";
 export const PLUGIN_KEY = 'matSort';
 export class PblNgridMatSortDirective {

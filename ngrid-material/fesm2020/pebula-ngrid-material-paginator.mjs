@@ -3,9 +3,9 @@ import { Component, ChangeDetectionStrategy, ViewEncapsulation, Optional, Input,
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
 import * as i2 from '@angular/material/paginator';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
-import { unrx, deprecatedWarning } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridModule } from '@pebula/ngrid';
+import { unrx, deprecatedWarning } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridModule } from '@asafmalin/ngrid';
 import * as i3 from '@angular/common';
 import { CommonModule } from '@angular/common';
 import * as i4 from '@angular/material/form-field';

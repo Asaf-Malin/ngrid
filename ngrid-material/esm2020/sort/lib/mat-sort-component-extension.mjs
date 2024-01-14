@@ -1,5 +1,5 @@
 import { MatSort, MatSortHeader } from '@angular/material/sort';
-import { PblNgridMultiComponentRegistry } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry } from '@asafmalin/ngrid';
 export class MatSortExtension extends PblNgridMultiComponentRegistry {
     constructor(cfr) {
         super();

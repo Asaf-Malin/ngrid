@@ -1,8 +1,8 @@
 import { Directive, Injector, Input, ComponentFactoryResolver } from '@angular/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import { PblNgridCheckboxComponent } from './table-checkbox.component';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 export const PLUGIN_KEY = 'matCheckboxSelection';
 export class PblNgridMatCheckboxSelectionDirective {
     constructor(table, cfr, injector, pluginCtrl) {

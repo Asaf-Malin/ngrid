@@ -4,7 +4,7 @@ import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatButtonModule } from '@angular/material/button';
-import { PblNgridModule } from '@pebula/ngrid';
+import { PblNgridModule } from '@asafmalin/ngrid';
 import { PblPaginatorComponent } from './table-paginator.component';
 import * as i0 from "@angular/core";
 // TODO: Remove MatPaginatorModule and the initial code in the constructor

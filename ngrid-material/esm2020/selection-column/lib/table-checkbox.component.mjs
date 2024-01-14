@@ -1,9 +1,9 @@
 import { Component, Input, ViewChild, ViewEncapsulation, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { SelectionModel } from '@angular/cdk/collections';
-import { unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridHeaderCellDefDirective, PblNgridCellDefDirective, PblNgridFooterCellDefDirective, PblNgridPluginController, } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridHeaderCellDefDirective, PblNgridCellDefDirective, PblNgridFooterCellDefDirective, PblNgridPluginController, } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 import * as i2 from "@angular/common";
 import * as i3 from "@angular/material/checkbox";
 const ALWAYS_FALSE_FN = () => false;

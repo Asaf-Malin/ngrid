@@ -3,7 +3,7 @@ import * as i1 from "./checkbox-plugin.directive";
 import * as i2 from "./table-checkbox.component";
 import * as i3 from "@angular/common";
 import * as i4 from "@angular/material/checkbox";
-import * as i5 from "@pebula/ngrid";
+import * as i5 from "@asafmalin/ngrid";
 export declare class PblNgridCheckboxModule {
     static readonly NGRID_PLUGIN: never;
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridCheckboxModule, never>;

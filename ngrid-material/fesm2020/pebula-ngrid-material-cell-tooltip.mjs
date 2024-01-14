@@ -3,11 +3,11 @@ import { ViewContainerRef, NgZone, ElementRef, Directive, Input, NgModule, Optio
 import { DOCUMENT, CommonModule } from '@angular/common';
 import { Overlay, OverlayModule } from '@angular/cdk/overlay';
 import { MAT_TOOLTIP_SCROLL_STRATEGY, MAT_TOOLTIP_DEFAULT_OPTIONS, MatTooltip, MatTooltipModule } from '@angular/material/tooltip';
-import * as i1$1 from '@pebula/ngrid/core';
-import { PblNgridConfigService, unrx } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridPluginController, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import * as i1$1 from '@asafmalin/ngrid/core';
+import { PblNgridConfigService, unrx } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridPluginController, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
 import { AriaDescriber, FocusMonitor } from '@angular/cdk/a11y';
 import { Directionality } from '@angular/cdk/bidi';

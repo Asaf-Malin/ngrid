@@ -1,9 +1,9 @@
 import * as i0 from '@angular/core';
 import { Directive, Input, Component, ViewEncapsulation, ViewContainerRef, ViewChild, NgModule, Optional, SkipSelf } from '@angular/core';
-import * as i1 from '@pebula/ngrid/overlay-panel';
-import { PblNgridOverlayPanelFactory, PblNgridOverlayPanelComponentExtension, PblNgridOverlayPanelModule } from '@pebula/ngrid/overlay-panel';
-import * as i2 from '@pebula/ngrid';
-import { PblNgridMultiComponentRegistry, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import * as i1 from '@asafmalin/ngrid/overlay-panel';
+import { PblNgridOverlayPanelFactory, PblNgridOverlayPanelComponentExtension, PblNgridOverlayPanelModule } from '@asafmalin/ngrid/overlay-panel';
+import * as i2 from '@asafmalin/ngrid';
+import { PblNgridMultiComponentRegistry, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import * as i2$2 from '@angular/common';
 import { CommonModule } from '@angular/common';
 import * as i2$1 from '@angular/material/icon';
@@ -16,7 +16,7 @@ import * as i6 from '@angular/material/form-field';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import * as i7 from '@angular/material/input';
 import { MatInputModule } from '@angular/material/input';
-import * as i2$3 from '@pebula/ngrid/core';
+import * as i2$3 from '@asafmalin/ngrid/core';
 
 const PLUGIN_KEY = 'matHeaderContextMenu';
 class PblNgridMatHeaderContextMenuPlugin {

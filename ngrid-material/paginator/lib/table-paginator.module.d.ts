@@ -6,7 +6,7 @@ import * as i3 from "@angular/material/paginator";
 import * as i4 from "@angular/material/select";
 import * as i5 from "@angular/material/tooltip";
 import * as i6 from "@angular/material/button";
-import * as i7 from "@pebula/ngrid";
+import * as i7 from "@asafmalin/ngrid";
 export declare class PblNgridPaginatorModule {
     constructor(cf: ComponentFactoryResolver, injector: Injector);
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridPaginatorModule, never>;

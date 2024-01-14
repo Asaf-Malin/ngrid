@@ -1,9 +1,9 @@
 import * as i0 from '@angular/core';
 import { Component, ChangeDetectionStrategy, ViewEncapsulation, Input, ViewChild, Directive, NgModule } from '@angular/core';
 import '@angular/cdk/collections';
-import { unrx } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridPluginController, PblNgridHeaderCellDefDirective, PblNgridCellDefDirective, PblNgridFooterCellDefDirective, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridPluginController, PblNgridHeaderCellDefDirective, PblNgridCellDefDirective, PblNgridFooterCellDefDirective, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import * as i2 from '@angular/common';
 import { CommonModule } from '@angular/common';
 import * as i3 from '@angular/material/checkbox';
