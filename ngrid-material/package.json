@@ -1,0 +1,93 @@
+{
+  "name": "@pebula/ngrid-material",
+  "version": "5.0.0-alpha.0",
+  "peerDependencies": {
+    "@angular/material": "^14.0.0",
+    "@pebula/ngrid": "5.0.0-alpha.0"
+  },
+  "exports": {
+    ".": {
+      "sass": "./_index.scss",
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/pebula-ngrid-material.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-material.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-material.mjs",
+      "node": "./fesm2015/pebula-ngrid-material.mjs",
+      "default": "./fesm2020/pebula-ngrid-material.mjs"
+    },
+    "./theming": {
+      "sass": "./_theming.scss"
+    },
+    "./_theming": {
+      "sass": "./_theming.scss"
+    },
+    "./themes/deeppurple-amber.css": {
+      "style": "./themes/deeppurple-amber.css"
+    },
+    "./themes/indigo-pink.css": {
+      "style": "./themes/indigo-pink.css"
+    },
+    "./themes/pink-bluegrey.css": {
+      "style": "./themes/pink-bluegrey.css"
+    },
+    "./themes/purple-green.css": {
+      "style": "./themes/purple-green.css"
+    },
+    "./themes/*": {
+      "style": "./themes/*.css"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./cell-tooltip": {
+      "types": "./cell-tooltip/index.d.ts",
+      "esm2020": "./esm2020/cell-tooltip/pebula-ngrid-material-cell-tooltip.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-material-cell-tooltip.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-material-cell-tooltip.mjs",
+      "node": "./fesm2015/pebula-ngrid-material-cell-tooltip.mjs",
+      "default": "./fesm2020/pebula-ngrid-material-cell-tooltip.mjs"
+    },
+    "./context-menu": {
+      "types": "./context-menu/index.d.ts",
+      "esm2020": "./esm2020/context-menu/pebula-ngrid-material-context-menu.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-material-context-menu.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-material-context-menu.mjs",
+      "node": "./fesm2015/pebula-ngrid-material-context-menu.mjs",
+      "default": "./fesm2020/pebula-ngrid-material-context-menu.mjs"
+    },
+    "./paginator": {
+      "types": "./paginator/index.d.ts",
+      "esm2020": "./esm2020/paginator/pebula-ngrid-material-paginator.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-material-paginator.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-material-paginator.mjs",
+      "node": "./fesm2015/pebula-ngrid-material-paginator.mjs",
+      "default": "./fesm2020/pebula-ngrid-material-paginator.mjs"
+    },
+    "./selection-column": {
+      "types": "./selection-column/index.d.ts",
+      "esm2020": "./esm2020/selection-column/pebula-ngrid-material-selection-column.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-material-selection-column.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-material-selection-column.mjs",
+      "node": "./fesm2015/pebula-ngrid-material-selection-column.mjs",
+      "default": "./fesm2020/pebula-ngrid-material-selection-column.mjs"
+    },
+    "./sort": {
+      "types": "./sort/index.d.ts",
+      "esm2020": "./esm2020/sort/pebula-ngrid-material-sort.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-material-sort.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-material-sort.mjs",
+      "node": "./fesm2015/pebula-ngrid-material-sort.mjs",
+      "default": "./fesm2020/pebula-ngrid-material-sort.mjs"
+    }
+  },
+  "module": "fesm2015/pebula-ngrid-material.mjs",
+  "es2020": "fesm2020/pebula-ngrid-material.mjs",
+  "esm2020": "esm2020/pebula-ngrid-material.mjs",
+  "fesm2020": "fesm2020/pebula-ngrid-material.mjs",
+  "fesm2015": "fesm2015/pebula-ngrid-material.mjs",
+  "typings": "index.d.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

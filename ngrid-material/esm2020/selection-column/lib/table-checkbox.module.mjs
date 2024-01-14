@@ -1,0 +1,22 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridMatCheckboxSelectionDirective, PLUGIN_KEY } from './checkbox-plugin.directive';
+import { PblNgridCheckboxComponent } from './table-checkbox.component';
+import * as i0 from "@angular/core";
+export class PblNgridCheckboxModule {
+}
+PblNgridCheckboxModule.NGRID_PLUGIN = ngridPlugin({ id: PLUGIN_KEY }, PblNgridMatCheckboxSelectionDirective);
+/** @nocollapse */ PblNgridCheckboxModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.4", ngImport: i0, type: PblNgridCheckboxModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+/** @nocollapse */ PblNgridCheckboxModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "14.2.4", ngImport: i0, type: PblNgridCheckboxModule, declarations: [PblNgridMatCheckboxSelectionDirective, PblNgridCheckboxComponent], imports: [CommonModule, MatCheckboxModule, PblNgridModule], exports: [PblNgridMatCheckboxSelectionDirective, PblNgridCheckboxComponent] });
+/** @nocollapse */ PblNgridCheckboxModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "14.2.4", ngImport: i0, type: PblNgridCheckboxModule, imports: [CommonModule, MatCheckboxModule, PblNgridModule] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.4", ngImport: i0, type: PblNgridCheckboxModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    imports: [CommonModule, MatCheckboxModule, PblNgridModule],
+                    declarations: [PblNgridMatCheckboxSelectionDirective, PblNgridCheckboxComponent],
+                    exports: [PblNgridMatCheckboxSelectionDirective, PblNgridCheckboxComponent]
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGFibGUtY2hlY2tib3gubW9kdWxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vbGlicy9uZ3JpZC1tYXRlcmlhbC9zZWxlY3Rpb24tY29sdW1uL3NyYy9saWIvdGFibGUtY2hlY2tib3gubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxpQkFBaUIsRUFBRSxNQUFNLDRCQUE0QixDQUFDO0FBRS9ELE9BQU8sRUFBRSxjQUFjLEVBQUUsV0FBVyxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQzVELE9BQU8sRUFBRSxxQ0FBcUMsRUFBRSxVQUFVLEVBQUUsTUFBTSw2QkFBNkIsQ0FBQztBQUNoRyxPQUFPLEVBQUUseUJBQXlCLEVBQUUsTUFBTSw0QkFBNEIsQ0FBQzs7QUFPdkUsTUFBTSxPQUFPLHNCQUFzQjs7QUFDakIsbUNBQVksR0FBRyxXQUFXLENBQUMsRUFBRSxFQUFFLEVBQUUsVUFBVSxFQUFFLEVBQUUscUNBQXFDLENBQUMsQ0FBQztzSUFEM0Ysc0JBQXNCO3VJQUF0QixzQkFBc0IsaUJBSGhCLHFDQUFxQyxFQUFFLHlCQUF5QixhQURyRSxZQUFZLEVBQUUsaUJBQWlCLEVBQUUsY0FBYyxhQUUvQyxxQ0FBcUMsRUFBRSx5QkFBeUI7dUlBRWpFLHNCQUFzQixZQUpyQixZQUFZLEVBQUUsaUJBQWlCLEVBQUUsY0FBYzsyRkFJaEQsc0JBQXNCO2tCQUxsQyxRQUFRO21CQUFDO29CQUNOLE9BQU8sRUFBRSxDQUFDLFlBQVksRUFBRSxpQkFBaUIsRUFBRSxjQUFjLENBQUM7b0JBQzFELFlBQVksRUFBRSxDQUFDLHFDQUFxQyxFQUFFLHlCQUF5QixDQUFDO29CQUNoRixPQUFPLEVBQUUsQ0FBQyxxQ0FBcUMsRUFBRSx5QkFBeUIsQ0FBQztpQkFDOUUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IE1hdENoZWNrYm94TW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvbWF0ZXJpYWwvY2hlY2tib3gnO1xuXG5pbXBvcnQgeyBQYmxOZ3JpZE1vZHVsZSwgbmdyaWRQbHVnaW4gfSBmcm9tICdAcGVidWxhL25ncmlkJztcbmltcG9ydCB7IFBibE5ncmlkTWF0Q2hlY2tib3hTZWxlY3Rpb25EaXJlY3RpdmUsIFBMVUdJTl9LRVkgfSBmcm9tICcuL2NoZWNrYm94LXBsdWdpbi5kaXJlY3RpdmUnO1xuaW1wb3J0IHsgUGJsTmdyaWRDaGVja2JveENvbXBvbmVudCB9IGZyb20gJy4vdGFibGUtY2hlY2tib3guY29tcG9uZW50JztcblxuQE5nTW9kdWxlKHtcbiAgICBpbXBvcnRzOiBbQ29tbW9uTW9kdWxlLCBNYXRDaGVja2JveE1vZHVsZSwgUGJsTmdyaWRNb2R1bGVdLFxuICAgIGRlY2xhcmF0aW9uczogW1BibE5ncmlkTWF0Q2hlY2tib3hTZWxlY3Rpb25EaXJlY3RpdmUsIFBibE5ncmlkQ2hlY2tib3hDb21wb25lbnRdLFxuICAgIGV4cG9ydHM6IFtQYmxOZ3JpZE1hdENoZWNrYm94U2VsZWN0aW9uRGlyZWN0aXZlLCBQYmxOZ3JpZENoZWNrYm94Q29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBQYmxOZ3JpZENoZWNrYm94TW9kdWxlIHtcbiAgc3RhdGljIHJlYWRvbmx5IE5HUklEX1BMVUdJTiA9IG5ncmlkUGx1Z2luKHsgaWQ6IFBMVUdJTl9LRVkgfSwgUGJsTmdyaWRNYXRDaGVja2JveFNlbGVjdGlvbkRpcmVjdGl2ZSk7XG59XG4iXX0=
