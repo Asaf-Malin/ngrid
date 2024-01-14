@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridBlockUiModule } from '@pebula/ngrid/block-ui';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridBlockUiModule } from '@asafmalin/ngrid/block-ui';
 
 import { CommonCellTemplatesComponent } from './common-cell-templates.component';
 

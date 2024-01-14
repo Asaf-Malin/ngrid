@@ -1,5 +1,5 @@
 import { ComponentRef, Type } from '@angular/core';
-import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@asafmalin/ngrid';
 import { PblNgridBsSortablePlugin } from './bs-sortable-plugin';
 import { PblNgridBsSortable } from './bs-sortable/bs-sortable.component';
 

@@ -5,7 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Directionality } from '@angular/cdk/bidi';
 import { MatDrawer, MatDrawerMode } from '@angular/material/sidenav';
 
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { TocAreaDirective } from '@pebula/apps/docs-app-lib/toc.module';
 
 import { MarkdownPagesMenuService, NavEntry } from '../../services/markdown-pages-menu.service';

@@ -2,7 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 
-import { PblNgridModule, provideCommon, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridModule, provideCommon, ngridPlugin } from '@asafmalin/ngrid';
 
 import './drag-and-drop/column/extend-grid'; // to make sure d.ts stay in published lib and so agumentation kicks in
 import { colReorderExtendGrid } from './drag-and-drop/column/extend-grid'

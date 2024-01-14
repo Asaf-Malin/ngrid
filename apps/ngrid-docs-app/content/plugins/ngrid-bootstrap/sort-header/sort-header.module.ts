@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgbButtonsModule } from '@ng-bootstrap/ng-bootstrap';
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridBsSortableModule } from '@pebula/ngrid-bootstrap/sort';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridBsSortableModule } from '@asafmalin/ngrid-bootstrap/sort';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

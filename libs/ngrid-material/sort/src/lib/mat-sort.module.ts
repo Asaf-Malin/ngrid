@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatSortModule, MatSortHeader } from '@angular/material/sort';
 import { MatButtonModule } from '@angular/material/button';
 
-import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
 import { PblNgridMatSortDirective, PLUGIN_KEY } from './mat-sort.directive';
 import { MatSortExtension } from './mat-sort-component-extension';
 

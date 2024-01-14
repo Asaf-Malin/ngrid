@@ -6,9 +6,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
-import { PblNgridConfigService } from '@pebula/ngrid/core';
-import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@pebula/ngrid';
-import { PblNgridOverlayPanelModule, PblNgridOverlayPanelComponentExtension } from '@pebula/ngrid/overlay-panel';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
+import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
+import { PblNgridOverlayPanelModule, PblNgridOverlayPanelComponentExtension } from '@asafmalin/ngrid/overlay-panel';
 
 import { MatHeaderContextMenuTrigger } from './header-context/header-context-menu-trigger';
 import { MatHeaderContextMenuExtension } from './header-context/header-context-menu-extension';

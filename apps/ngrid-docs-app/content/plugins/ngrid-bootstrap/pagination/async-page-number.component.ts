@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { createDS, columnFactory } from '@pebula/ngrid';
+import { createDS, columnFactory } from '@asafmalin/ngrid';
 
 import { Person, DynamicRestClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

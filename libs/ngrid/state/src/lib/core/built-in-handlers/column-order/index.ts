@@ -1,4 +1,4 @@
-import { PblColumn } from '@pebula/ngrid';
+import { PblColumn } from '@asafmalin/ngrid';
 import { createStateChunkHandler } from '../../handling';
 import { stateVisor } from '../../state-visor';
 import { PblNgridStateLoadOptions } from '../../models/index';

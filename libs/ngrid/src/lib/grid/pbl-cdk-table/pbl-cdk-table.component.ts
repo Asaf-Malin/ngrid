@@ -34,7 +34,7 @@ import {
 } from '@angular/cdk/table';
 import { Direction, Directionality } from '@angular/cdk/bidi';
 
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { PBL_NGRID_COMPONENT, _PblNgridComponent } from '../../tokens';
 import { EXT_API_TOKEN, PblNgridInternalExtensionApi } from '../../ext/grid-ext-api';
 

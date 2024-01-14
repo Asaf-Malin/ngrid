@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridBlockUiModule } from '@pebula/ngrid/block-ui';
-import { PblNgridStickyModule } from '@pebula/ngrid/sticky';
-import { PblNgridCheckboxModule } from '@pebula/ngrid-material/selection-column';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridBlockUiModule } from '@asafmalin/ngrid/block-ui';
+import { PblNgridStickyModule } from '@asafmalin/ngrid/sticky';
+import { PblNgridCheckboxModule } from '@asafmalin/ngrid-material/selection-column';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

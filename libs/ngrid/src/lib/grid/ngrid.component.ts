@@ -38,7 +38,7 @@ import {
   PblMetaRowDefinitions,
 
   deprecatedWarning, unrx,
-} from '@pebula/ngrid/core';
+} from '@asafmalin/ngrid/core';
 
 import { PBL_NGRID_COMPONENT } from '../tokens';
 import { EXT_API_TOKEN, PblNgridExtensionApi, PblNgridInternalExtensionApi } from '../ext/grid-ext-api';

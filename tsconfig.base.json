@@ -20,11 +20,11 @@
       "@pebula-internal/nx-repo-plugins": ["libs-internal/nx-repo-plugins/src/index.ts"],
       "@pebula-internal/*": ["libs-internal/*/src/index.ts", "libs-internal/*"],
       "@pebula/apps/*": ["apps/libs/*", "apps/libs/*/src/index.ts"],
-      "@pebula/ngrid/core/lib/*": ["libs/ngrid/core/src/lib/*"],
-      "@pebula/ngrid/lib/*": ["libs/ngrid/src/lib/*"],
-      "@pebula/ngrid-material/lib/*": ["libs/ngrid-material/src/lib/*"],
-      "@pebula/ngrid-bootstrap/lib/*": ["libs/ngrid-bootstrap/src/lib/*"],
-      "@pebula/ngrid-cypress/lib/*": ["libs/ngrid-cypress/src/lib/*"],
+      "@asafmalin/ngrid/core/lib/*": ["libs/ngrid/core/src/lib/*"],
+      "@asafmalin/ngrid/lib/*": ["libs/ngrid/src/lib/*"],
+      "@asafmalin/ngrid-material/lib/*": ["libs/ngrid-material/src/lib/*"],
+      "@asafmalin/ngrid-bootstrap/lib/*": ["libs/ngrid-bootstrap/src/lib/*"],
+      "@asafmalin/ngrid-cypress/lib/*": ["libs/ngrid-cypress/src/lib/*"],
       "@pebula/*": ["libs/*/src/index.ts", "libs/*"]
     }
   },

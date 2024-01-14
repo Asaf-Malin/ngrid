@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { PblNgridBsCellTooltipModule } from '@pebula/ngrid-bootstrap/cell-tooltip';
-import { PblNgridModule } from '@pebula/ngrid';
+import { PblNgridBsCellTooltipModule } from '@asafmalin/ngrid-bootstrap/cell-tooltip';
+import { PblNgridModule } from '@asafmalin/ngrid';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

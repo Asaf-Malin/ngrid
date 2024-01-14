@@ -1,13 +1,13 @@
 import { Subject } from 'rxjs';
 import { Directive, OnDestroy, OnChanges, Input, Output, EventEmitter } from '@angular/core';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
-import { ON_INVALIDATE_HEADERS, unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController, PblNgridSortDefinition, PblDataSource } from '@pebula/ngrid';
+import { ON_INVALIDATE_HEADERS, unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController, PblNgridSortDefinition, PblDataSource } from '@asafmalin/ngrid';
 import { PblNgridSortable, PblNgridBsSortDirection, PblNgridBsSortState } from './types';
 import { getSortDuplicateSortableIdError, getSortHeaderMissingIdError, getSortInvalidDirectionError } from './sort-errors';
 import { PblNgridBsSortable } from './bs-sortable/bs-sortable.component';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     bsSortable?: PblNgridBsSortablePlugin;
   }

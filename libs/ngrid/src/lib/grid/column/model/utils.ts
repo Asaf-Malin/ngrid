@@ -1,4 +1,4 @@
-import { PblBaseColumnDefinition } from '@pebula/ngrid/core';
+import { PblBaseColumnDefinition } from '@asafmalin/ngrid/core';
 
 const RE_PARSE_STYLE_LENGTH_UNIT = /((?:\d*\.)?\d+)(%|px)$/;
 

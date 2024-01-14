@@ -1,4 +1,4 @@
-import { PblDataSourceTriggerChangedEvent } from '@pebula/ngrid';
+import { PblDataSourceTriggerChangedEvent } from '@asafmalin/ngrid';
 import { CacheBlock } from './caching';
 import { PblInfiniteScrollDSContext } from './infinite-scroll-datasource.context';
 import { PblInfiniteScrollDsOptions, PblInfiniteScrollTriggerChangedEvent } from './infinite-scroll-datasource.types';

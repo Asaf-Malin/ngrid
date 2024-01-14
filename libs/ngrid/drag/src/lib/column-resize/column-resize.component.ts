@@ -18,10 +18,10 @@ import { ViewportRuler } from '@angular/cdk/scrolling';
 import { normalizePassiveListenerOptions } from '@angular/cdk/platform';
 import { DragDropConfig, DragDropRegistry, CDK_DRAG_CONFIG } from '@angular/cdk/drag-drop';
 
-import { PblNgridComponent, PblColumn, PblNgridMetaCellContext, isPblColumn, PblNgridPluginController, PblNgridExtensionApi } from '@pebula/ngrid';
+import { PblNgridComponent, PblColumn, PblNgridMetaCellContext, isPblColumn, PblNgridPluginController, PblNgridExtensionApi } from '@asafmalin/ngrid';
 import { toggleNativeDragInteractions } from './cdk-encapsulated-code';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     columnResize?: PblNgridDragResizeComponent;
   }

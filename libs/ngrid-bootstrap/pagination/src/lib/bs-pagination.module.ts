@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { PblNgridModule } from '@pebula/ngrid';
+import { PblNgridModule } from '@asafmalin/ngrid';
 import { PblNgridBsPagination } from './bs-pagination.component';
 
 @NgModule({

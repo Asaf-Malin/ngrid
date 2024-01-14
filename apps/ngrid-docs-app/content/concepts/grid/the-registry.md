@@ -230,7 +230,7 @@ We would want to use it within a header cell, to wrap the cell and show the curr
 
 `MatSort` is an already existing sorting solution, tested and working and it requires wrapping the cell's content, a perfect fit for a component based entry.
 
-To see how it is implemented, see the code for `@pebula/ngrid-material/sort`.
+To see how it is implemented, see the code for `@asafmalin/ngrid-material/sort`.
 
 W> The entity type of each slot is defined by the slot's creator. Most slots support template based entries, some support component based and some support **both**
 

@@ -1,4 +1,4 @@
-import { PblColumnDefinition, getValue } from '@pebula/ngrid/core';
+import { PblColumnDefinition, getValue } from '@asafmalin/ngrid/core';
 
 const TRANSFORM_ROW_REF = Symbol('TRANSFORM_ROW_REF');
 

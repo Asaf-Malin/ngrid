@@ -1,3 +1,3 @@
-npm publish dist/@pebula/ngrid
-npm publish dist/@pebula/ngrid-material
-npm publish dist/@pebula/ngrid-bootstrap
+npm publish dist/@asafmalin/ngrid
+npm publish dist/@asafmalin/ngrid-material
+npm publish dist/@asafmalin/ngrid-bootstrap

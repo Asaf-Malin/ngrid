@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ComponentRef, ViewChild, ViewContainerRef, ViewEncapsulation, OnDestroy, OnInit } from '@angular/core';
 import { CdkRow } from '@angular/cdk/table';
 
-import { StylingDiffer, StylingDifferOptions, unrx } from '@pebula/ngrid/core';
+import { StylingDiffer, StylingDifferOptions, unrx } from '@asafmalin/ngrid/core';
 
 import { PblRowContext } from '../context/index';
 import { PblNgridCellComponent } from '../cell/cell.component';

@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewChild } from '@angular/core';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 
-import { PblNgridComponent, createDS, columnFactory } from '@pebula/ngrid';
+import { PblNgridComponent, createDS, columnFactory } from '@asafmalin/ngrid';
 
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';
@@ -15,7 +15,7 @@ const COUNTRY_GETTER = {
   data: undefined as any
 }
 
-declare module '@pebula/ngrid/lib/grid/column/model/types' {
+declare module '@asafmalin/ngrid/lib/grid/column/model/types' {
   interface PblColumnTypeDefinitionDataMap {
     currencyFn: (row: Person) => string;
     countryNameDynamic: (row: Person) => string;

@@ -20,7 +20,7 @@ import {
   CDK_DRAG_CONFIG,
   DragDropConfig,
 } from '@angular/cdk/drag-drop';
-import { PblNgridComponent, PblNgridExtensionApi, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridExtensionApi, PblNgridPluginController } from '@asafmalin/ngrid';
 
 import { PblDropListRef } from './drop-list-ref';
 import { PblDragDrop } from './drag-drop';

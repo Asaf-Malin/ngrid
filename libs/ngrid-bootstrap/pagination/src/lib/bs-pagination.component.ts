@@ -9,8 +9,8 @@ import {
 } from '@angular/core';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 
-import { unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblPaginator, PblPaginatorChangeEvent } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblPaginator, PblPaginatorChangeEvent } from '@asafmalin/ngrid';
 
 const DEFAULT_PAGE_SIZE_OPTIONS = [5, 10, 20, 50, 100];
 

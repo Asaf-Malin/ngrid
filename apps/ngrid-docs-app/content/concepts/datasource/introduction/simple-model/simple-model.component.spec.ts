@@ -2,8 +2,8 @@
 import { HarnessLoader } from '@angular/cdk/testing';
 import { TestbedHarnessEnvironment } from '@angular/cdk/testing/testbed';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridHarness } from '@pebula/ngrid/testing';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridHarness } from '@asafmalin/ngrid/testing';
 import { DatasourceIntroductionSimpleModelExample } from './simple-model.component';
 
 describe('demo-app/datasource/simple-model', () => {

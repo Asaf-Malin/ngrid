@@ -1,10 +1,10 @@
 import { Directive, OnDestroy } from '@angular/core';
 import { Sort, MatSort, MatSortHeader, SortDirection } from '@angular/material/sort';
 
-import { ON_INVALIDATE_HEADERS, unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController, PblNgridSortDefinition, PblDataSource } from '@pebula/ngrid';
+import { ON_INVALIDATE_HEADERS, unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController, PblNgridSortDefinition, PblDataSource } from '@asafmalin/ngrid';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     matSort?: PblNgridMatSortDirective;
   }

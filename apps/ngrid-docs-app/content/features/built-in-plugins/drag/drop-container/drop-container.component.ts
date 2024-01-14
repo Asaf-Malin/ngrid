@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, ViewChild, ViewEncapsulation } from '@angular/core';
-import { createDS, columnFactory, PblNgridComponent } from '@pebula/ngrid';
-import { PblColumnDragDropContainerEnter, PblColumnDragDropContainerExit, PblColumnDragDropContainerDrop } from '@pebula/ngrid/drag';
+import { createDS, columnFactory, PblNgridComponent } from '@asafmalin/ngrid';
+import { PblColumnDragDropContainerEnter, PblColumnDragDropContainerExit, PblColumnDragDropContainerDrop } from '@asafmalin/ngrid/drag';
 
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

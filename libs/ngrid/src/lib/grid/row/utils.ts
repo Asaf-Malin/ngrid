@@ -1,4 +1,4 @@
-import { PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 import { PblNgridMetaRowService, PblMetaRow } from '../meta-rows/meta-row.service';
 
 export function initColumnOrMetaRow(element: HTMLElement, isFooter: boolean) {

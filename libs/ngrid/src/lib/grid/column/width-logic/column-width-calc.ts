@@ -1,6 +1,6 @@
 import { animationFrameScheduler, fromEventPattern, Subject } from 'rxjs';
 import { debounceTime, skip, takeUntil } from 'rxjs/operators';
-import { ON_DESTROY } from '@pebula/ngrid/core';
+import { ON_DESTROY } from '@asafmalin/ngrid/core';
 import { PblNgridInternalExtensionApi } from '../../../ext/grid-ext-api';
 import { resetColumnWidths } from '../../utils/width';
 import { PblColumn } from '../model/column';

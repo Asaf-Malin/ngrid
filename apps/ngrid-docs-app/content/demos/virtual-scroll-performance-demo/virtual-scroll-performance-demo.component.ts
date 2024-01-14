@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ChangeDetectorRef, ViewEncapsulation, ViewChild } from '@angular/core';
 import { MatRadioChange } from '@angular/material/radio';
 
-import { createDS, columnFactory, PblNgridComponent } from '@pebula/ngrid';
+import { createDS, columnFactory, PblNgridComponent } from '@asafmalin/ngrid';
 
 import { Customer, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

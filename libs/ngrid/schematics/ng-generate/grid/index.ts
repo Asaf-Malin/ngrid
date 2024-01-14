@@ -31,6 +31,6 @@ export default function(options: Schema): Rule {
 function addTableModulesToModule(options: Schema) {
   return async (host: Tree) => {
     const modulePath = (await findModuleFromOptions(host, options))!;
-    addModuleImportToModule(host, modulePath, 'PblNgridModule', '@pebula/ngrid');
+    addModuleImportToModule(host, modulePath, 'PblNgridModule', '@asafmalin/ngrid');
   };
 }

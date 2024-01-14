@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatBadgeModule } from '@angular/material/badge';
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridDragModule } from '@pebula/ngrid/drag';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridDragModule } from '@asafmalin/ngrid/drag';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

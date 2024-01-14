@@ -6,7 +6,7 @@ import {
   ViewContainerRef,
   ViewChild,
 } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent } from '../../tokens';
 import { PblMetaColumn, PblColumnGroup, isPblColumnGroup } from '../column/model';

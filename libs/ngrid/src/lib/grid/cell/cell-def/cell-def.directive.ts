@@ -1,6 +1,6 @@
 // tslint:disable:use-input-property-decorator
 import { Directive, TemplateRef } from '@angular/core';
-import { PblColumnTypeDefinitionDataMap } from '@pebula/ngrid/core';
+import { PblColumnTypeDefinitionDataMap } from '@asafmalin/ngrid/core';
 
 import { PblNgridRegistryService } from '../../registry/registry.service';
 import { PblNgridCellContext } from '../../context/index';
@@ -41,7 +41,7 @@ export class PblNgridCellDefDirective<T, P extends keyof PblColumnTypeDefinition
   }
 }
 
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
   interface PblNgridMultiRegistryMap {
     tableCell?: PblNgridCellDefDirective<any>;
   }

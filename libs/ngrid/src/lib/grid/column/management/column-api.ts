@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { ON_RESIZE_ROW } from '@pebula/ngrid/core';
+import { ON_RESIZE_ROW } from '@asafmalin/ngrid/core';
 import { _PblNgridComponent } from '../../../tokens';
 import { PblNgridExtensionApi } from '../../../ext/grid-ext-api';
 import { PblNgridColumnRowComponent } from '../../row/columns-row.component';

@@ -21,7 +21,7 @@ techniques you are free to do so.
 
 ## NGrid Component Harness
 
-The main harness used to interact with **nGrid** is `PblNgridHarness` located in `@pebula/ngrid/testing`.  
+The main harness used to interact with **nGrid** is `PblNgridHarness` located in `@asafmalin/ngrid/testing`.  
 
 From `PblNgridHarness` you can query for other harness components that wrap cells, columns, rows and other building blocks.
 

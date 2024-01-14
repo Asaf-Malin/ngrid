@@ -1,20 +1,20 @@
 import { Directive, Input, OnDestroy } from '@angular/core';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 
-import { PblNgridConfigService, PblColumnDefinition, PblNgridColumnDefinitionSet, unrx } from '@pebula/ngrid/core';
+import { PblNgridConfigService, PblColumnDefinition, PblNgridColumnDefinitionSet, unrx } from '@asafmalin/ngrid/core';
 import {
   columnFactory,
   PblNgridComponent,
   PblNgridPluginController,
   PblColumn,
-} from '@pebula/ngrid';
+} from '@asafmalin/ngrid';
 
 import { TransposeTableSession, LOCAL_COLUMN_DEF, VIRTUAL_REFRESH } from './transpose-table-session';
 import { getCellValueTransformed, createTransformedColumn } from './utils';
 
 const DEFAULT_HEADER_COLUMN = { prop: '__transpose__', css: 'pbl-ngrid-header-cell pbl-ngrid-transposed-header-cell' };
 
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
   interface PblNgridConfig {
     transposePlugin?: {
       header?: Partial<PblColumnDefinition>;
@@ -24,7 +24,7 @@ declare module '@pebula/ngrid/core/lib/configuration/type' {
   }
 }
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     transpose?: PblNgridTransposePluginDirective;
   }

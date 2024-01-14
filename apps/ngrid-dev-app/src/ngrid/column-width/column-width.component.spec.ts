@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HarnessLoader } from '@angular/cdk/testing';
 import { TestbedHarnessEnvironment } from '@angular/cdk/testing/testbed';
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridHarness, ScrollToLocation } from '@pebula/ngrid/testing';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridHarness, ScrollToLocation } from '@asafmalin/ngrid/testing';
 
 import { StaticRestClientApi } from '@pebula/apps/dev-app-lib/client-api';
 import { ColumnWidthExample } from './column-width.component';

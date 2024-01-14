@@ -13,7 +13,7 @@ import {
   OnDestroy,
 } from '@angular/core';
 import { CdkHeaderRow } from '@angular/cdk/table';
-import { PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent, PBL_NGRID_COMPONENT } from '../../tokens';
 import { PblNgridMetaCellComponent } from '../cell/meta-cell.component';

@@ -2,13 +2,13 @@ import { fromEvent, timer, Observer, ReplaySubject } from 'rxjs';
 import { bufferWhen, debounce, map, filter, takeUntil } from 'rxjs/operators';
 import { Directive, EventEmitter, OnDestroy, Injector } from '@angular/core';
 
-import { PblNgridComponent, PblNgridPluginController, PblColumn } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController, PblColumn } from '@asafmalin/ngrid';
 
 import * as Events from './events';
 import { matrixRowFromRow, isRowContainer, findCellRenderIndex, findParentCell } from './utils';
 import { handleFocusAndSelection } from './focus-and-selection';
 
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
   interface PblNgridConfig {
     targetEvents?: {
       /** When set to true will enable the target events plugin on all table instances by default. */
@@ -17,7 +17,7 @@ declare module '@pebula/ngrid/core/lib/configuration/type' {
   }
 }
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     targetEvents?: PblNgridTargetEventsPlugin;
   }

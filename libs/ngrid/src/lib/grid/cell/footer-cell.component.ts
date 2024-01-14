@@ -4,7 +4,7 @@ import {
   ChangeDetectionStrategy,
   ViewEncapsulation,
 } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent } from '../../tokens';
 import { PblColumn } from '../column/model';

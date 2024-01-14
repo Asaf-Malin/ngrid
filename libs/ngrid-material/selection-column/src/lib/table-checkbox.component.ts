@@ -2,14 +2,14 @@ import { Component, Input, ViewChild, ViewEncapsulation, AfterViewInit, OnDestro
 import { SelectionModel } from '@angular/cdk/collections';
 import { ThemePalette } from '@angular/material/core';
 
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import {
   PblNgridComponent,
   PblNgridHeaderCellDefDirective,
   PblNgridCellDefDirective,
   PblNgridFooterCellDefDirective,
   PblNgridPluginController,
-} from '@pebula/ngrid';
+} from '@asafmalin/ngrid';
 
 const ALWAYS_FALSE_FN = () => false;
 

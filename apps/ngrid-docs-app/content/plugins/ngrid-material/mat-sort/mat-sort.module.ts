@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridBlockUiModule } from '@pebula/ngrid/block-ui';
-import { PblNgridMatSortModule } from '@pebula/ngrid-material/sort';
-import { PblNgridPaginatorModule } from '@pebula/ngrid-material/paginator';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridBlockUiModule } from '@asafmalin/ngrid/block-ui';
+import { PblNgridMatSortModule } from '@asafmalin/ngrid-material/sort';
+import { PblNgridPaginatorModule } from '@asafmalin/ngrid-material/paginator';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

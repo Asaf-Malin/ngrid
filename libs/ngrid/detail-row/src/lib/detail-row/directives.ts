@@ -8,9 +8,9 @@ import {
   Input,
 } from '@angular/core';
 
-import { PblNgridRegistryService, PblNgridSingleTemplateRegistry, PblNgridRowContext, PblNgridRowDef } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridSingleTemplateRegistry, PblNgridRowContext, PblNgridRowDef } from '@asafmalin/ngrid';
 
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
   interface PblNgridSingleRegistryMap {
     detailRowParent?: PblNgridDetailRowParentRefDirective<any>;
     detailRow?: PblNgridDetailRowDefDirective;

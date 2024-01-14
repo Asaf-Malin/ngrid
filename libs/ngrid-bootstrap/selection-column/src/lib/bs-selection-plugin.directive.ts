@@ -1,10 +1,10 @@
 import { Directive, Injector, Input, OnDestroy, ComponentRef, EnvironmentInjector, createComponent } from '@angular/core';
 
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 
 import { PblNgridBsSelectionComponent } from './bs-selection.component';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     bsSelectionColumn?: PblNgridBsSelectionPlugin;
   }

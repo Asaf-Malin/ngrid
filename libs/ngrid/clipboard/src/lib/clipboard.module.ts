@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PblNgridModule, PblNgridConfigService, PblNgridPluginController, ngridPlugin } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridModule, PblNgridConfigService, PblNgridPluginController, ngridPlugin } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 import { PLUGIN_KEY, PblNgridClipboardPlugin } from './clipboard.plugin';
 

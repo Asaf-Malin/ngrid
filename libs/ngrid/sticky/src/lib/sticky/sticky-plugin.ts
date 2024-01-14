@@ -1,10 +1,10 @@
 import { Directive, Input, IterableDiffers, IterableDiffer, IterableChangeRecord, OnDestroy, AfterViewInit } from '@angular/core';
 
-import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     sticky?: PblNgridStickyPluginDirective;
   }

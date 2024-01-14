@@ -1,13 +1,13 @@
 import { Directive, EventEmitter, Injector, Input, OnDestroy, Output, ComponentRef, NgZone, ViewContainerRef, Component, createComponent, EnvironmentInjector } from '@angular/core';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 
 import { PblDetailsRowToggleEvent, PLUGIN_KEY } from './tokens';
 import { PblNgridDetailRowComponent } from './row';
 import { PblNgridDetailRowParentRefDirective } from './directives';
 import { DetailRowController } from './detail-row-controller';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     detailRow?: PblNgridDetailRowPluginDirective<any>;
   }

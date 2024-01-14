@@ -1,5 +1,5 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { createDS, columnFactory } from '@pebula/ngrid';
+import { createDS, columnFactory } from '@asafmalin/ngrid';
 import { Seller, StaticRestClientApi } from '@pebula/apps/dev-app-lib/client-api';
 
 @Component({

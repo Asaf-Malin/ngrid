@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { HarnessLoader } from '@angular/cdk/testing';
 import { TestbedHarnessEnvironment } from '@angular/cdk/testing/testbed';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { createDS, columnFactory, PblNgridModule } from '@pebula/ngrid';
+import { createDS, columnFactory, PblNgridModule } from '@asafmalin/ngrid';
 import { PblNgridHarness } from './grid';
 
 describe('test', () => {

@@ -3,12 +3,12 @@ import { Directive, Input, OnInit } from '@angular/core';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 import { DragDrop, CdkDragDrop, CDK_DROP_LIST } from '@angular/cdk/drag-drop';
 
-import { PblColumn, COLUMN } from '@pebula/ngrid';
+import { PblColumn, COLUMN } from '@asafmalin/ngrid';
 import { PblDragDrop, PblDragRef } from '../core/index';
 import { PblNgridColumnDragDirective } from './column-drag';
 import { PblNgridColumnDragContainerDirective } from './column-drag-container';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     columnReorder?: PblNgridColumnReorderPluginDirective;
   }

@@ -1,5 +1,5 @@
 import { Directive, TemplateRef, OnInit, OnDestroy } from '@angular/core';
-import { PblNgridMultiRegistryMap } from '@pebula/ngrid/core';
+import { PblNgridMultiRegistryMap } from '@asafmalin/ngrid/core';
 
 import { PblNgridRegistryService } from '../registry.service';
 

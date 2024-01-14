@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, ChangeDetectorRef, ViewEncapsulation, ViewChild } from '@angular/core';
 import { MatRadioChange } from '@angular/material/radio';
 
-import { columnFactory, PblNgridComponent } from '@pebula/ngrid';
-import { createInfiniteScrollDS } from '@pebula/ngrid/infinite-scroll';
+import { columnFactory, PblNgridComponent } from '@asafmalin/ngrid';
+import { createInfiniteScrollDS } from '@asafmalin/ngrid/infinite-scroll';
 
 import { Customer, DynamicClientApi, DynamicRestClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

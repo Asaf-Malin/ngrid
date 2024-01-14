@@ -11,7 +11,7 @@
   "targets": {
     "build": {
       "executor": "ng-cli-packagr-tasks:build",
-      "outputs": ["dist/@pebula/ngrid-bootstrap"],
+      "outputs": ["dist/@asafmalin/ngrid-bootstrap"],
       "options": {
         "tsConfig": "libs/ngrid-bootstrap/tsconfig.lib.json",
         "project": "libs/ngrid-bootstrap/ng-package.json",
@@ -24,22 +24,22 @@
                 {
                   "glob": "README.md",
                   "input": ".",
-                  "output": "dist/@pebula/ngrid-bootstrap"
+                  "output": "dist/@asafmalin/ngrid-bootstrap"
                 },
                 {
                   "glob": "*.scss",
                   "input": "libs/ngrid-bootstrap",
-                  "output": "dist/@pebula/ngrid-bootstrap"
+                  "output": "dist/@asafmalin/ngrid-bootstrap"
                 },
                 {
                   "glob": "**/*.scss",
                   "input": "libs/ngrid-bootstrap/theming",
-                  "output": "dist/@pebula/ngrid-bootstrap/theming"
+                  "output": "dist/@asafmalin/ngrid-bootstrap/theming"
                 },
                 {
                   "glob": "*/theming/**/*.scss",
                   "input": "libs/ngrid-bootstrap",
-                  "output": "dist/@pebula/ngrid-bootstrap"
+                  "output": "dist/@asafmalin/ngrid-bootstrap"
                 }
               ]
             },
@@ -48,7 +48,7 @@
                 {
                   "glob": "*.scss",
                   "input": "libs/ngrid-bootstrap/theming/prebuilt",
-                  "output": "dist/@pebula/ngrid-bootstrap/themes"
+                  "output": "dist/@asafmalin/ngrid-bootstrap/themes"
                 }
               ]
             }

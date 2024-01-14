@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { PblColumn } from '@pebula/ngrid';
+import { PblColumn } from '@asafmalin/ngrid';
 
 /**
  * Use to set the a default `pblNgridInfiniteVirtualRowDef` if the user did not set one.

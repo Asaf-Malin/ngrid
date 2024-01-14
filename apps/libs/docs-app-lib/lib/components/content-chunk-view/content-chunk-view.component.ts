@@ -7,7 +7,7 @@ import {
   OnDestroy,
 } from '@angular/core';
 
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { MarkdownDynamicComponentPortal } from '../markdown-dynamic-component-portal';
 
 export const CONTENT_CHUNKS_COMPONENTS = new InjectionToken('CONTENT_CHUNKS_COMPONENTS');

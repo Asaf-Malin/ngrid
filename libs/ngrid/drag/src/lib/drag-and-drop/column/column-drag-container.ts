@@ -4,11 +4,11 @@ import { Directive, Input, Output } from '@angular/core';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 import { DragDrop, CDK_DROP_LIST, CdkDropList } from '@angular/cdk/drag-drop';
 
-import { COLUMN, PblNgridComponent } from '@pebula/ngrid';
+import { COLUMN, PblNgridComponent } from '@asafmalin/ngrid';
 import { CdkLazyDropList, PblDragDrop } from '../core/index';
 import { patchDropListRef } from './column-drop-list-ref';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     columnDrag?: PblNgridColumnDragContainerDirective;
   }

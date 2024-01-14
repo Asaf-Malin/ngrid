@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { PblNgridModule } from '@pebula/ngrid';
+import { PblNgridModule } from '@asafmalin/ngrid';
 
 import { ColumnWidthExample } from './column-width.component';
 

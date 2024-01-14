@@ -1,8 +1,8 @@
 import { Directive, Input } from '@angular/core';
 import { DragDrop, CDK_DRAG_PARENT } from '@angular/cdk/drag-drop';
 
-import { unrx } from '@pebula/ngrid/core';
-import { PblColumn, PblNgridPluginController } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblColumn, PblNgridPluginController } from '@asafmalin/ngrid';
 import { PblDragDrop, CdkLazyDrag } from '../core/index';
 import { COL_DRAG_CONTAINER_PLUGIN_KEY, PblNgridColumnDragContainerDirective } from './column-drag-container';
 

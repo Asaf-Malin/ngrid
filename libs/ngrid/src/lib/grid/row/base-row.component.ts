@@ -10,7 +10,7 @@ import {
   ComponentRef,
   Inject,
 } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent, PBL_NGRID_COMPONENT } from '../../tokens';
 import { PblNgridPluginController } from '../../ext/plugin-control';

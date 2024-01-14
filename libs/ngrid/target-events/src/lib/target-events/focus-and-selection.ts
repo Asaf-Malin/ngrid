@@ -1,7 +1,7 @@
 import { takeUntil, switchMap, filter, tap } from 'rxjs/operators';
 import { LEFT_ARROW, UP_ARROW, RIGHT_ARROW, DOWN_ARROW } from '@angular/cdk/keycodes';
 
-import { GridDataPoint } from '@pebula/ngrid';
+import { GridDataPoint } from '@asafmalin/ngrid';
 import { PblNgridRowEvent, PblNgridCellEvent, PblNgridDataCellEvent } from './events';
 import { PblNgridTargetEventsPlugin } from './target-events-plugin';
 import { isCellEvent, isDataCellEvent, rangeBetween, getInnerCellsInRect } from './utils';

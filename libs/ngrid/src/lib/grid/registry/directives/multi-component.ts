@@ -1,5 +1,5 @@
 import { ComponentRef, Type } from '@angular/core';
-import { PblNgridMultiRegistryMap } from '@pebula/ngrid/core';
+import { PblNgridMultiRegistryMap } from '@asafmalin/ngrid/core';
 
 import { PblColumn } from '../../column/model';
 import { PblNgridMetaCellContext } from '../../context/index';

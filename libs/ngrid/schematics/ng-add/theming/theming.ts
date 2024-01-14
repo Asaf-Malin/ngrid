@@ -33,7 +33,7 @@ type WorkspaceDefinition = Parameters<typeof getProjectFromWorkspace>[0];
 type ProjectDefinition = ReturnType<typeof getProjectFromWorkspace>;
 
 /** Path segment that can be found in paths that refer to a prebuilt theme. */
-const prebuiltThemePathSegment = '@pebula/ngrid/themes';
+const prebuiltThemePathSegment = '@asafmalin/ngrid/themes';
 
 /** Default file name of the custom theme that can be generated. */
 const defaultCustomThemeFilename = 'custom-theme.scss';
@@ -90,7 +90,7 @@ async function insertCustomTheme(schema: SetupSchema, host: Tree, logger: loggin
 /** Insert a pre-built theme into the angular.json file. */
 function insertPrebuiltTheme(schema: SetupSchema, theme: string, logger: logging.LoggerApi): Rule {
   // Path needs to be always relative to the `package.json` or workspace root.
-  const themePath = `./node_modules/@pebula/ngrid/themes/default-${theme}.css`;
+  const themePath = `./node_modules/@asafmalin/ngrid/themes/default-${theme}.css`;
 
   return chain([
     addThemeStyleToTarget(schema, 'build', themePath, logger),

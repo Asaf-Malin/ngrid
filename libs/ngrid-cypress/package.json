@@ -1,8 +1,8 @@
 {
-  "name": "@pebula/ngrid-cypress",
+  "name": "@asafmalin/ngrid-cypress",
   "version": "5.0.0",
   "license": "MIT",
-  "description": "Cypress Test Helpers For @pebula/ngrid",
+  "description": "Cypress Test Helpers For @asafmalin/ngrid",
   "repository": {
     "type": "git",
     "url": "https://github.com/shlomiassaf/ngrid.git"

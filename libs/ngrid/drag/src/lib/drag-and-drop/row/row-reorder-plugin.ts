@@ -7,12 +7,12 @@ import {
   CdkDragDrop,
 } from '@angular/cdk/drag-drop';
 
-import { PblNgridComponent } from '@pebula/ngrid';
+import { PblNgridComponent } from '@asafmalin/ngrid';
 import { PblDragDrop, CdkLazyDropList } from '../core/index';
 import { PblNgridRowDragDirective } from './row-drag';
 import { patchDropListRef } from './row-drop-list-ref';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     rowReorder?: PblNgridRowReorderPluginDirective;
   }

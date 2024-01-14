@@ -1,6 +1,6 @@
 import { Subject, Observable } from 'rxjs';
 import { isDevMode, IterableDiffer, IterableDiffers } from '@angular/core';
-import { PblNgridColumnDefinitionSet, PblColumnSet, PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblNgridColumnDefinitionSet, PblColumnSet, PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent } from '../../../tokens';
 import { PblNgridInternalExtensionApi } from '../../../ext/grid-ext-api';

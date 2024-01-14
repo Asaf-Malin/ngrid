@@ -1,7 +1,7 @@
 import { Directive, Input, OnInit } from '@angular/core';
 import { DragDrop, CdkDragStart, CDK_DRAG_PARENT } from '@angular/cdk/drag-drop';
 
-import { PblNgridPluginController, PblNgridCellContext } from '@pebula/ngrid';
+import { PblNgridPluginController, PblNgridCellContext } from '@asafmalin/ngrid';
 import { PblDragDrop, CdkLazyDrag } from '../core/index';
 import { PblNgridRowReorderPluginDirective, ROW_REORDER_PLUGIN_KEY } from './row-reorder-plugin';
 

@@ -2,7 +2,7 @@ import { Observable, of, Subject } from 'rxjs';
 import { mapTo } from 'rxjs/operators';
 import { InjectFlags, Injector } from '@angular/core';
 
-import { PblNgridEvents, ON_INIT, PblNgridEventEmitter } from '@pebula/ngrid/core';
+import { PblNgridEvents, ON_INIT, PblNgridEventEmitter } from '@asafmalin/ngrid/core';
 import { _PblNgridComponent } from '../tokens';
 import {
   PblNgridPlugin,

@@ -5,7 +5,7 @@ import { ExtendedModule } from '@angular/flex-layout/extended';
 import { LiveExample } from '@pebula/apps/docs-app-lib';
 
 import { ExampleMaterialModule } from './material-module';
-import { PblNgridModule } from '@pebula/ngrid';
+import { PblNgridModule } from '@asafmalin/ngrid';
 
 import { GridLayout1ContentChunk } from './grid/layout-1/layout-1.component';
 import { ColumnsAppContentChunk } from './columns/columns-content.component';

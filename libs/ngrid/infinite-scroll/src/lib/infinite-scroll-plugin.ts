@@ -1,14 +1,14 @@
 import { Injector, ComponentRef, createComponent, EnvironmentInjector } from '@angular/core';
 
-import { ON_DESTROY } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { ON_DESTROY } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 
 import { PblNgridInfiniteVirtualRowRefDirective } from './infinite-virtual-row/directives';
 import { PblInfiniteScrollDataSource } from './infinite-scroll-data-source/infinite-scroll-datasource';
 import { INFINITE_SCROLL_DEFFERED_ROW } from './infinite-scroll-data-source/infinite-scroll-deffered-row';
 import { PblNgridDefaultInfiniteVirtualRowComponent } from './default-infinite-virtual-row/default-infinite-virtual-row.component';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     infiniteScroll?: PblNgridInfiniteScrollPlugin;
   }

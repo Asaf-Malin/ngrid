@@ -1,8 +1,8 @@
 # N-GRID
 
-[![npm (scoped)](https://img.shields.io/npm/v/@pebula/ngrid?logo=npm&logoColor=fff&label=ngrid&style=flat-square)](https://www.npmjs.com/package/@pebula/ngrid)
-[![npm (scoped)](https://img.shields.io/npm/v/@pebula/ngrid-material?logo=npm&logoColor=fff&label=ngrid-material&style=flat-square)](https://www.npmjs.com/package/@pebula/ngrid-material)
-[![npm (scoped)](https://img.shields.io/npm/v/@pebula/ngrid-bootstrap?logo=npm&logoColor=fff&label=ngrid-bootstrap&style=flat-square)](https://www.npmjs.com/package/@pebula/ngrid-bootstrap)
+[![npm (scoped)](https://img.shields.io/npm/v/@asafmalin/ngrid?logo=npm&logoColor=fff&label=ngrid&style=flat-square)](https://www.npmjs.com/package/@asafmalin/ngrid)
+[![npm (scoped)](https://img.shields.io/npm/v/@asafmalin/ngrid-material?logo=npm&logoColor=fff&label=ngrid-material&style=flat-square)](https://www.npmjs.com/package/@asafmalin/ngrid-material)
+[![npm (scoped)](https://img.shields.io/npm/v/@asafmalin/ngrid-bootstrap?logo=npm&logoColor=fff&label=ngrid-bootstrap&style=flat-square)](https://www.npmjs.com/package/@asafmalin/ngrid-bootstrap)
 
 [![GitHub](https://img.shields.io/github/workflow/status/shlomiassaf/ngrid/Node%20CI?logo=github&style=flat-square&token=abc123def456&label=build)](https://github.com/shlomiassaf/ngrid/actions?query=workflow%3A%22Node+CI%22)
 [![GitHub](https://img.shields.io/github/workflow/status/shlomiassaf/ngrid/GH%20Pages%20on%20release?style=flat-square&token=abc123def456&label=documentation)](https://shlomiassaf.github.io/ngrid/)
@@ -35,11 +35,11 @@ Join to the discord channel and lets create a community together!
 Use the built-in schematics:
 
 ```bash
-ng add @pebula/ngrid
+ng add @asafmalin/ngrid
 ```
 
-> * `@pebula/ngrid` include secondary packages / plugins (e.g: `@pebula/ngrid/detail-row`)  
-> * Use the *schematics* wizard to install additional plugins (e.g: `@pebula/ngrid-material` / `@pebula/ngrid-bootstrap`)
+> * `@asafmalin/ngrid` include secondary packages / plugins (e.g: `@asafmalin/ngrid/detail-row`)  
+> * Use the *schematics* wizard to install additional plugins (e.g: `@asafmalin/ngrid-material` / `@asafmalin/ngrid-bootstrap`)
 
 For how-to's, concepts, recipes and more, [visit the documentation site](https://shlomiassaf.github.io/ngrid)
 
@@ -59,7 +59,7 @@ For how-to's, concepts, recipes and more, [visit the documentation site](https:/
 
 ## 🏄‍♀️&nbsp; Quick Feature Overview
 
-`@pebula/ngrid` comes with building blocks and features tied to the core of the grid.
+`@asafmalin/ngrid` comes with building blocks and features tied to the core of the grid.
 
 Some of the feature are:
 
@@ -72,17 +72,17 @@ Some of the feature are:
 
 In addition, there are several secondary packages that **extend** the functionality **when opted-in**:
 
-- `@pebula/ngrid/target-events` - Support for input device events (click, keyboard, selection)
-- `@pebula/ngrid/clipboard` - Copy cell selection to the clipboard
-- `@pebula/ngrid/state` - Saving and restoring state from and to the grid
-- `@pebula/ngrid/detail-row` - Support for master / detail row structure
-- `@pebula/ngrid/drag` - Support for drag and drop (using `@angular/cdk/drag`)
-- `@pebula/ngrid/sticky` - Support for sticky rows / columns
-- `@pebula/ngrid/transpose` - Support for live transpose (switch between rows & columns)
-- `@pebula/ngrid/overlay-panel` - A plugin for grid overlay (popups) similar to the overlay tools in `@angular/cdk` but with cell orientation (set position based on cell location)
+- `@asafmalin/ngrid/target-events` - Support for input device events (click, keyboard, selection)
+- `@asafmalin/ngrid/clipboard` - Copy cell selection to the clipboard
+- `@asafmalin/ngrid/state` - Saving and restoring state from and to the grid
+- `@asafmalin/ngrid/detail-row` - Support for master / detail row structure
+- `@asafmalin/ngrid/drag` - Support for drag and drop (using `@angular/cdk/drag`)
+- `@asafmalin/ngrid/sticky` - Support for sticky rows / columns
+- `@asafmalin/ngrid/transpose` - Support for live transpose (switch between rows & columns)
+- `@asafmalin/ngrid/overlay-panel` - A plugin for grid overlay (popups) similar to the overlay tools in `@angular/cdk` but with cell orientation (set position based on cell location)
 - And more...
 
-To top that, a UI extension that make use of `@angular/material` components called `@pebula/ngrid-material`, with things like:
+To top that, a UI extension that make use of `@angular/material` components called `@asafmalin/ngrid-material`, with things like:
 
 - Automatic cell tooltip (Only when text is truncated)
 - Selection Column (with mat-checkbox)
@@ -90,7 +90,7 @@ To top that, a UI extension that make use of `@angular/material` components call
 - Pagination (with material pagination tools)
 - Context Menu (using MatMenu)
 
-A similar extension also exists for bootstrap at `@pebula/ngrid-bootstrap`
+A similar extension also exists for bootstrap at `@asafmalin/ngrid-bootstrap`
 
 ---
 

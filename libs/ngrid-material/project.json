@@ -11,7 +11,7 @@
   "targets": {
     "build": {
       "executor": "ng-cli-packagr-tasks:build",
-      "outputs": ["dist/@pebula/ngrid-material"],
+      "outputs": ["dist/@asafmalin/ngrid-material"],
       "options": {
         "tsConfig": "libs/ngrid-material/tsconfig.lib.json",
         "project": "libs/ngrid-material/ng-package.json",
@@ -24,22 +24,22 @@
                 {
                   "glob": "README.md",
                   "input": ".",
-                  "output": "dist/@pebula/ngrid-material"
+                  "output": "dist/@asafmalin/ngrid-material"
                 },
                 {
                   "glob": "*.scss",
                   "input": "libs/ngrid-material",
-                  "output": "dist/@pebula/ngrid-material"
+                  "output": "dist/@asafmalin/ngrid-material"
                 },
                 {
                   "glob": "**/*.scss",
                   "input": "libs/ngrid-material/theming",
-                  "output": "dist/@pebula/ngrid-material/theming"
+                  "output": "dist/@asafmalin/ngrid-material/theming"
                 },
                 {
                   "glob": "*/theming/**/*.scss",
                   "input": "libs/ngrid-material",
-                  "output": "dist/@pebula/ngrid-material"
+                  "output": "dist/@asafmalin/ngrid-material"
                 }
               ]
             },
@@ -48,7 +48,7 @@
                 {
                   "glob": "*.scss",
                   "input": "libs/ngrid-material/theming/prebuilt",
-                  "output": "dist/@pebula/ngrid-material/themes"
+                  "output": "dist/@asafmalin/ngrid-material/themes"
                 }
               ]
             }

@@ -1,4 +1,4 @@
-import { PblNgridExtensionApi } from '@pebula/ngrid';
+import { PblNgridExtensionApi } from '@asafmalin/ngrid';
 import { PblDropListRef } from '../core/drop-list-ref';
 import { PblNgridRowReorderPluginDirective } from './row-reorder-plugin';
 import { takeUntil } from 'rxjs/operators';

@@ -2,7 +2,7 @@ import { Component, EventEmitter, ViewEncapsulation, Input, ViewChild, TemplateR
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 import { MatMenuTrigger } from '@angular/material/menu';
 
-import { PblNgridComponent, AutoSizeToFitOptions } from '@pebula/ngrid';
+import { PblNgridComponent, AutoSizeToFitOptions } from '@asafmalin/ngrid';
 
 @Component({
   // tslint:disable-next-line:component-selector

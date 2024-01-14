@@ -2,9 +2,9 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { PblNgridConfigService } from '@pebula/ngrid/core';
-import { PblNgridModule, PblNgridPluginController, ngridPlugin } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
+import { PblNgridModule, PblNgridPluginController, ngridPlugin } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 import { PblNgridCellTooltipDirective, PLUGIN_KEY } from './cell-tooltip.directive';
 

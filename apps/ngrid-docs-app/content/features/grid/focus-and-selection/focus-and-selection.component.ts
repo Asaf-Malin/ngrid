@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { createDS, columnFactory, PblNgridComponent, GridDataPoint } from '@pebula/ngrid';
+import { createDS, columnFactory, PblNgridComponent, GridDataPoint } from '@asafmalin/ngrid';
 
 import { Seller, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

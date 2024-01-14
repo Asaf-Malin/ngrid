@@ -1,5 +1,5 @@
 import { EmbeddedViewRef, ViewContainerRef } from '@angular/core';
-import { PblNgridExtensionApi } from '@pebula/ngrid';
+import { PblNgridExtensionApi } from '@asafmalin/ngrid';
 import { PblNgridDetailRowContext, PblNgridDetailRowDefDirective } from './directives';
 import { PblNgridDetailRowComponent } from './row';
 

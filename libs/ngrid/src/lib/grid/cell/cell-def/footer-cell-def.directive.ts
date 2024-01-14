@@ -24,7 +24,7 @@ export class PblNgridFooterCellDefDirective<T> extends PblNgridBaseCellDef<PblNg
   }
 }
 
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
   interface PblNgridMultiRegistryMap {
     footerCell?: PblNgridFooterCellDefDirective<any>;
   }

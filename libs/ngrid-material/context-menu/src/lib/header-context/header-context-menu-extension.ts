@@ -1,5 +1,5 @@
 import { ComponentRef, Type } from '@angular/core';
-import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext } from '@asafmalin/ngrid';
 
 import { PblNgridMatHeaderContextMenuPlugin } from './header-context-menu.directive';
 import { MatHeaderContextMenuTrigger } from './header-context-menu-trigger';

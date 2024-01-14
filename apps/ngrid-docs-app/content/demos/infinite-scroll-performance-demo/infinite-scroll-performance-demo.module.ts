@@ -8,15 +8,15 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
-import { PblNgridRegistryService, PblNgridModule } from '@pebula/ngrid';
-import { PblNgridDragModule } from '@pebula/ngrid/drag';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
-import { PblNgridBlockUiModule } from '@pebula/ngrid/block-ui';
-import { PblNgridStatePluginModule } from '@pebula/ngrid/state';
-import { PblNgridMatSortModule } from '@pebula/ngrid-material/sort';
-import { PblNgridCellTooltipModule } from '@pebula/ngrid-material/cell-tooltip';
-import { PblNgridCheckboxModule } from '@pebula/ngrid-material/selection-column';
-import { PblNgridInfiniteScrollModule } from '@pebula/ngrid/infinite-scroll';
+import { PblNgridRegistryService, PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridDragModule } from '@asafmalin/ngrid/drag';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
+import { PblNgridBlockUiModule } from '@asafmalin/ngrid/block-ui';
+import { PblNgridStatePluginModule } from '@asafmalin/ngrid/state';
+import { PblNgridMatSortModule } from '@asafmalin/ngrid-material/sort';
+import { PblNgridCellTooltipModule } from '@asafmalin/ngrid-material/cell-tooltip';
+import { PblNgridCheckboxModule } from '@asafmalin/ngrid-material/selection-column';
+import { PblNgridInfiniteScrollModule } from '@asafmalin/ngrid/infinite-scroll';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

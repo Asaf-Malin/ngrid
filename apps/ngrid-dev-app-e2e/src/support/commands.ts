@@ -1,4 +1,4 @@
-// import '@pebula/ngrid-cypress';
+// import '@asafmalin/ngrid-cypress';
 import type { Options } from 'cypress-image-snapshot';
 import '../../../../libs/ngrid-cypress/src/index';
 import { addMatchImageSnapshotCommand } from '@simonsmith/cypress-image-snapshot/command';

@@ -1,6 +1,6 @@
 import { merge } from 'rxjs';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ViewEncapsulation } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { PblNgridBsSortablePlugin } from '../bs-sortable-plugin';
 import { PblNgridBsSortDirection, PblNgridSortable } from '../types';
 

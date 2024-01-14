@@ -1,6 +1,6 @@
 import { filter } from 'rxjs/operators';
 import { Component, DoCheck, TemplateRef } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 
 import { PblRowContext, PblCellContext } from '../context/index';
 import { PblColumn } from '../column/model';

@@ -21,7 +21,7 @@ import { Meta, MetaDefinition, Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { ComponentPortal, DomPortalOutlet } from '@angular/cdk/portal';
 
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import type { PageFileAsset } from '@pebula-internal/webpack-markdown-pages';
 import { ExampleViewComponent } from '../exapmle-view/example-view.component';
 import { ContentChunkViewComponent } from '../content-chunk-view/content-chunk-view.component';

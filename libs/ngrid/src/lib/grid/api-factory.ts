@@ -2,7 +2,7 @@ import { Observable, of, Subject, EMPTY } from 'rxjs';
 import { ChangeDetectorRef, ElementRef, Injector, IterableDiffers, NgZone, ViewContainerRef } from '@angular/core';
 import { Direction, Directionality } from '@angular/cdk/bidi';
 
-import { PblNgridConfigService, PblNgridEvents, ON_DESTROY, ON_CONSTRUCTED } from '@pebula/ngrid/core';
+import { PblNgridConfigService, PblNgridEvents, ON_DESTROY, ON_CONSTRUCTED } from '@asafmalin/ngrid/core';
 import { PblNgridRegistryService } from './registry/registry.service';
 import { PblNgridInternalExtensionApi } from '../ext/grid-ext-api';
 import { PblNgridPluginContext } from '../ext/plugin-control';

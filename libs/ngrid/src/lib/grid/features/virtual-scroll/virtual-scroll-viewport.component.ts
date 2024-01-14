@@ -30,7 +30,7 @@ import {
   ViewportRuler,
   CdkVirtualScrollable,
 } from '@angular/cdk/scrolling';
-import { PblNgridConfigService, unrx } from '@pebula/ngrid/core';
+import { PblNgridConfigService, unrx } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent } from '../../../tokens';
 import { PblNgridBaseVirtualScrollDirective } from './strategies/base-v-scroll.directive'
@@ -43,7 +43,7 @@ import { RowIntersectionTracker } from './row-intersection';
 import { resolveScrollStrategy } from './utils';
 import { VirtualScrollHightPaging } from './virtual-scroll-height-paging';
 
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
   interface PblNgridConfig {
     virtualScroll?: {
       wheelMode?: PblNgridBaseVirtualScrollDirective['wheelMode'];

@@ -2,7 +2,7 @@
 import { Directive, OnInit } from '@angular/core';
 import { DragDrop, CDK_DROP_LIST, CDK_DROP_LIST_GROUP } from '@angular/cdk/drag-drop';
 
-import { PblColumn } from '@pebula/ngrid';
+import { PblColumn } from '@asafmalin/ngrid';
 import { CdkLazyDropList, PblDragRef, PblDragDrop } from '../core/index';
 import { PblNgridColumnReorderPluginDirective } from './column-reorder-plugin';
 import { PblNgridColumnDragDirective } from './column-drag';

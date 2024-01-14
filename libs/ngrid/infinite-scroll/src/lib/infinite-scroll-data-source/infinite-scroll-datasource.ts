@@ -1,5 +1,5 @@
 import { take } from 'rxjs/operators';
-import { PblDataSource, PblDataSourceOptions, PblNgridRowContext } from '@pebula/ngrid';
+import { PblDataSource, PblDataSourceOptions, PblNgridRowContext } from '@asafmalin/ngrid';
 import { PblInfiniteScrollDSContext } from './infinite-scroll-datasource.context';
 import { INFINITE_SCROLL_DEFFERED_ROW } from './infinite-scroll-deffered-row';
 import { PblInfiniteScrollDataSourceAdapter } from './infinite-scroll-datasource-adapter';

@@ -6,8 +6,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule  } from '@angular/material/form-field';
 
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridBlockUiModule } from '@pebula/ngrid/block-ui';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridBlockUiModule } from '@asafmalin/ngrid/block-ui';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

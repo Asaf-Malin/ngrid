@@ -6,7 +6,7 @@ import {
   PblNgridColumnDefinitionSet,
   PblMetaRowDefinitions,
   deprecatedWarning
-} from '@pebula/ngrid/core';
+} from '@asafmalin/ngrid/core';
 import { PblNgridColumnSet } from './types';
 import { PblMetaColumn } from './meta-column';
 import { PblColumn } from './column';

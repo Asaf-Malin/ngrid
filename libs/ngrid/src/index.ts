@@ -2,8 +2,8 @@
 import './lib/grid/bind-grid-to-datasource';
 import { isPblColumn, isPblMetaColumn, isPblColumnGroup } from './lib/grid/index';
 
-/* Some symbols in `@pebula/ngrid/core` are also used by "regular" users of ngrid (as opposed to internal/plugin use) so we need to re-export them
-   from the main package so "regular" user will not have to specifically address `@pebula/ngrid/core` */
+/* Some symbols in `@asafmalin/ngrid/core` are also used by "regular" users of ngrid (as opposed to internal/plugin use) so we need to re-export them
+   from the main package so "regular" user will not have to specifically address `@asafmalin/ngrid/core` */
 export {
   // Configuration
   PEB_NGRID_CONFIG, PblNgridConfig, PblNgridConfigService,
@@ -32,7 +32,7 @@ export {
   PblColumnSet,
   PblMetaRowDefinitions,
   PblNgridColumnDefinitionSet,
-} from '@pebula/ngrid/core';
+} from '@asafmalin/ngrid/core';
 
 export {
   PblColumn, PblMetaColumn, PblColumnGroup, PblColumnFactory, COLUMN, columnFactory,

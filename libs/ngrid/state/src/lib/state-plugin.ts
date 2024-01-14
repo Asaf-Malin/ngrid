@@ -2,13 +2,13 @@ import { Subject, Observable } from 'rxjs';
 import { map, mapTo, filter, take, skip, debounceTime } from 'rxjs/operators';
 import { Directive, OnDestroy, Injector, Input } from '@angular/core';
 
-import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW, ON_DESTROY } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW, ON_DESTROY } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import { hasState, saveState, loadState, PblNgridStateLoadOptions, PblNgridStateSaveOptions } from './core/index';
 
 import { userSessionPref } from './presets';
 
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
   interface PblNgridConfig {
     state?: {
       /** When set to true will enable the state plugin on all table instances by default. */
@@ -24,7 +24,7 @@ declare module '@pebula/ngrid/core/lib/configuration/type' {
   }
 }
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     state?: PblNgridStatePlugin;
   }

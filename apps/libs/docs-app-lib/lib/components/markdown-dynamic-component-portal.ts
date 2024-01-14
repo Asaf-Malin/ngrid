@@ -3,7 +3,7 @@ import { filter, mapTo } from 'rxjs/operators';
 import { ComponentRef, Inject, INJECTOR, Injector, Type } from '@angular/core';
 import { ComponentPortal, CdkPortalOutletAttachedRef } from '@angular/cdk/portal';
 import { Directionality } from '@angular/cdk/bidi';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { LazyModuleStoreService } from '../services/lazy-module-store';
 
 const COMPONENT_WAIT_TIMEOUT = 1000 * 60; // 60 secs

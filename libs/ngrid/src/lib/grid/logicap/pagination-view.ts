@@ -1,5 +1,5 @@
 import { EmbeddedViewRef } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { PblNgridInternalExtensionApi } from '../../ext/grid-ext-api';
 
 export function paginationViewLogicap(extApi: PblNgridInternalExtensionApi) {

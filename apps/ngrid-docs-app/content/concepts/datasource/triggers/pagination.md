@@ -63,4 +63,4 @@ Usually, with this approach the total amount of rows/pages is unknown.
 
 > These are the 2 most commonly used types, you can provide your own logical unit if you need a unique implementation.
 
-The plugins [@pebula/ngrid-material/paginator](../../../../plugins/ngrid-material/pagination) and [@pebula/ngrid-bootstrap/pagination](../../../../plugins/ngrid-bootstrap/pagination) are using the pagination logic to implement pagination UI controls.
+The plugins [@asafmalin/ngrid-material/paginator](../../../../plugins/ngrid-material/pagination) and [@asafmalin/ngrid-bootstrap/pagination](../../../../plugins/ngrid-bootstrap/pagination) are using the pagination logic to implement pagination UI controls.

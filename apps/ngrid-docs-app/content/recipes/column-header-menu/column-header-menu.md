@@ -11,7 +11,7 @@ The main column header row can be extended in 2 ways, using a template or using 
 If you hover over the header row you will see a **resize** handler, this is provided by the `@pebula/drag` plugin and it is using a **template** extension to inject
 the resizer internally.
 
-If you click on the **name** column you will see it is sorted now, with a sort indicator presented. This is provided by the `@pebula/ngrid-material/sort` plugin
+If you click on the **name** column you will see it is sorted now, with a sort indicator presented. This is provided by the `@asafmalin/ngrid-material/sort` plugin
 and it is using a **component** extension to inject the `MatSortHeader` component from `@angular/material/sort`.
 
 I> You can inspect the code in these plugins to get a better idea how it works.
@@ -31,5 +31,5 @@ Most of the code lives in the template (html) and there no use of the component 
 For a more complete solution it will probably be best to wrap the template inside a component and use that component inside grid's we want to have the menu in.
 This way we can also pass parameters to the component before it generate and register the template.
 
-The menu is pure UI, so it doesn't make sense to include a built in menu with the core package. A menu is planed in `@pebula/ngrid-material` that uses
+The menu is pure UI, so it doesn't make sense to include a built in menu with the core package. A menu is planed in `@asafmalin/ngrid-material` that uses
 material components.

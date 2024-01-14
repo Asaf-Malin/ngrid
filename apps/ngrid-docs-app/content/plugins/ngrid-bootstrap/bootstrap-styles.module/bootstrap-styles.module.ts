@@ -1,9 +1,9 @@
 import { NgModule,  Injector, INJECTOR, Inject, ViewContainerRef, createComponent, EnvironmentInjector } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
-import { PblNgridModule, PblNgridRegistryService } from '@pebula/ngrid';
-import { PblNgridDragModule } from '@pebula/ngrid/drag';
-import { PblNgridBlockUiModule } from '@pebula/ngrid/block-ui';
+import { PblNgridModule, PblNgridRegistryService } from '@asafmalin/ngrid';
+import { PblNgridDragModule } from '@asafmalin/ngrid/drag';
+import { PblNgridBlockUiModule } from '@asafmalin/ngrid/block-ui';
 
 import { PblNgridDocsAppBootstrapStyleLoaderComponent } from './_styles/bootstrap-style-loader.component';
 import { CommonGridTemplatesComponent } from './common-grid-templates';

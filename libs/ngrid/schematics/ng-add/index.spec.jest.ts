@@ -5,7 +5,7 @@ import { createTestApp, getFileContent } from '../utils/testing';
 import * as messages from './messages';
 
 
-describe(`ng add '@pebula/ngrid'`, () => {
+describe(`ng add '@asafmalin/ngrid'`, () => {
   let runner: SchematicTestRunner;
   let appTree: Tree;
 
@@ -18,7 +18,7 @@ describe(`ng add '@pebula/ngrid'`, () => {
     const tree = await runner.runSchematicAsync('ng-add', {}, appTree).toPromise();
     const {dependencies} = JSON.parse(getFileContent(tree, '/package.json'));
 
-    expect(dependencies['@pebula/ngrid']).toBeDefined();
+    expect(dependencies['@asafmalin/ngrid']).toBeDefined();
     expect(dependencies['@angular/cdk']).toBeDefined();
     expect(dependencies['@angular/material']).not.toBeDefined();
     expect(dependencies['@ng-bootstrap/ng-bootstrap']).not.toBeDefined();
@@ -28,7 +28,7 @@ describe(`ng add '@pebula/ngrid'`, () => {
     const tree = await runner.runSchematicAsync('ng-add', { uiPlugin: 'material' }, appTree).toPromise();
     const {dependencies} = JSON.parse(getFileContent(tree, '/package.json'));
 
-    expect(dependencies['@pebula/ngrid']).toBeDefined();
+    expect(dependencies['@asafmalin/ngrid']).toBeDefined();
     expect(dependencies['@angular/cdk']).toBeDefined();
     expect(dependencies['@angular/material']).toBeDefined();
     expect(dependencies['@ng-bootstrap/ng-bootstrap']).not.toBeDefined();
@@ -39,7 +39,7 @@ describe(`ng add '@pebula/ngrid'`, () => {
     const tree = await runner.runSchematicAsync('ng-add', { uiPlugin: 'bootstrap' }, appTree).toPromise();
     const {dependencies} = JSON.parse(getFileContent(tree, '/package.json'));
 
-    expect(dependencies['@pebula/ngrid']).toBeDefined();
+    expect(dependencies['@asafmalin/ngrid']).toBeDefined();
     expect(dependencies['@angular/cdk']).toBeDefined();
     expect(dependencies['@angular/material']).not.toBeDefined();
     expect(dependencies['@ng-bootstrap/ng-bootstrap']).toBeDefined();

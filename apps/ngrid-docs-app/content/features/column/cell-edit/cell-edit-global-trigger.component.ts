@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { columnFactory, PblNgridCellContext } from '@pebula/ngrid';
-import { createInfiniteScrollDS } from '@pebula/ngrid/infinite-scroll';
+import { columnFactory, PblNgridCellContext } from '@asafmalin/ngrid';
+import { createInfiniteScrollDS } from '@asafmalin/ngrid/infinite-scroll';
 
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

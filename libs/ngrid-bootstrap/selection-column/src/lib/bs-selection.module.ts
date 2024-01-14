@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 
-import { PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
 import { PblNgridBsSelectionPlugin, PLUGIN_KEY } from './bs-selection-plugin.directive';
 import { PblNgridBsSelectionComponent } from './bs-selection.component';
 

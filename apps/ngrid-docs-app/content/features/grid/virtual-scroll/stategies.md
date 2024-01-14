@@ -133,7 +133,7 @@ You can configure the global strategy with `PblNgridModule.forRoot`:
 ```typescript {10,21}
 import { NgModule } from '@angular/core';
 import { FixedSizeVirtualScrollStrategy } from '@angular/cdk/scrolling';
-import { PblNgridModule, NoVirtualScrollStrategy } from '@pebula/ngrid';
+import { PblNgridModule, NoVirtualScrollStrategy } from '@asafmalin/ngrid';
 
 // DISABLING VIRTUAL SCROLL
 

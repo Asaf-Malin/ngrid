@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
 import { PblNgridBsSortablePlugin, PLUGIN_KEY } from './bs-sortable-plugin';
 import { PblBsSortableExtension } from './bs-sortable-component-extension';
 import { PblNgridBsSortable } from './bs-sortable/bs-sortable.component';

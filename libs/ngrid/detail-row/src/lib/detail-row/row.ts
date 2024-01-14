@@ -10,12 +10,12 @@ import {
 import { ENTER, SPACE } from '@angular/cdk/keycodes';
 import { CdkRow } from '@angular/cdk/table';
 
-import { unrx } from '@pebula/ngrid/core';
-import { PblNgridRowComponent } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblNgridRowComponent } from '@asafmalin/ngrid';
 import { PblDetailsRowToggleEvent, PLUGIN_KEY } from './tokens';
 import { DetailRowController } from './detail-row-controller';
 
-declare module '@pebula/ngrid/lib/grid/context/types' {
+declare module '@asafmalin/ngrid/lib/grid/context/types' {
   interface ExternalRowContextState {
     detailRow: boolean;
   }

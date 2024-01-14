@@ -1,10 +1,10 @@
 // import { Directive, Injector, Input, OnDestroy, ComponentFactoryResolver, ComponentRef, DoCheck } from '@angular/core';
 // import { coerceBooleanProperty } from '@angular/cdk/coercion';
-// import { PblNgridComponent, PblNgridPluginController, NgridPlugin } from '@pebula/ngrid';
+// import { PblNgridComponent, PblNgridPluginController, NgridPlugin } from '@asafmalin/ngrid';
 
 // import { PblPaginatorComponent } from './table-paginator.component';
 
-// declare module '@pebula/ngrid/lib/ext/types' {
+// declare module '@asafmalin/ngrid/lib/ext/types' {
 //   interface PblNgridPluginExtension {
 //     matPaginator?: PblNgridMatPaginatorDirective;
 //   }

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { createDS, columnFactory } from '@pebula/ngrid';
-import { PblDetailsRowToggleEvent } from '@pebula/ngrid/detail-row';
+import { createDS, columnFactory } from '@asafmalin/ngrid';
+import { PblDetailsRowToggleEvent } from '@asafmalin/ngrid/detail-row';
 
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

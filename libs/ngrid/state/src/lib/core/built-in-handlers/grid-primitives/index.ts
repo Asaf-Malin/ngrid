@@ -1,4 +1,4 @@
-import { PblNgridComponent } from '@pebula/ngrid';
+import { PblNgridComponent } from '@asafmalin/ngrid';
 import { PickPNP } from '../../utils';
 import { createStateChunkHandler } from '../../handling';
 import { stateVisor } from '../../state-visor';

@@ -1,7 +1,7 @@
 import { from as rxFrom } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { createDS, columnFactory } from '@pebula/ngrid';
+import { createDS, columnFactory } from '@asafmalin/ngrid';
 
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

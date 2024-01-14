@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation, Output, EventEmitter, OnChanges, SimpleChanges, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { trigger, state, transition, style, animate } from '@angular/animations';
 
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { SearchResults, SearchResult, SearchArea, SearchService } from '../../services/search';
 import { MarkdownPagesMenuService } from '../../services/markdown-pages-menu.service';
 import { ViewLayoutObserver } from '../../services/view-layout-observer.service';

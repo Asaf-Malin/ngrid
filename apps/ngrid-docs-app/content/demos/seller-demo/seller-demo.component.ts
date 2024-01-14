@@ -1,6 +1,6 @@
 import { Component, ViewChild,  ChangeDetectionStrategy } from '@angular/core';
 
-import { PblNgridComponent, createDS, columnFactory } from '@pebula/ngrid';
+import { PblNgridComponent, createDS, columnFactory } from '@asafmalin/ngrid';
 import { Seller, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';
 

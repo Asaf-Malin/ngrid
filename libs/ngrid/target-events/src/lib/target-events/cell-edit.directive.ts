@@ -1,8 +1,8 @@
 import { Directive, Input, Injector, OnDestroy } from '@angular/core';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 
-import { unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import { PblNgridTargetEventsPlugin } from './target-events-plugin';
 
 @Directive({

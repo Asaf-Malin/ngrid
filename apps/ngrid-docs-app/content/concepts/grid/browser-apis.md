@@ -80,7 +80,7 @@ depends on the use case, **nGrid** instance configuration and features used toge
 To disable the use of **IntersectionObserver** apply the following provider in your application root module:
 
 ```typescript
-import { DISABLE_INTERSECTION_OBSERVABLE } from '@pebula/ngrid';
+import { DISABLE_INTERSECTION_OBSERVABLE } from '@asafmalin/ngrid';
 
 @NgModule({
   providers: [

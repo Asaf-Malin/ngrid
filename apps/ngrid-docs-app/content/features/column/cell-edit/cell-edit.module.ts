@@ -6,8 +6,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

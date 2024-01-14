@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridBsPaginationModule } from '@pebula/ngrid-bootstrap/pagination';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridBsPaginationModule } from '@asafmalin/ngrid-bootstrap/pagination';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

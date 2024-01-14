@@ -28,10 +28,10 @@
         "apps/libs/*",
         "apps/libs/*/src/index.ts"
       ],
-      "@pebula/ngrid/lib/*": [
+      "@asafmalin/ngrid/lib/*": [
         "libs/ngrid/src/lib/*"
       ],
-      "@pebula/ngrid-material/lib/*": [
+      "@asafmalin/ngrid-material/lib/*": [
         "libs/ngrid-material/src/lib/*"
       ],
       "@pebula/*": [

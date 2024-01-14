@@ -12,7 +12,7 @@ type: index
 <br>
 
 ```bash
-ng add @pebula/ngrid
+ng add @asafmalin/ngrid
 ```
 
 <br>

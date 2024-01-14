@@ -9,7 +9,7 @@ tags: theme,theming,material
 
 **nGrid's** theme system is almost identical to the theme system in `@angular/material`, however **it does not depend on it**.
 
-However, if you're using `@angular/material` (and probably `@pebula/ngrid-material`), it is 100% compatible with a theme generated from `@angular/material`.
+However, if you're using `@angular/material` (and probably `@asafmalin/ngrid-material`), it is 100% compatible with a theme generated from `@angular/material`.
 
 `@angular/material` comes with 4 prebuilt themes:
 
@@ -18,20 +18,20 @@ However, if you're using `@angular/material` (and probably `@pebula/ngrid-materi
 - pink-bluegrey.css
 - purple-green.css
 
-For each theme there is a corresponding theme in `@pebula/ngrid-material/themes`.
+For each theme there is a corresponding theme in `@asafmalin/ngrid-material/themes`.
 
 If you're using Angular CLI, this is as simple as including one line in your `styles.scss` file:
 
 ```scss
 @use '@angular/material/prebuilt-themes/deeppurple-amber.css';
-@use '@pebula/ngrid-material/themes/deeppurple-amber.css';
+@use '@asafmalin/ngrid-material/themes/deeppurple-amber.css';
 ```
 
 Alternatively, you can [add your chosen CSS file to the styles array of your project's angular.json file](https://angular.io/guide/workspace-config#styles-and-scripts-configuration) or just reference the file directly. This would look something like:
 
 ```html
 <link href="node_modules/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">
-<link href="node_modules/@pebula/ngrid-material/themes/indigo-pink.css" rel="stylesheet">
+<link href="node_modules/@asafmalin/ngrid-material/themes/indigo-pink.css" rel="stylesheet">
 ```
 
 
@@ -52,7 +52,7 @@ Let's [recall](../../../concepts/theming/introduction#customized-themes-scss) th
 2. Create a theme from your palette using `ngrid.define-light-theme` or `ngrid.define-dark-theme`
 3. Render the theme by including the mixin `ngrid.ngrid-theme`
 
-> We assume the **ngrid** namespace defined (`@use '@pebula/ngrid' as ngrid`)
+> We assume the **ngrid** namespace defined (`@use '@asafmalin/ngrid' as ngrid`)
 
 When working with material we use the material tools to create a theme object and render the styles. (Step 3)  
 We can use the same theme to render the **nGrid** theme!
@@ -65,8 +65,8 @@ missing definitions and create a new theme that you can send to `ngrid.ngrid-the
 
 ```scss
 @use '@angular/material' as mat;
-@use '@pebula/ngrid' as ngrid;
-@use '@pebula/ngrid-material' as ngrid-material;
+@use '@asafmalin/ngrid' as ngrid;
+@use '@asafmalin/ngrid-material' as ngrid-material;
 
 $typography-config: mat.define-typography-config();
 @include mat.core($typography-config);
@@ -96,4 +96,4 @@ $candy-app-theme: ngrid.define-light-theme($candy-app-theme);
 
 You can view additional examples by looking at the <a href="https://github.com/shlomiassaf/ngrid/tree/303119a7278cec83da7d8bdd1b77953f33a5f5f9/libs/ngrid-material/src/themes/prebuilt" target="_blank">source code</a> used to create the pre-built CSS themes.
 
-> Note that pre-built CSS themes are located in `@pebula/ngrid-material/themes` and the SCSS theming utilities are located in `@pebula/ngrid-material`
+> Note that pre-built CSS themes are located in `@asafmalin/ngrid-material/themes` and the SCSS theming utilities are located in `@asafmalin/ngrid-material`

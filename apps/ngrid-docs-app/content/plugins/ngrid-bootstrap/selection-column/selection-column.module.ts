@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridBsSelectionModule } from '@pebula/ngrid-bootstrap/selection-column';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridBsSelectionModule } from '@asafmalin/ngrid-bootstrap/selection-column';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

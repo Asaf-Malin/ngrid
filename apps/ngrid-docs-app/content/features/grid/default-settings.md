@@ -18,7 +18,7 @@ To access the global configuration we use the `PblNgridConfigService` service:
 
 ```typescript
 import { NgModule } from '@angular/core';
-import { PblNgridConfigService } from '@pebula/ngrid';
+import { PblNgridConfigService } from '@asafmalin/ngrid';
 
 @NgModule({ /** Module definition here... */ })
 export class MyRootModule {

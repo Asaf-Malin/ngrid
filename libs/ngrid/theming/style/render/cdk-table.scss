@@ -1,8 +1,8 @@
 // BASED ON:
 // https://github.com/angular/material2/blob/edbbc1bd7299df96a2f9c4200c3832d433f9cf5c/src/lib/table/_table-theme.scss
 
-// Because `@pebula/ngrid` depends on the `@angular/cdk` and because all SCSS theme tools are in `@angular/material` we
-// must hard-copy some of them so that `@pebula/ngrid` does not require `@angular/material`
+// Because `@asafmalin/ngrid` depends on the `@angular/cdk` and because all SCSS theme tools are in `@angular/material` we
+// must hard-copy some of them so that `@asafmalin/ngrid` does not require `@angular/material`
 @use 'sass:map';
 @use '../../theming' as theming;
 @use '../../typography/typography' as typography;

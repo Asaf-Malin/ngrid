@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { createDS, columnFactory, PblNgridComponent } from '@pebula/ngrid';
+import { createDS, columnFactory, PblNgridComponent } from '@asafmalin/ngrid';
 
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

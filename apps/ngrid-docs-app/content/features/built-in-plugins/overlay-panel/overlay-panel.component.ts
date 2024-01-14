@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation, ViewChild } from '@angular/core';
 
-import { createDS, columnFactory, PblNgridComponent } from '@pebula/ngrid';
-import { PblNgridOverlayPanelFactory } from '@pebula/ngrid/overlay-panel';
+import { createDS, columnFactory, PblNgridComponent } from '@asafmalin/ngrid';
+import { PblNgridOverlayPanelFactory } from '@asafmalin/ngrid/overlay-panel';
 
 import { Seller, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

@@ -18,7 +18,7 @@ import { CommonModule } from '@angular/common';
 import { ScrollingModule as ScrollingModuleExp } from '@angular/cdk-experimental/scrolling';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { CdkTableModule } from '@angular/cdk/table';
-import { PEB_NGRID_CONFIG, PblNgridConfig, PblNgridConfigService } from '@pebula/ngrid/core';
+import { PEB_NGRID_CONFIG, PblNgridConfig, PblNgridConfigService } from '@asafmalin/ngrid/core';
 
 
 /**

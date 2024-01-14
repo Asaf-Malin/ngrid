@@ -16,7 +16,7 @@
   "targets": {
     "build": {
       "executor": "ng-cli-packagr-tasks:build",
-      "outputs": ["dist/@pebula/ngrid"],
+      "outputs": ["dist/@asafmalin/ngrid"],
       "options": {
         "tsConfig": "libs/ngrid/tsconfig.lib.json",
         "project": "libs/ngrid/ng-package.json",
@@ -30,27 +30,27 @@
                 {
                   "glob": "README.md",
                   "input": ".",
-                  "output": "dist/@pebula/ngrid"
+                  "output": "dist/@asafmalin/ngrid"
                 },
                 {
                   "glob": "LICENSE",
                   "input": ".",
-                  "output": "dist/@pebula/ngrid"
+                  "output": "dist/@asafmalin/ngrid"
                 },
                 {
                   "glob": "*.scss",
                   "input": "libs/ngrid",
-                  "output": "dist/@pebula/ngrid"
+                  "output": "dist/@asafmalin/ngrid"
                 },
                 {
                   "glob": "**/*.scss",
                   "input": "libs/ngrid/theming",
-                  "output": "dist/@pebula/ngrid/theming"
+                  "output": "dist/@asafmalin/ngrid/theming"
                 },
                 {
                   "glob": "*/theming/**/*.scss",
                   "input": "libs/ngrid",
-                  "output": "dist/@pebula/ngrid"
+                  "output": "dist/@asafmalin/ngrid"
                 }
               ]
             },
@@ -59,7 +59,7 @@
                 {
                   "glob": "*.scss",
                   "input": "libs/ngrid/theming/prebuilt",
-                  "output": "dist/@pebula/ngrid/themes"
+                  "output": "dist/@asafmalin/ngrid/themes"
                 }
               ]
             },

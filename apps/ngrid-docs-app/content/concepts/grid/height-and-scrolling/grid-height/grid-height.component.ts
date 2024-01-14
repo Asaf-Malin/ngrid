@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation, ChangeDetectorRef, OnDestroy } from '@angular/core';
-import { createDS, columnFactory } from '@pebula/ngrid';
+import { createDS, columnFactory } from '@asafmalin/ngrid';
 import { Example } from '@pebula/apps/docs-app-lib';
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 

@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { createDS, columnFactory, PblColumn } from '@pebula/ngrid';
+import { createDS, columnFactory, PblColumn } from '@asafmalin/ngrid';
 
 import { Person, DynamicClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';
-import { PblColumnDragDropContainerEnter, PblColumnDragDropContainerExit, PblColumnDragDropContainerDrop } from '@pebula/ngrid/drag';
+import { PblColumnDragDropContainerEnter, PblColumnDragDropContainerExit, PblColumnDragDropContainerDrop } from '@asafmalin/ngrid/drag';
 
 @Component({
   selector: 'pbl-column-bin-example',

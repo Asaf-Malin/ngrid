@@ -2,10 +2,10 @@ import { Observable, isObservable } from 'rxjs';
 import { Directive, EmbeddedViewRef, Input, OnDestroy } from '@angular/core';
 import { coerceBooleanProperty, BooleanInput } from '@angular/cdk/coercion';
 
-import { unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     blockUi?: { blockUi: BooleanInput | 'auto' | Observable<boolean> };
   }

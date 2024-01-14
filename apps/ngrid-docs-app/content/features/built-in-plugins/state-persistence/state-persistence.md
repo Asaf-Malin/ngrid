@@ -70,7 +70,7 @@ In the example above we used the `afterLoadState` event to register the initial 
 And of course, don't forget to the the `PblNgridStatePluginModule` module to your project!
 
 ```ts
-import { PblNgridStatePluginModule } from '@pebula/ngrid/state';
+import { PblNgridStatePluginModule } from '@asafmalin/ngrid/state';
 ```
 
 ## Plugin Options
@@ -131,7 +131,7 @@ export function loadState(grid: PblNgridComponent, options?: PblNgridStateLoadOp
 Which we can import:
 
 ```ts
-import { hasState, saveState, loadState  } from '@pebula/ngrid/state';
+import { hasState, saveState, loadState  } from '@asafmalin/ngrid/state';
 ```
 
 With these 3 we can check if a grid `hasState`, if so `loadState` and later `saveState`.

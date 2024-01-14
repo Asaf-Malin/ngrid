@@ -5,7 +5,7 @@ import {
   PblNgridDataHeaderExtensionRef,
   PblNgridDataHeaderExtensionContext,
   PblNgridPluginController
-} from '@pebula/ngrid';
+} from '@asafmalin/ngrid';
 
 import { COL_DRAG_CONTAINER_PLUGIN_KEY } from './column-drag-container';
 

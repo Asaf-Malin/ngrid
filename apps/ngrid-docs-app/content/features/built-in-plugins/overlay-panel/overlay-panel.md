@@ -15,7 +15,7 @@ I> The overlay panel plugin is based on the <a href="https://material.angular.io
 To use the overlay plugin first import it into your application module:
 
 ```ts
-import { PblNgridOverlayPanelModule } from '@pebula/ngrid/overlay-panel';
+import { PblNgridOverlayPanelModule } from '@asafmalin/ngrid/overlay-panel';
 
 @NgModule({
   imports: [
@@ -52,7 +52,7 @@ Panels are stored in the [registry](../../../concepts/grid/the-registry) and so 
 
 > Component extensions are more complex and out of the scope of this tutorial.
 
-I> To see how component extensions are used, or for an advanced example, visit the source code for the plugin `@pebula/ngrid-material/context-menu`
+I> To see how component extensions are used, or for an advanced example, visit the source code for the plugin `@asafmalin/ngrid-material/context-menu`
 
 ## Creating overlay panels
 

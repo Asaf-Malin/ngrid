@@ -2,7 +2,7 @@ import { BehaviorSubject, Subject, Observable, asapScheduler } from 'rxjs';
 import { debounceTime, buffer, map, filter, take } from 'rxjs/operators';
 import { ViewContainerRef } from '@angular/core';
 
-import { ON_DESTROY, removeFromArray } from '@pebula/ngrid/core';
+import { ON_DESTROY, removeFromArray } from '@asafmalin/ngrid/core';
 import { PblNgridInternalExtensionApi } from '../../ext/grid-ext-api';
 import { PblColumn } from '../column/model';
 import { ColumnApi } from '../column/management';

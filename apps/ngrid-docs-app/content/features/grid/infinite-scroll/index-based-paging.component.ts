@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { columnFactory } from '@pebula/ngrid';
-import { createInfiniteScrollDS } from '@pebula/ngrid/infinite-scroll';
+import { columnFactory } from '@asafmalin/ngrid';
+import { createInfiniteScrollDS } from '@asafmalin/ngrid/infinite-scroll';
 
 import { Person, DynamicRestClientApi } from '@pebula/apps/docs-app-lib/client-api';
 import { Example } from '@pebula/apps/docs-app-lib';

@@ -7,11 +7,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridDetailRowModule } from '@pebula/ngrid/detail-row';
-import { PblNgridBlockUiModule } from '@pebula/ngrid/block-ui';
-import { PblNgridPaginatorModule } from '@pebula/ngrid-material/paginator';
-import { PblNgridMatSortModule } from '@pebula/ngrid-material/sort';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridDetailRowModule } from '@asafmalin/ngrid/detail-row';
+import { PblNgridBlockUiModule } from '@asafmalin/ngrid/block-ui';
+import { PblNgridPaginatorModule } from '@asafmalin/ngrid-material/paginator';
+import { PblNgridMatSortModule } from '@asafmalin/ngrid-material/sort';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

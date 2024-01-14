@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { MatRadioModule } from '@angular/material/radio';
-import { PblNgridModule } from '@pebula/ngrid';
-import { PblNgridDragModule } from '@pebula/ngrid/drag/';
+import { PblNgridModule } from '@asafmalin/ngrid';
+import { PblNgridDragModule } from '@asafmalin/ngrid/drag/';
 
 import { BindNgModule } from '@pebula/apps/docs-app-lib';
 import { ExampleCommonModule } from '@pebula/apps/docs-app-lib/example-common.module';

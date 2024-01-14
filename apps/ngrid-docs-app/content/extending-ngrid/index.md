@@ -23,22 +23,22 @@ A plugin will add / extend:
 
 ## Built-In Plugins
 
-A lot of the features offered by the core package (`@pebula/ngrid`) are plugins.
+A lot of the features offered by the core package (`@asafmalin/ngrid`) are plugins.
 
-You can easily identify built-in plugins through their import namespace, which is a secondary namespace to `@pebula/ngrid`.
+You can easily identify built-in plugins through their import namespace, which is a secondary namespace to `@asafmalin/ngrid`.
 
 Some examples:
 
-- `@pebula/ngrid/target-events` - Support for input device events
-- `@pebula/ngrid/detail-row` - Support for master / detail row structure
-- `@pebula/ngrid/drag` - Support for drag and drop
-- `@pebula/ngrid/state` - Saving and restoring state from and to the grid
+- `@asafmalin/ngrid/target-events` - Support for input device events
+- `@asafmalin/ngrid/detail-row` - Support for master / detail row structure
+- `@asafmalin/ngrid/drag` - Support for drag and drop
+- `@asafmalin/ngrid/state` - Saving and restoring state from and to the grid
 - And more...
 
 The rule of thumb is to prefer built in plugins over internal implementation when introducing new features.
 
 For example, the virtual scrolling is heavily bound to the grid's behavior so it is an internal feature but
-saving and restoring grid state (`@pebula/ngrid/state`) is not.
+saving and restoring grid state (`@asafmalin/ngrid/state`) is not.
 
 ## Extensibility APIs
 
@@ -152,7 +152,7 @@ We need to refactor our code:
 
 ```typescript
 // id (PLUGIN_KEY) is unique and typed so we must augment it:
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     clipboard?: PblNgridClipboardPlugin;
   }
@@ -215,7 +215,7 @@ To enforce uniqueness, the key is typed and can not be used if not present in th
 To add a new key to the type system we will use typescript's augmentation feature:
 
 ```typescript
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
   interface PblNgridPluginExtension {
     clipboard?: PblNgridClipboardPlugin;
   }
@@ -309,8 +309,8 @@ That's it, the plugin is ready. To be used as directive we need to add a module 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PblNgridModule, PblNgridConfigService, PblNgridPluginController } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridModule, PblNgridConfigService, PblNgridPluginController } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 @NgModule({
   imports: [ CommonModule, PblNgridModule, PblNgridTargetEventsModule ],
@@ -337,9 +337,9 @@ The answer is using the grid created event, which fires every time a new grid in
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ON_INIT, PblNgridConfigService } from '@pebula/ngrid/core';
-import { PblNgridModule, PblNgridPluginController } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { ON_INIT, PblNgridConfigService } from '@asafmalin/ngrid/core';
+import { PblNgridModule, PblNgridPluginController } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 import { PLUGIN_KEY, PblNgridClipboardPlugin } from './clipboard.plugin';
 
@@ -392,7 +392,7 @@ We will add a new settings group, specific to our plugin, allowing the user to t
 The first step is enrich the global settings type with the new settings:
 
 ```typescript
-declare module '@pebula/ngrid/lib/grid/services/config' {
+declare module '@asafmalin/ngrid/lib/grid/services/config' {
   interface PblNgridConfig {
     clipboard?: {
       /** When set to true will enable the clipboard plugin on all grid instances by default. */

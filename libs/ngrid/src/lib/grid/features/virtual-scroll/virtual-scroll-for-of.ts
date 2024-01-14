@@ -3,7 +3,7 @@ import { filter, startWith, pairwise, take, takeUntil, map, debounceTime } from 
 
 import { NgZone, ViewContainerRef } from '@angular/core';
 import { CollectionViewer, ListRange } from '@angular/cdk/collections';
-import { PblDataSource } from '@pebula/ngrid/core';
+import { PblDataSource } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent } from '../../../tokens';
 import { PblNgridInternalExtensionApi } from '../../../ext/grid-ext-api';

@@ -6,7 +6,7 @@ import {
   PblMetaRowDefinitions,
   PblNgridColumnDefinitionSet,
   PblColumnSet,
- } from '@pebula/ngrid/core';
+ } from '@asafmalin/ngrid/core';
 
  import { PickPNP } from '../../utils';
 

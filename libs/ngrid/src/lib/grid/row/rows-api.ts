@@ -1,5 +1,5 @@
 import { NgZone } from '@angular/core';
-import { ON_INVALIDATE_HEADERS, unrx } from '@pebula/ngrid/core';
+import { ON_INVALIDATE_HEADERS, unrx } from '@asafmalin/ngrid/core';
 import { PblNgridInternalExtensionApi } from '../../ext/grid-ext-api';
 import { RowIntersectionTracker } from '../features/virtual-scroll/row-intersection';
 import { PblNgridMetaRowService } from '../meta-rows/meta-row.service';

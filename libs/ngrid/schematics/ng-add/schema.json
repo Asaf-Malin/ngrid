@@ -21,8 +21,8 @@
         "type": "list",
         "items": [
           { "value": "none",       "label": "None" },
-          { "value": "material",   "label": "Material (@pebula/ngrid-material using @angular/components" },
-          { "value": "bootstrap",  "label": "Bootstrap (@pebula/ngrid-bootstrap using @ng-bootstrap/ng-bootstrap" }
+          { "value": "material",   "label": "Material (@asafmalin/ngrid-material using @angular/components" },
+          { "value": "bootstrap",  "label": "Bootstrap (@asafmalin/ngrid-bootstrap using @ng-bootstrap/ng-bootstrap" }
         ]
       }
     },

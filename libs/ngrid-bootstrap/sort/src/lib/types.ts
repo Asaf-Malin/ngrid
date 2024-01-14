@@ -1,4 +1,4 @@
-import { PblNgridSortOrder } from '@pebula/ngrid/core';
+import { PblNgridSortOrder } from '@asafmalin/ngrid/core';
 
 export type PblNgridBsSortDirection = PblNgridSortOrder | '';
 

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, ElementRef, Input, ViewEncapsulation, Optional, ComponentRef, Attribute, ChangeDetectorRef, OnDestroy, OnInit, Inject } from '@angular/core';
 import { CdkHeaderRow } from '@angular/cdk/table';
-import { PblMetaRowDefinitions, unrx } from '@pebula/ngrid/core';
+import { PblMetaRowDefinitions, unrx } from '@asafmalin/ngrid/core';
 
 import { _PblNgridComponent, PBL_NGRID_COMPONENT } from '../../tokens';
 import { PblNgridBaseRowComponent, PBL_NGRID_BASE_ROW_TEMPLATE } from './base-row.component';

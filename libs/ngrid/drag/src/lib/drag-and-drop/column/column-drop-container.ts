@@ -1,7 +1,7 @@
 // tslint:disable:no-output-rename
 import { Directive, EventEmitter, Output } from '@angular/core';
 import { DragDrop, CDK_DROP_LIST, CDK_DROP_LIST_GROUP } from '@angular/cdk/drag-drop';
-import { COLUMN } from '@pebula/ngrid';
+import { COLUMN } from '@asafmalin/ngrid';
 import { CdkLazyDropList, PblDragDrop } from '../core/index';
 import { COL_DRAG_CONTAINER_PLUGIN_KEY, PblNgridColumnDragContainerDirective } from './column-drag-container';
 import { PblColumnDragDropContainerDrop, PblColumnDragDropContainerEnter, PblColumnDragDropContainerExit } from './column-drop-container.events';
