@@ -1,8 +1,0 @@
----
-title: <%= title %>
-path: <%= path %>
-parent: <%= parent %>
----
-# <%= title %>
-
-<div pbl-example-view="<%= selector %>"></div>

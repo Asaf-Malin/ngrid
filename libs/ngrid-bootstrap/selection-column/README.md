@@ -1,1 +1,0 @@
-# Selection implementation using bootstrap 
