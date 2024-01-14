@@ -1,10 +1,10 @@
 import * as i0 from '@angular/core';
 import { Directive, Input, NgModule } from '@angular/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridSingleTemplateRegistry, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridSingleTemplateRegistry, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { isObservable } from 'rxjs';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { CommonModule } from '@angular/common';
 import { CdkTableModule } from '@angular/cdk/table';
 

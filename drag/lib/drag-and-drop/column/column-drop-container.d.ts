@@ -1,5 +1,5 @@
 import { EventEmitter } from '@angular/core';
-import { COLUMN } from '@pebula/ngrid';
+import { COLUMN } from '@asafmalin/ngrid';
 import { CdkLazyDropList } from '../core/index';
 import { PblNgridColumnDragContainerDirective } from './column-drag-container';
 import { PblColumnDragDropContainerDrop, PblColumnDragDropContainerEnter, PblColumnDragDropContainerExit } from './column-drop-container.events';

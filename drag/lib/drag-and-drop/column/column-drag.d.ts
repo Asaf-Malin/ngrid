@@ -1,4 +1,4 @@
-import { PblColumn } from '@pebula/ngrid';
+import { PblColumn } from '@asafmalin/ngrid';
 import { CdkLazyDrag } from '../core/index';
 import { PblNgridColumnDragContainerDirective } from './column-drag-container';
 import * as i0 from "@angular/core";

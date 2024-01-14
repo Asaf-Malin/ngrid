@@ -1,12 +1,12 @@
 import { Directive, Input } from '@angular/core';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import { PblNgridConfigService, unrx } from '@pebula/ngrid/core';
-import { columnFactory, PblNgridComponent, PblNgridPluginController, PblColumn, } from '@pebula/ngrid';
+import { PblNgridConfigService, unrx } from '@asafmalin/ngrid/core';
+import { columnFactory, PblNgridComponent, PblNgridPluginController, PblColumn, } from '@asafmalin/ngrid';
 import { TransposeTableSession, LOCAL_COLUMN_DEF, VIRTUAL_REFRESH } from './transpose-table-session';
 import { getCellValueTransformed, createTransformedColumn } from './utils';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
-import * as i2 from "@pebula/ngrid/core";
+import * as i1 from "@asafmalin/ngrid";
+import * as i2 from "@asafmalin/ngrid/core";
 const DEFAULT_HEADER_COLUMN = { prop: '__transpose__', css: 'pbl-ngrid-header-cell pbl-ngrid-transposed-header-cell' };
 export const PLUGIN_KEY = 'transpose';
 /**

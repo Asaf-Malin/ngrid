@@ -1,8 +1,8 @@
 import { OnInit, OnDestroy, ViewContainerRef } from '@angular/core';
-import { PblNgridRowComponent } from '@pebula/ngrid';
+import { PblNgridRowComponent } from '@asafmalin/ngrid';
 import { PblDetailsRowToggleEvent } from './tokens';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/grid/context/types' {
+declare module '@asafmalin/ngrid/lib/grid/context/types' {
     interface ExternalRowContextState {
         detailRow: boolean;
     }

@@ -1,7 +1,7 @@
 import { Injector, OnDestroy } from '@angular/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         clipboard?: PblNgridClipboardPlugin;
     }
@@ -9,7 +9,7 @@ declare module '@pebula/ngrid/lib/ext/types' {
         clipboard: keyof typeof PblNgridClipboardPlugin;
     }
 }
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
     interface PblNgridConfig {
         clipboard?: {
             /** When set to true will enable the clipboard plugin on all grid instances by default. */

@@ -25,7 +25,7 @@ export declare class PblNgridHeaderCellDefDirective<T> extends PblNgridBaseCellD
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridHeaderCellDefDirective<any>, never>;
     static ɵdir: i0.ɵɵDirectiveDeclaration<PblNgridHeaderCellDefDirective<any>, "[pblNgridHeaderCellDef], [pblNgridHeaderCellTypeDef]", never, { "name": "pblNgridHeaderCellDef"; "type": "pblNgridHeaderCellTypeDef"; }, {}, never, never, false>;
 }
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridMultiRegistryMap {
         headerCell?: PblNgridHeaderCellDefDirective<any>;
     }

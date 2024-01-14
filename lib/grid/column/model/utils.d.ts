@@ -1,4 +1,4 @@
-import { PblBaseColumnDefinition } from '@pebula/ngrid/core';
+import { PblBaseColumnDefinition } from '@asafmalin/ngrid/core';
 export declare function parseStyleWidth(exp: string): {
     value: number;
     type: 'px' | '%';

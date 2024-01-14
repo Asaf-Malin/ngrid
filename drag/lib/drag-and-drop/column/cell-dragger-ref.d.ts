@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { PblNgridRegistryService, PblNgridMultiTemplateRegistry, PblNgridDataHeaderExtensionRef, PblNgridDataHeaderExtensionContext } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridMultiTemplateRegistry, PblNgridDataHeaderExtensionRef, PblNgridDataHeaderExtensionContext } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 /**
  * Marks the element as the resizer template for cells.

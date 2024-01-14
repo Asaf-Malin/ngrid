@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 import { PblNgridExtensionApi } from '../../ext/grid-ext-api';
 import * as i0 from "@angular/core";
 export interface PblMetaRow {

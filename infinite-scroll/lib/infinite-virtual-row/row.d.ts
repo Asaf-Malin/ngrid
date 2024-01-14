@@ -1,4 +1,4 @@
-import { PblNgridRowComponent } from '@pebula/ngrid';
+import { PblNgridRowComponent } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 export declare const PBL_NGRID_ROW_TEMPLATE = "<ng-content select=\".pbl-ngrid-row-prefix\"></ng-content><ng-content></ng-content><ng-content select=\".pbl-ngrid-row-suffix\"></ng-content>";
 export declare class PblNgridInfiniteRowComponent<T = any> extends PblNgridRowComponent<T> {

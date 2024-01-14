@@ -2,7 +2,7 @@ import { AfterViewInit, ElementRef, Injector, QueryList, AfterContentInit, OnCha
 import { Direction, Directionality } from '@angular/cdk/bidi';
 import { BooleanInput, NumberInput } from '@angular/cdk/coercion';
 import { CdkHeaderRowDef, CdkFooterRowDef, CdkRowDef } from '@angular/cdk/table';
-import { PblNgridConfigService, PblNgridPaginatorKind, DataSourcePredicate, PblNgridSortDefinition, PblDataSource, DataSourceOf, PblNgridColumnDefinitionSet, PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblNgridConfigService, PblNgridPaginatorKind, DataSourcePredicate, PblNgridSortDefinition, PblDataSource, DataSourceOf, PblNgridColumnDefinitionSet, PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 import { PblNgridExtensionApi } from '../ext/grid-ext-api';
 import { PblNgridPluginController, PblNgridPluginContext } from '../ext/plugin-control';
 import { PblNgridRegistryService } from './registry/registry.service';

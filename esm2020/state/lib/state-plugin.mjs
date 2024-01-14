@@ -1,12 +1,12 @@
 import { Subject } from 'rxjs';
 import { map, mapTo, filter, take, skip, debounceTime } from 'rxjs/operators';
 import { Directive, Injector, Input } from '@angular/core';
-import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW, ON_DESTROY } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW, ON_DESTROY } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import { hasState, saveState, loadState } from './core/index';
 import { userSessionPref } from './presets';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 export const PLUGIN_KEY = 'state';
 export class PblNgridStatePlugin {
     constructor(grid, injector, pluginCtrl) {

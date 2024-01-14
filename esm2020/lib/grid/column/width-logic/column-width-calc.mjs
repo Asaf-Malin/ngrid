@@ -1,6 +1,6 @@
 import { animationFrameScheduler, fromEventPattern, Subject } from 'rxjs';
 import { debounceTime, skip, takeUntil } from 'rxjs/operators';
-import { ON_DESTROY } from '@pebula/ngrid/core';
+import { ON_DESTROY } from '@asafmalin/ngrid/core';
 import { resetColumnWidths } from '../../utils/width';
 import { DynamicColumnWidthLogic, DYNAMIC_PADDING_BOX_MODEL_SPACE_STRATEGY } from './dynamic-column-width';
 export class PblNgridColumnWidthCalc {

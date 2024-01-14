@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 import { ChangeDetectorRef, ElementRef, Injector, NgZone, ViewContainerRef } from '@angular/core';
 import { Direction, Directionality } from '@angular/cdk/bidi';
-import { PblNgridConfigService, PblNgridEvents } from '@pebula/ngrid/core';
+import { PblNgridConfigService, PblNgridEvents } from '@asafmalin/ngrid/core';
 import { PblNgridRegistryService } from './registry/registry.service';
 import { PblNgridInternalExtensionApi } from '../ext/grid-ext-api';
 import { PblNgridPluginContext } from '../ext/plugin-control';

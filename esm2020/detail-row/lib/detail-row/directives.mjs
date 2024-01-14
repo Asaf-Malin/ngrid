@@ -1,8 +1,8 @@
 // tslint:disable:use-host-property-decorator
 import { Directive, TemplateRef, Input, } from '@angular/core';
-import { PblNgridRegistryService, PblNgridSingleTemplateRegistry, PblNgridRowDef } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridSingleTemplateRegistry, PblNgridRowDef } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 /**
  * Marks the element as the display element for the detail row itself.
  */

@@ -1,4 +1,4 @@
-import { PblColumn, PblMetaColumn, PblColumnGroup, PblNgridCellContext, PblNgridRowContext } from '@pebula/ngrid';
+import { PblColumn, PblMetaColumn, PblColumnGroup, PblNgridCellContext, PblNgridRowContext } from '@asafmalin/ngrid';
 export declare type ROW_TYPE = 'header' | 'data' | 'footer';
 export interface ROW_META_TYPE {
     data: PblColumn;

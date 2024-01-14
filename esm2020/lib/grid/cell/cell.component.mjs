@@ -1,6 +1,6 @@
 import { filter } from 'rxjs/operators';
 import { Component } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { initCellElement } from './utils';
 import { PblNgridBaseCell } from './base-cell';
 import * as i0 from "@angular/core";

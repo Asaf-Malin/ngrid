@@ -1,8 +1,8 @@
 // tslint:disable:use-host-property-decorator
 import { Directive, TemplateRef } from '@angular/core';
-import { PblNgridRegistryService, PblNgridSingleTemplateRegistry } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridSingleTemplateRegistry } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 /**
  * Marks the element as the display element when the form is busy.
  */

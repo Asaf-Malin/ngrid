@@ -3,7 +3,7 @@ import { BooleanInput } from '@angular/cdk/coercion';
 import { CdkLazyDropList } from '../core/index';
 import { PblNgridRowDragDirective } from './row-drag';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         rowReorder?: PblNgridRowReorderPluginDirective;
     }

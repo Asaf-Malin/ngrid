@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PblNgridConfigService } from '@pebula/ngrid/core';
-import { PblNgridPluginController, PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
+import { PblNgridPluginController, PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
 import { registerBuiltInHandlers } from './core/built-in-handlers/_register';
 import { PblNgridStatePlugin, PblNgridStatePluginDirective, PLUGIN_KEY } from './state-plugin';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid/core";
+import * as i1 from "@asafmalin/ngrid/core";
 export class PblNgridStatePluginModule {
     constructor(configService) {
         PblNgridPluginController.onCreatedSafe(PblNgridStatePluginModule, (grid, controller) => {

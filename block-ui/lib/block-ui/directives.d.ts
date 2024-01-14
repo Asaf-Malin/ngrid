@@ -1,7 +1,7 @@
 import { TemplateRef } from '@angular/core';
-import { PblNgridComponent, PblNgridRegistryService, PblNgridSingleTemplateRegistry } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridRegistryService, PblNgridSingleTemplateRegistry } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridSingleRegistryMap {
         blocker?: PblNgridBlockUiDefDirective;
     }

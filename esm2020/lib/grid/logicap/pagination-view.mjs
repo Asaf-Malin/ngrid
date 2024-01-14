@@ -1,4 +1,4 @@
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 export function paginationViewLogicap(extApi) {
     const paginationKillKey = 'pblPaginationKillKey';
     let paginatorEmbeddedVRef;

@@ -1,11 +1,11 @@
 import { fromEvent, timer, ReplaySubject } from 'rxjs';
 import { bufferWhen, debounce, map, filter, takeUntil } from 'rxjs/operators';
 import { Directive, EventEmitter, Injector } from '@angular/core';
-import { PblNgridComponent, PblNgridPluginController, PblColumn } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController, PblColumn } from '@asafmalin/ngrid';
 import { matrixRowFromRow, isRowContainer, findCellRenderIndex, findParentCell } from './utils';
 import { handleFocusAndSelection } from './focus-and-selection';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 export const PLUGIN_KEY = 'targetEvents';
 function hasListeners(source) {
     return source.observers.length > 0;

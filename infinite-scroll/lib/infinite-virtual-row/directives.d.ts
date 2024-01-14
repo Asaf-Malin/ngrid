@@ -1,7 +1,7 @@
 import { OnInit, OnDestroy } from '@angular/core';
-import { PblNgridRowDef } from '@pebula/ngrid';
+import { PblNgridRowDef } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridSingleRegistryMap {
         infiniteVirtualRow?: PblNgridInfiniteVirtualRowRefDirective;
     }

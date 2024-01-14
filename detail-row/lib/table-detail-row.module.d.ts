@@ -4,8 +4,8 @@ import * as i2 from "./detail-row/row";
 import * as i3 from "./detail-row/directives";
 import * as i4 from "@angular/common";
 import * as i5 from "@angular/cdk/table";
-import * as i6 from "@pebula/ngrid";
-import * as i7 from "@pebula/ngrid/target-events";
+import * as i6 from "@asafmalin/ngrid";
+import * as i7 from "@asafmalin/ngrid/target-events";
 export declare class PblNgridDetailRowModule {
     static readonly NGRID_PLUGIN: never;
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridDetailRowModule, never>;

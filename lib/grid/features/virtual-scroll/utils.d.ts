@@ -1,6 +1,6 @@
 import { ViewContainerRef } from '@angular/core';
 import { ListRange } from '@angular/cdk/collections';
-import { PblNgridConfigService } from '@pebula/ngrid/core';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
 import { PblNgridVirtualScrollStrategy } from './strategies/types';
 export declare type StickyDirectionVt = 'top' | 'bottom';
 export declare type StickyDirectionHz = 'left' | 'right';

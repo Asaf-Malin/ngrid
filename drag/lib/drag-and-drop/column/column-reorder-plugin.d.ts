@@ -1,9 +1,9 @@
 import { OnInit } from '@angular/core';
 import { BooleanInput } from '@angular/cdk/coercion';
-import { COLUMN } from '@pebula/ngrid';
+import { COLUMN } from '@asafmalin/ngrid';
 import { PblNgridColumnDragContainerDirective } from './column-drag-container';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         columnReorder?: PblNgridColumnReorderPluginDirective;
     }

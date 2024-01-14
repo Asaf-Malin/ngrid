@@ -1,4 +1,4 @@
-import { PblBaseColumnDefinition, PblColumnDefinition, PblColumnGroupDefinition, PblMetaColumnDefinition, PblNgridColumnDefinitionSet, PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblBaseColumnDefinition, PblColumnDefinition, PblColumnGroupDefinition, PblMetaColumnDefinition, PblNgridColumnDefinitionSet, PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 import { PblNgridColumnSet } from './types';
 import { PblMetaColumn } from './meta-column';
 import { PblColumn } from './column';

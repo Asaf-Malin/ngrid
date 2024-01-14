@@ -1,5 +1,5 @@
 import { ViewContainerRef } from '@angular/core';
-import { PblNgridContextApi, GridDataPoint } from '@pebula/ngrid';
+import { PblNgridContextApi, GridDataPoint } from '@asafmalin/ngrid';
 import { PblNgridMatrixRow, PblNgridRowEvent, PblNgridCellEvent, PblNgridDataCellEvent } from './events';
 export declare function isCellEvent<T, TEvent extends Event = MouseEvent | KeyboardEvent>(event: PblNgridRowEvent<T> | PblNgridCellEvent<T, TEvent>): event is PblNgridCellEvent<T, TEvent>;
 export declare function isDataCellEvent<T, TEvent extends Event = MouseEvent | KeyboardEvent>(event: PblNgridRowEvent<T> | PblNgridCellEvent<T, TEvent>): event is PblNgridDataCellEvent<T, TEvent>;

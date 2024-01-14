@@ -1,5 +1,5 @@
 import { OnInit } from '@angular/core';
-import { PblNgridCellContext } from '@pebula/ngrid';
+import { PblNgridCellContext } from '@asafmalin/ngrid';
 import { CdkLazyDrag } from '../core/index';
 import { PblNgridRowReorderPluginDirective } from './row-reorder-plugin';
 import * as i0 from "@angular/core";

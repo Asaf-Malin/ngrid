@@ -1,4 +1,4 @@
-import { PblBaseColumnDefinition, PblMetaColumnDefinition, PblColumnGroupDefinition, PblColumnDefinition, PblMetaRowDefinitions, PblNgridColumnDefinitionSet, PblColumnSet } from '@pebula/ngrid/core';
+import { PblBaseColumnDefinition, PblMetaColumnDefinition, PblColumnGroupDefinition, PblColumnDefinition, PblMetaRowDefinitions, PblNgridColumnDefinitionSet, PblColumnSet } from '@asafmalin/ngrid/core';
 import { PickPNP } from '../../utils';
 export interface PblNgridBaseColumnState extends PickPNP<PblBaseColumnDefinition, 'id' | 'label' | 'css' | 'type' | 'width' | 'minWidth' | 'maxWidth', never> {
 }

@@ -1,4 +1,4 @@
-import { PblNgridComponent, PblNgridExtensionApi } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridExtensionApi } from '@asafmalin/ngrid';
 import { RootStateChunks, StateChunks, PblNgridStateChunkSectionContext, PblNgridStateChunkContext, PblNgridStateOptions, PblNgridStateLoadOptions } from './models/index';
 import { PblNgridStateChunkHandlerDefinition } from './handling/base';
 import { PblNgridStateChunkSectionConfig } from './state-visor';

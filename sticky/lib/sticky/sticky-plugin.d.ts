@@ -1,7 +1,7 @@
 import { IterableDiffers, IterableDiffer, OnDestroy, AfterViewInit } from '@angular/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         sticky?: PblNgridStickyPluginDirective;
     }

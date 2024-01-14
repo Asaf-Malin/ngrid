@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
 import { PblNgridTransposePluginDirective, PLUGIN_KEY } from './transpose-plugin.directive';
 import * as i0 from "@angular/core";
 export class PblNgridTransposeModule {

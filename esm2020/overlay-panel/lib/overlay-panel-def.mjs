@@ -1,7 +1,7 @@
 import { Directive, TemplateRef, Input } from '@angular/core';
-import { PblNgridRegistryService, PblNgridMultiTemplateRegistry } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridMultiTemplateRegistry } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 export class PblNgridOverlayPanelDef extends PblNgridMultiTemplateRegistry {
     constructor(tRef, registry) {
         super(tRef, registry);

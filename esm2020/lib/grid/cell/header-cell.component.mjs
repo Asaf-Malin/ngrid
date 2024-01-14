@@ -2,7 +2,7 @@
 // tslint:disable:directive-selector
 import { first, filter } from 'rxjs/operators';
 import { Component, ElementRef, ChangeDetectionStrategy, ViewEncapsulation, ViewContainerRef, ViewChild, NgZone, Inject, } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { EXT_API_TOKEN } from '../../ext/grid-ext-api';
 import { PblNgridDataHeaderExtensionContext, PblNgridMultiComponentRegistry, PblNgridMultiTemplateRegistry } from '../registry';
 import { applySourceWidth, applyWidth, initCellElement } from './utils';

@@ -1,5 +1,5 @@
 import { OnInit } from '@angular/core';
-import { PblColumn } from '@pebula/ngrid';
+import { PblColumn } from '@asafmalin/ngrid';
 import { CdkLazyDropList } from '../core/index';
 import { PblNgridColumnReorderPluginDirective } from './column-reorder-plugin';
 import * as i0 from "@angular/core";

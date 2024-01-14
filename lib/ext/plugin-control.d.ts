@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 import { Injector } from '@angular/core';
-import { PblNgridEvents, PblNgridEventEmitter } from '@pebula/ngrid/core';
+import { PblNgridEvents, PblNgridEventEmitter } from '@asafmalin/ngrid/core';
 import { _PblNgridComponent } from '../tokens';
 import { PblNgridPluginExtension, PblNgridPluginExtensionFactories } from './types';
 import { PblNgridExtensionApi } from './grid-ext-api';
@@ -23,7 +23,7 @@ export declare class PblNgridPluginContext<T = any> implements PblNgridEventEmit
 export declare class PblNgridPluginController<T = any> {
     private context;
     static readonly created: Observable<{
-        table: import("@pebula/ngrid").PblNgridComponent<any>;
+        table: import("@asafmalin/ngrid").PblNgridComponent<any>;
         controller: PblNgridPluginController<any>;
     }>;
     static onCreatedSafe(token: any, fn: (grid: _PblNgridComponent, controller: PblNgridPluginController<any>) => void): void;

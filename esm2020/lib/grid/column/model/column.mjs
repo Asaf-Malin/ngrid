@@ -1,4 +1,4 @@
-import { getValue, deepPathSet, } from '@pebula/ngrid/core';
+import { getValue, deepPathSet, } from '@asafmalin/ngrid/core';
 import { initDefinitions, parseStyleWidth } from './utils';
 import { PblColumnGroupStore } from './group-column';
 const PBL_NGRID_COLUMN_MARK = Symbol('PblColumn');

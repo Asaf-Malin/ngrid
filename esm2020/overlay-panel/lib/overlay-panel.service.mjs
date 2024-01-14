@@ -1,7 +1,7 @@
 import { Injectable, ViewContainerRef, ElementRef, Injector, NgZone } from '@angular/core';
 import { Overlay, OverlayConfig, } from '@angular/cdk/overlay';
 import { TemplatePortal, ComponentPortal } from '@angular/cdk/portal';
-import { PblNgridPluginController, PblNgridMultiTemplateRegistry } from '@pebula/ngrid';
+import { PblNgridPluginController, PblNgridMultiTemplateRegistry } from '@asafmalin/ngrid';
 import { PblNgridOverlayPanelRef } from './overlay-panel-ref';
 import * as i0 from "@angular/core";
 import * as i1 from "@angular/cdk/overlay";

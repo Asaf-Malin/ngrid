@@ -25,7 +25,7 @@ export declare class PblNgridNoDataRefDirective extends PblNgridSingleTemplateRe
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridNoDataRefDirective, never>;
     static ɵdir: i0.ɵɵDirectiveDeclaration<PblNgridNoDataRefDirective, "[pblNgridNoDataRef]", never, {}, {}, never, never, false>;
 }
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridSingleRegistryMap {
         noData?: PblNgridNoDataRefDirective;
     }

@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 import { InjectionToken } from '@angular/core';
 import { Direction } from '@angular/cdk/bidi';
-import { PblNgridConfigService, PblNgridEvents } from '@pebula/ngrid/core';
+import { PblNgridConfigService, PblNgridEvents } from '@asafmalin/ngrid/core';
 import { _PblNgridComponent } from '../tokens';
 import { PblCdkTableComponent } from '../grid/pbl-cdk-table/pbl-cdk-table.component';
 import { ContextApi } from '../grid/context/api';

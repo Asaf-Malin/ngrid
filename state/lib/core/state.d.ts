@@ -1,4 +1,4 @@
-import { PblNgridComponent } from '@pebula/ngrid';
+import { PblNgridComponent } from '@asafmalin/ngrid';
 import { PblNgridGlobalState, PblNgridStateOptions, PblNgridStateSaveOptions, PblNgridStateLoadOptions } from './models/index';
 export declare function hasState(grid: PblNgridComponent, options?: PblNgridStateOptions): Promise<boolean>;
 export declare function saveState(grid: PblNgridComponent, options?: PblNgridStateSaveOptions): Promise<void>;

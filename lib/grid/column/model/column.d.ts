@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { DataSourceColumnPredicate, PblNgridSorter, PblColumnDefinition, PblColumnTypeDefinition } from '@pebula/ngrid/core';
+import { DataSourceColumnPredicate, PblNgridSorter, PblColumnDefinition, PblColumnTypeDefinition } from '@asafmalin/ngrid/core';
 import { PblNgridMetaCellContext, PblNgridCellContext } from '../../context/types';
 import { PblNgridColumnDef } from '../directives/column-def';
 import { PblColumnSizeInfo } from './types';

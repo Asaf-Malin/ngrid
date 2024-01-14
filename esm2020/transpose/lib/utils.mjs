@@ -1,4 +1,4 @@
-import { getValue } from '@pebula/ngrid/core';
+import { getValue } from '@asafmalin/ngrid/core';
 const TRANSFORM_ROW_REF = Symbol('TRANSFORM_ROW_REF');
 export function getCellValueAsHeader(row) {
     return row.label;

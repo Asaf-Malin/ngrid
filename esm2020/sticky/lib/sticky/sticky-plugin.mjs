@@ -1,8 +1,8 @@
 import { Directive, Input, IterableDiffers } from '@angular/core';
-import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 export const PLUGIN_KEY = 'sticky';
 export function setStickyRow(grid, type, valueOrBulk, state) {
     const isHeader = type === 'header';

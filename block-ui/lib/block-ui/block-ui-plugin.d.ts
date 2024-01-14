@@ -1,9 +1,9 @@
 import { Observable } from 'rxjs';
 import { OnDestroy } from '@angular/core';
 import { BooleanInput } from '@angular/cdk/coercion';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         blockUi?: {
             blockUi: BooleanInput | 'auto' | Observable<boolean>;

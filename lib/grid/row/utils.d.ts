@@ -1,4 +1,4 @@
-import { PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 import { PblNgridMetaRowService, PblMetaRow } from '../meta-rows/meta-row.service';
 export declare function initColumnOrMetaRow(element: HTMLElement, isFooter: boolean): void;
 export declare function setRowVisibility(element: HTMLElement, visible: boolean): void;

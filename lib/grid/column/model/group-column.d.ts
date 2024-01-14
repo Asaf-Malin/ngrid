@@ -1,4 +1,4 @@
-import { PblColumnGroupDefinition } from '@pebula/ngrid/core';
+import { PblColumnGroupDefinition } from '@asafmalin/ngrid/core';
 import { PblMetaColumn } from './meta-column';
 import { PblColumn } from './column';
 export declare function isPblColumnGroup(def: any): def is PblColumnGroup;

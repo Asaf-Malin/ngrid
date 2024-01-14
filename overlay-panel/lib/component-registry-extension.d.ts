@@ -1,5 +1,5 @@
 import { ComponentRef, Type, ComponentFactoryResolver, ComponentFactory, Injector } from '@angular/core';
-import { PblNgridMultiComponentRegistry } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry } from '@asafmalin/ngrid';
 export declare class PblNgridOverlayPanelComponentExtension<T> extends PblNgridMultiComponentRegistry<T, 'overlayPanels'> {
     component: Type<T>;
     cfr?: ComponentFactoryResolver;

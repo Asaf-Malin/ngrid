@@ -1,4 +1,4 @@
-import { PblColumn } from '@pebula/ngrid';
+import { PblColumn } from '@asafmalin/ngrid';
 export function colResizeExtendGrid() {
     PblColumn.extendProperty('resize');
 }

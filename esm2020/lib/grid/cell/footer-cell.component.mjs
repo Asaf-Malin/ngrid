@@ -1,6 +1,6 @@
 import { filter } from 'rxjs/operators';
 import { Component, ChangeDetectionStrategy, ViewEncapsulation, } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { MetaCellContext } from '../context/index';
 import { applyWidth, initCellElement } from './utils';
 import { PblNgridBaseCell } from './base-cell';

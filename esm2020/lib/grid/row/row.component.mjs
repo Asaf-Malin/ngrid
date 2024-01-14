@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, ViewChild, ViewContainerRef, ViewEncapsulation } from '@angular/core';
 import { CdkRow } from '@angular/cdk/table';
-import { StylingDiffer, unrx } from '@pebula/ngrid/core';
+import { StylingDiffer, unrx } from '@asafmalin/ngrid/core';
 import { PblNgridBaseRowComponent } from './base-row.component';
 import { PblNgridColumnDef } from '../column/directives/column-def';
 import { rowContextBridge } from './row-to-repeater-bridge';

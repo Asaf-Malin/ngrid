@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CdkTableModule } from '@angular/cdk/table';
-import { PblNgridConfigService } from '@pebula/ngrid/core';
-import { PblNgridModule, PblNgridPluginController, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
+import { PblNgridModule, PblNgridPluginController, ngridPlugin } from '@asafmalin/ngrid';
 import { PblNgridTargetEventsPlugin, PblNgridTargetEventsPluginDirective, PLUGIN_KEY, runOnce } from './target-events/target-events-plugin';
 import { PblNgridCellEditDirective } from './target-events/cell-edit.directive';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid/core";
+import * as i1 from "@asafmalin/ngrid/core";
 export class PblNgridTargetEventsModule {
     constructor(configService) {
         PblNgridPluginController.onCreatedSafe(PblNgridTargetEventsModule, (grid, controller) => {

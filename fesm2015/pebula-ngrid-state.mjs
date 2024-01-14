@@ -1,11 +1,11 @@
-import * as i1 from '@pebula/ngrid';
-import { PblNgridPluginController, utils, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridPluginController, utils, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { Subject } from 'rxjs';
 import { filter, mapTo, map, take, skip, debounceTime } from 'rxjs/operators';
 import * as i0 from '@angular/core';
 import { Directive, Input, NgModule } from '@angular/core';
-import * as i1$1 from '@pebula/ngrid/core';
-import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW, ON_DESTROY } from '@pebula/ngrid/core';
+import * as i1$1 from '@asafmalin/ngrid/core';
+import { ON_INVALIDATE_HEADERS, ON_RESIZE_ROW, ON_DESTROY } from '@asafmalin/ngrid/core';
 import { CommonModule } from '@angular/common';
 
 let _instance;

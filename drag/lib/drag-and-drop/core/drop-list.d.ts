@@ -2,7 +2,7 @@ import { ElementRef, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Direction, Directionality } from '@angular/cdk/bidi';
 import { ScrollDispatcher } from '@angular/cdk/scrolling';
 import { DragDrop, CdkDropListGroup, CdkDropList, CdkDrag, DragDropConfig } from '@angular/cdk/drag-drop';
-import { PblNgridComponent, PblNgridExtensionApi } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridExtensionApi } from '@asafmalin/ngrid';
 import { PblDropListRef } from './drop-list-ref';
 import * as i0 from "@angular/core";
 export declare class CdkLazyDropList<T = any, DRef = any> extends CdkDropList<T> implements OnInit {

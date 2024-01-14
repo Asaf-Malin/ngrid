@@ -2,12 +2,12 @@ import * as i0 from '@angular/core';
 import { ViewContainerRef, Component, ChangeDetectionStrategy, ViewEncapsulation, ViewChild, Directive, Input, EventEmitter, ComponentFactoryResolver, Output, NgModule } from '@angular/core';
 import { ENTER, SPACE } from '@angular/cdk/keycodes';
 import { CdkRow, CdkTableModule } from '@angular/cdk/table';
-import { unrx } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridRowComponent, PblNgridSingleTemplateRegistry, PblNgridRowDef, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridRowComponent, PblNgridSingleTemplateRegistry, PblNgridRowDef, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
 import { CommonModule } from '@angular/common';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 const PLUGIN_KEY = 'detailRow';
 

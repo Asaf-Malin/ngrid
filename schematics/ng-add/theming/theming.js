@@ -17,7 +17,7 @@ const workspace_1 = require("@schematics/angular/utility/workspace");
 const path_1 = require("path");
 const create_custom_theme_1 = require("./create-custom-theme");
 /** Path segment that can be found in paths that refer to a prebuilt theme. */
-const prebuiltThemePathSegment = '@pebula/ngrid/themes';
+const prebuiltThemePathSegment = '@asafmalin/ngrid/themes';
 /** Default file name of the custom theme that can be generated. */
 const defaultCustomThemeFilename = 'custom-theme.scss';
 /** Add pre-built styles to the main project style file. */
@@ -67,7 +67,7 @@ function insertCustomTheme(schema, host, logger) {
 /** Insert a pre-built theme into the angular.json file. */
 function insertPrebuiltTheme(schema, theme, logger) {
     // Path needs to be always relative to the `package.json` or workspace root.
-    const themePath = `./node_modules/@pebula/ngrid/themes/default-${theme}.css`;
+    const themePath = `./node_modules/@asafmalin/ngrid/themes/default-${theme}.css`;
     return (0, schematics_1.chain)([
         addThemeStyleToTarget(schema, 'build', themePath, logger),
         addThemeStyleToTarget(schema, 'test', themePath, logger)

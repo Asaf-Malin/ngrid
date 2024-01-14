@@ -1,6 +1,6 @@
 import { Subject } from 'rxjs';
 import { distinctUntilChanged } from 'rxjs/operators';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { Sizer } from './sizer';
 export class PblNgridDynamicVirtualScrollStrategy {
     /**

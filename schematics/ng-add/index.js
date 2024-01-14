@@ -9,7 +9,7 @@ const meta = require("./metadata");
 const messages = require("./messages");
 const package_config_1 = require("../utils/package-config");
 function getNgridPackageName(packageName) {
-    return `@pebula/${packageName}`;
+    return `@asafmalin/${packageName}`;
 }
 function ngAdd(options) {
     return (tree, context) => tslib_1.__awaiter(this, void 0, void 0, function* () {

@@ -2,12 +2,12 @@ import { ReplaySubject, fromEvent, timer } from 'rxjs';
 import { filter, tap, switchMap, takeUntil, map, bufferWhen, debounce } from 'rxjs/operators';
 import * as i0 from '@angular/core';
 import { EventEmitter, Directive, Input, NgModule } from '@angular/core';
-import * as i1 from '@pebula/ngrid';
-import { PblColumn, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import * as i1 from '@asafmalin/ngrid';
+import { PblColumn, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { RIGHT_ARROW, LEFT_ARROW, DOWN_ARROW, UP_ARROW } from '@angular/cdk/keycodes';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import * as i1$1 from '@pebula/ngrid/core';
-import { unrx } from '@pebula/ngrid/core';
+import * as i1$1 from '@asafmalin/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { CommonModule } from '@angular/common';
 import { CdkTableModule } from '@angular/cdk/table';
 

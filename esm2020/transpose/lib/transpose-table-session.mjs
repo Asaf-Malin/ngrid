@@ -1,6 +1,6 @@
 import { isObservable, of as obsOf, from as obsFrom } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
-import { ON_INVALIDATE_HEADERS, unrx } from '@pebula/ngrid/core';
+import { ON_INVALIDATE_HEADERS, unrx } from '@asafmalin/ngrid/core';
 export const LOCAL_COLUMN_DEF = Symbol('LOCAL_COLUMN_DEF');
 export const VIRTUAL_REFRESH = {};
 export class TransposeTableSession {

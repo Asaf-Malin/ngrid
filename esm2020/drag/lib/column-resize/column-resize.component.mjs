@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component, ElementRef, HostListener, Inject, I
 import { ViewportRuler } from '@angular/cdk/scrolling';
 import { normalizePassiveListenerOptions } from '@angular/cdk/platform';
 import { DragDropRegistry, CDK_DRAG_CONFIG } from '@angular/cdk/drag-drop';
-import { isPblColumn, PblNgridPluginController } from '@pebula/ngrid';
+import { isPblColumn, PblNgridPluginController } from '@asafmalin/ngrid';
 import { toggleNativeDragInteractions } from './cdk-encapsulated-code';
 import * as i0 from "@angular/core";
 import * as i1 from "@angular/cdk/scrolling";

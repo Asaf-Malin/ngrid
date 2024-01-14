@@ -1,6 +1,6 @@
 import { Directive, Input } from '@angular/core';
 import { DragDrop, CDK_DRAG_PARENT } from '@angular/cdk/drag-drop';
-import { PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridPluginController } from '@asafmalin/ngrid';
 import { PblDragDrop, CdkLazyDrag } from '../core/index';
 import { ROW_REORDER_PLUGIN_KEY } from './row-reorder-plugin';
 import * as i0 from "@angular/core";

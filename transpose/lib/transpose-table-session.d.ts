@@ -1,5 +1,5 @@
-import { PblNgridColumnDefinitionSet } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController, PblDataSource, PblColumn } from '@pebula/ngrid';
+import { PblNgridColumnDefinitionSet } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController, PblDataSource, PblColumn } from '@asafmalin/ngrid';
 export declare const LOCAL_COLUMN_DEF: unique symbol;
 export declare const VIRTUAL_REFRESH: {};
 export declare class TransposeTableSession {

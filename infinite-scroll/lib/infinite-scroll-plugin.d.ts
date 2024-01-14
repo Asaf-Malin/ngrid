@@ -1,6 +1,6 @@
 import { Injector } from '@angular/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
-declare module '@pebula/ngrid/lib/ext/types' {
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         infiniteScroll?: PblNgridInfiniteScrollPlugin;
     }

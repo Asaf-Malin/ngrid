@@ -1,4 +1,4 @@
-import { PblColumn, PblColumnGroup } from '@pebula/ngrid';
+import { PblColumn, PblColumnGroup } from '@asafmalin/ngrid';
 function checkGroupLockConstraint(column) {
     for (const id of this.groups) {
         const g = this.groupStore.find(id);

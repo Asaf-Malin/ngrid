@@ -1,5 +1,5 @@
-import * as i1$1 from '@pebula/ngrid';
-import { PblNgridMultiComponentRegistry, PblNgridPluginController, PblNgridMultiTemplateRegistry } from '@pebula/ngrid';
+import * as i1$1 from '@asafmalin/ngrid';
+import { PblNgridMultiComponentRegistry, PblNgridPluginController, PblNgridMultiTemplateRegistry } from '@asafmalin/ngrid';
 import { Subject, merge } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import * as i0 from '@angular/core';

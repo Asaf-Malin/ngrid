@@ -1,11 +1,11 @@
 /* LEAVE THIS, WE NEED IT SO THE AUGMENTATION IN THE FILE WILL LOAD. */
 import './lib/grid/bind-grid-to-datasource';
 import { isPblColumn, isPblMetaColumn, isPblColumnGroup } from './lib/grid/index';
-/* Some symbols in `@pebula/ngrid/core` are also used by "regular" users of ngrid (as opposed to internal/plugin use) so we need to re-export them
-   from the main package so "regular" user will not have to specifically address `@pebula/ngrid/core` */
+/* Some symbols in `@asafmalin/ngrid/core` are also used by "regular" users of ngrid (as opposed to internal/plugin use) so we need to re-export them
+   from the main package so "regular" user will not have to specifically address `@asafmalin/ngrid/core` */
 export { 
 // Configuration
-PEB_NGRID_CONFIG, PblNgridConfigService, PblDataSourceAdapter, PblDataSource, PblDataSourceFactory, createDS, applySort, } from '@pebula/ngrid/core';
+PEB_NGRID_CONFIG, PblNgridConfigService, PblDataSourceAdapter, PblDataSource, PblDataSourceFactory, createDS, applySort, } from '@asafmalin/ngrid/core';
 export { PblColumn, PblMetaColumn, PblColumnGroup, PblColumnFactory, columnFactory, isPblMetaColumn, isPblColumnGroup, isPblColumn, NGRID_CELL_FACTORY, PBL_NGRID_ROW_TEMPLATE, PblNgridRowDef, PblNgridRowOverride, PblNgridRowComponent, PblNgridColumnRowComponent, PblNgridMetaRowComponent, PblNgridComponent, ColumnApi, PblNgridRegistryService, PblNgridSingleTemplateRegistry, PblNgridMultiTemplateRegistry, PblNgridMultiComponentRegistry, PblNgridDataHeaderExtensionContext, PblNgridCellDefDirective, PblNgridHeaderCellDefDirective, PblNgridFooterCellDefDirective, PblNgridCellStyling, PblNgridNoDataRefDirective, DISABLE_INTERSECTION_OBSERVABLE, PblNgridBaseVirtualScrollDirective, NoVirtualScrollStrategy, PblNgridDynamicVirtualScrollStrategy, 
 // TODO: Move to an independent package in v4
 PblNgridFixedSizeVirtualScrollStrategy, PblNgridAutoSizeVirtualScrollStrategy, PblRowContext, } from './lib/grid/index';

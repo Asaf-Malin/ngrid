@@ -1,4 +1,4 @@
-import { PblDataSourceBaseFactory } from '@pebula/ngrid/core';
+import { PblDataSourceBaseFactory } from '@asafmalin/ngrid/core';
 import { PblInfiniteScrollDSContext } from './infinite-scroll-datasource.context';
 export class PblInfiniteScrollDSFactory extends PblDataSourceBaseFactory {
     withInfiniteScrollOptions(options) {

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CdkTableModule } from '@angular/cdk/table';
-import { PblNgridModule, ngridPlugin } from '@pebula/ngrid';
+import { PblNgridModule, ngridPlugin } from '@asafmalin/ngrid';
 import { PblNgridBlockUiDefDirective } from './block-ui/directives';
 import { PblNgridBlockUiPluginDirective, PLUGIN_KEY } from './block-ui/block-ui-plugin';
 import * as i0 from "@angular/core";

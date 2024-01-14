@@ -17,7 +17,7 @@ import * as i12 from "./drag-and-drop/column/aggregation-column";
 import * as i13 from "./column-resize/column-resize.component";
 import * as i14 from "./column-resize/cell-resizer-ref";
 import * as i15 from "@angular/common";
-import * as i16 from "@pebula/ngrid";
+import * as i16 from "@asafmalin/ngrid";
 import * as i17 from "@angular/cdk/drag-drop";
 export declare function ngridPlugins(): never[];
 export declare class PblNgridDragModule {

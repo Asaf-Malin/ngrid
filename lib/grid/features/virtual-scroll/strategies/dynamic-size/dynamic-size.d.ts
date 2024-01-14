@@ -1,5 +1,5 @@
 import { Observable, Subject } from 'rxjs';
-import { PblDataSource } from '@pebula/ngrid/core';
+import { PblDataSource } from '@asafmalin/ngrid/core';
 import { PblNgridExtensionApi } from '../../../../../ext/grid-ext-api';
 import { PblCdkVirtualScrollViewportComponent } from '../../virtual-scroll-viewport.component';
 import { PblNgridVirtualScrollStrategy } from '../types';

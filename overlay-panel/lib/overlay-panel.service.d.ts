@@ -1,10 +1,10 @@
 import { ElementRef, NgZone } from '@angular/core';
 import { Overlay } from '@angular/cdk/overlay';
-import { PblNgridComponent, PblNgridMultiTemplateRegistry } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridMultiTemplateRegistry } from '@asafmalin/ngrid';
 import { PblNgridOverlayPanelComponentExtension } from './component-registry-extension';
 import { PblNgridOverlayPanelRef } from './overlay-panel-ref';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridMultiRegistryMap {
         overlayPanels?: PblNgridMultiTemplateRegistry<any, 'overlayPanels'> | PblNgridOverlayPanelComponentExtension<any>;
     }

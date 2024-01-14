@@ -1,9 +1,9 @@
 import * as i0 from '@angular/core';
 import { Directive, Input, NgModule } from '@angular/core';
-import * as i1$1 from '@pebula/ngrid/core';
-import { ON_RESIZE_ROW, ON_INVALIDATE_HEADERS } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridPluginController, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import * as i1$1 from '@asafmalin/ngrid/core';
+import { ON_RESIZE_ROW, ON_INVALIDATE_HEADERS } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridPluginController, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { CommonModule } from '@angular/common';
 import { CdkTableModule } from '@angular/cdk/table';
 

@@ -1,4 +1,4 @@
-import { PblDataSourceTriggerChangedEvent, PblDataSourceTriggerChangeHandler, PblDataSource, PblDataSourceConfigurableTriggers, PblDataSourceOptions } from '@pebula/ngrid';
+import { PblDataSourceTriggerChangedEvent, PblDataSourceTriggerChangeHandler, PblDataSource, PblDataSourceConfigurableTriggers, PblDataSourceOptions } from '@asafmalin/ngrid';
 import { PblNgridCacheAdaptersMap } from './caching';
 import { PblNgridCacheAdapter } from './caching/cache-adapter';
 export interface PblInfiniteScrollFactoryOptions<T, TData = any> {

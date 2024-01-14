@@ -1,4 +1,4 @@
-import { PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridPluginController } from '@asafmalin/ngrid';
 import { stateVisor } from './state-visor';
 import { PblNgridLocalStoragePersistAdapter } from './persistance/local-storage';
 import { PblNgridIdAttributeIdentResolver } from './identification/index';

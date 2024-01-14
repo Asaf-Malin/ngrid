@@ -1,10 +1,10 @@
-import { PblNgridConfigService } from '@pebula/ngrid/core';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
 import * as i0 from "@angular/core";
 import * as i1 from "./sticky/sticky-plugin";
 import * as i2 from "@angular/common";
 import * as i3 from "@angular/cdk/table";
-import * as i4 from "@pebula/ngrid";
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+import * as i4 from "@asafmalin/ngrid";
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
     interface PblNgridConfig {
         stickyPlugin?: {
             headers?: Array<'table' | number>;

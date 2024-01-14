@@ -2,11 +2,11 @@ import { filter } from 'rxjs/operators';
 import * as i0 from '@angular/core';
 import { Directive, Input, NgModule } from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
-import { unrx } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { PblNgridConfigService, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { PblNgridConfigService, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { CommonModule } from '@angular/common';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 const IS_OSX = /^mac/.test(navigator.platform.toLowerCase());
 const DEFAULT_CELL_SEP = '\t';

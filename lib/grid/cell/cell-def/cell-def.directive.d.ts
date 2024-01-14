@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { PblColumnTypeDefinitionDataMap } from '@pebula/ngrid/core';
+import { PblColumnTypeDefinitionDataMap } from '@asafmalin/ngrid/core';
 import { PblNgridRegistryService } from '../../registry/registry.service';
 import { PblNgridCellContext } from '../../context/index';
 import { PblNgridBaseCellDef } from './base-cell-def.directive';
@@ -26,7 +26,7 @@ export declare class PblNgridCellDefDirective<T, P extends keyof PblColumnTypeDe
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridCellDefDirective<any, any>, never>;
     static ɵdir: i0.ɵɵDirectiveDeclaration<PblNgridCellDefDirective<any, any>, "[pblNgridCellDef], [pblNgridCellTypeDef]", never, { "name": "pblNgridCellDef"; "type": "pblNgridCellTypeDef"; }, {}, never, never, false>;
 }
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridMultiRegistryMap {
         tableCell?: PblNgridCellDefDirective<any>;
     }

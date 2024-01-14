@@ -4,13 +4,13 @@ import * as i4 from '@angular/cdk/bidi';
 import * as i1 from '@angular/cdk/scrolling';
 import * as i2 from '@angular/cdk/drag-drop';
 import { DropListRef, DragRef, CdkDropList, CDK_DROP_LIST_GROUP, CDK_DRAG_CONFIG, DragDrop, CDK_DROP_LIST, CdkDrag, CdkDragHandle, CDK_DRAG_PARENT, CDK_DRAG_HANDLE, CdkDropListGroup, DragDropModule } from '@angular/cdk/drag-drop';
-import * as i1$1 from '@pebula/ngrid';
-import { PblNgridPluginController, isPblColumn, PblColumn, PblColumnGroup, PblNgridMultiTemplateRegistry, ngridPlugin, provideCommon, PblNgridModule } from '@pebula/ngrid';
+import * as i1$1 from '@asafmalin/ngrid';
+import { PblNgridPluginController, isPblColumn, PblColumn, PblColumnGroup, PblNgridMultiTemplateRegistry, ngridPlugin, provideCommon, PblNgridModule } from '@asafmalin/ngrid';
 import { Subject, BehaviorSubject, Subscription, animationFrameScheduler } from 'rxjs';
 import { coerceElement, coerceBooleanProperty } from '@angular/cdk/coercion';
 import { DOCUMENT, CommonModule } from '@angular/common';
 import { take, takeUntil, auditTime } from 'rxjs/operators';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { normalizePassiveListenerOptions } from '@angular/cdk/platform';
 
 class PblDropListRef extends DropListRef {

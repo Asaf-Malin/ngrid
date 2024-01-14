@@ -1,5 +1,5 @@
 import { ElementRef, Directive, Inject } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { EXT_API_TOKEN } from '../../ext/grid-ext-api';
 import * as i0 from "@angular/core";
 export class PblNgridBaseCell {

@@ -1,4 +1,4 @@
-import { PblDataSource, PblDataSourceOptions, PblNgridRowContext } from '@pebula/ngrid';
+import { PblDataSource, PblDataSourceOptions, PblNgridRowContext } from '@asafmalin/ngrid';
 import { PblInfiniteScrollDSContext } from './infinite-scroll-datasource.context';
 import { PblInfiniteScrollDataSourceAdapter } from './infinite-scroll-datasource-adapter';
 import { PblInfiniteScrollTriggerChangedEvent } from './infinite-scroll-datasource.types';

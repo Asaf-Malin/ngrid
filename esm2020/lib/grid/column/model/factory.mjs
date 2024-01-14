@@ -1,4 +1,4 @@
-import { deprecatedWarning } from '@pebula/ngrid/core';
+import { deprecatedWarning } from '@asafmalin/ngrid/core';
 import { PblMetaColumn } from './meta-column';
 import { PblColumn } from './column';
 import { PblColumnGroup, PblColumnGroupStore } from './group-column';

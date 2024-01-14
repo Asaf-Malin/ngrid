@@ -1,6 +1,6 @@
 import { Subject, Observable } from 'rxjs';
 import { OnDestroy } from '@angular/core';
-import { PblNgridMultiRegistryMap, PblNgridSingleRegistryMap, RegistryChangedEvent } from '@pebula/ngrid/core';
+import { PblNgridMultiRegistryMap, PblNgridSingleRegistryMap, RegistryChangedEvent } from '@asafmalin/ngrid/core';
 import * as i0 from "@angular/core";
 /**
  * A Registry for templates of table parts.

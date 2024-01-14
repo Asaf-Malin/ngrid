@@ -1,6 +1,6 @@
 import { BehaviorSubject, Subject, asapScheduler } from 'rxjs';
 import { debounceTime, buffer, map, filter, take } from 'rxjs/operators';
-import { ON_DESTROY, removeFromArray } from '@pebula/ngrid/core';
+import { ON_DESTROY, removeFromArray } from '@asafmalin/ngrid/core';
 import { findRowRenderedIndex, resolveCellReference } from './utils';
 import { PblRowContext } from './row';
 import { PblCellContext } from './cell';

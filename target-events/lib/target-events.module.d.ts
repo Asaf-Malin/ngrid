@@ -1,10 +1,10 @@
-import { PblNgridConfigService } from '@pebula/ngrid/core';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
 import * as i0 from "@angular/core";
 import * as i1 from "./target-events/target-events-plugin";
 import * as i2 from "./target-events/cell-edit.directive";
 import * as i3 from "@angular/common";
 import * as i4 from "@angular/cdk/table";
-import * as i5 from "@pebula/ngrid";
+import * as i5 from "@asafmalin/ngrid";
 export declare class PblNgridTargetEventsModule {
     static readonly NGRID_PLUGIN: never;
     constructor(configService: PblNgridConfigService);

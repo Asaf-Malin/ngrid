@@ -1,10 +1,10 @@
 import { BehaviorSubject, Subject } from 'rxjs';
 import { BooleanInput } from '@angular/cdk/coercion';
 import { CdkDropList } from '@angular/cdk/drag-drop';
-import { COLUMN } from '@pebula/ngrid';
+import { COLUMN } from '@asafmalin/ngrid';
 import { CdkLazyDropList } from '../core/index';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         columnDrag?: PblNgridColumnDragContainerDirective;
     }

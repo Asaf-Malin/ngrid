@@ -1,6 +1,6 @@
 import { Subject } from 'rxjs';
 import { Injectable, Optional, SkipSelf } from '@angular/core';
-import { unrx, } from '@pebula/ngrid/core';
+import { unrx, } from '@asafmalin/ngrid/core';
 import * as i0 from "@angular/core";
 /**
  * A Registry for templates of table parts.

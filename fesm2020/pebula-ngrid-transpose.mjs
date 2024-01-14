@@ -1,10 +1,10 @@
 import * as i0 from '@angular/core';
 import { Directive, Input, NgModule } from '@angular/core';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import * as i2 from '@pebula/ngrid/core';
-import { unrx, ON_INVALIDATE_HEADERS, getValue } from '@pebula/ngrid/core';
-import * as i1 from '@pebula/ngrid';
-import { columnFactory, PblColumn, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import * as i2 from '@asafmalin/ngrid/core';
+import { unrx, ON_INVALIDATE_HEADERS, getValue } from '@asafmalin/ngrid/core';
+import * as i1 from '@asafmalin/ngrid';
+import { columnFactory, PblColumn, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import { isObservable, of, from } from 'rxjs';
 import { tap, map } from 'rxjs/operators';
 import { CommonModule } from '@angular/common';

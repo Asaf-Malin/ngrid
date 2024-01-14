@@ -1,6 +1,6 @@
 // tslint:disable:use-host-property-decorator
 import { Directive, } from '@angular/core';
-import { PblNgridRowDef } from '@pebula/ngrid';
+import { PblNgridRowDef } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 export class PblNgridInfiniteVirtualRowRefDirective extends PblNgridRowDef {
     ngOnInit() {

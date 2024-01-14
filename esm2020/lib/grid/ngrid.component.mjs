@@ -4,7 +4,7 @@ import { Component, ElementRef, Input, Injector, ChangeDetectionStrategy, ViewCh
 import { Directionality } from '@angular/cdk/bidi';
 import { coerceBooleanProperty, coerceNumberProperty } from '@angular/cdk/coercion';
 import { CdkHeaderRowDef, CdkFooterRowDef, CdkRowDef } from '@angular/cdk/table';
-import { PblNgridConfigService, PblDataSource, createDS, deprecatedWarning, unrx, } from '@pebula/ngrid/core';
+import { PblNgridConfigService, PblDataSource, createDS, deprecatedWarning, unrx, } from '@asafmalin/ngrid/core';
 import { PBL_NGRID_COMPONENT } from '../tokens';
 import { EXT_API_TOKEN } from '../ext/grid-ext-api';
 import { PblNgridPluginController } from '../ext/plugin-control';
@@ -12,7 +12,7 @@ import { PblNgridRegistryService } from './registry/registry.service';
 import { PblNgridMetaRowService } from './meta-rows/meta-row.service';
 import { createApis } from './api-factory';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid/core";
+import * as i1 from "@asafmalin/ngrid/core";
 import * as i2 from "./registry/registry.service";
 import * as i3 from "@angular/cdk/bidi";
 import * as i4 from "@angular/common";

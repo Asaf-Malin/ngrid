@@ -1,9 +1,9 @@
 import { ReplaySubject } from 'rxjs';
 import { EventEmitter, OnDestroy, Injector } from '@angular/core';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as Events from './events';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
     interface PblNgridConfig {
         targetEvents?: {
             /** When set to true will enable the target events plugin on all table instances by default. */
@@ -11,7 +11,7 @@ declare module '@pebula/ngrid/core/lib/configuration/type' {
         };
     }
 }
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         targetEvents?: PblNgridTargetEventsPlugin;
     }

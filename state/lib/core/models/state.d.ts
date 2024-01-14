@@ -1,4 +1,4 @@
-import { PblNgridComponent, PblNgridExtensionApi } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridExtensionApi } from '@asafmalin/ngrid';
 import * as B from '../built-in-handlers/index';
 import { PblNgridStateOptions } from './options';
 export interface StateChunkItem<TState, TValue, TData = any, TKeyless = never> {

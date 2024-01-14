@@ -16,7 +16,7 @@ export declare class PblNgridPaginatorRefDirective extends PblNgridSingleTemplat
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridPaginatorRefDirective, never>;
     static ɵdir: i0.ɵɵDirectiveDeclaration<PblNgridPaginatorRefDirective, "[pblNgridPaginatorRef]", never, {}, {}, never, never, false>;
 }
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridSingleRegistryMap {
         paginator?: PblNgridPaginatorRefDirective;
     }

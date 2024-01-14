@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Injector, Directive, ElementRef, Optional, ViewContainerRef, ViewChild, Inject, } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { PBL_NGRID_COMPONENT } from '../../tokens';
 import { PblNgridPluginController } from '../../ext/plugin-control';
 import { EXT_API_TOKEN } from '../../ext/grid-ext-api';

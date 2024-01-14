@@ -1,9 +1,9 @@
 import { AfterViewInit, ElementRef, OnDestroy, NgZone } from '@angular/core';
 import { ViewportRuler } from '@angular/cdk/scrolling';
 import { DragDropConfig, DragDropRegistry } from '@angular/cdk/drag-drop';
-import { PblNgridComponent, PblColumn, PblNgridMetaCellContext } from '@pebula/ngrid';
+import { PblNgridComponent, PblColumn, PblNgridMetaCellContext } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/lib/ext/types' {
+declare module '@asafmalin/ngrid/lib/ext/types' {
     interface PblNgridPluginExtension {
         columnResize?: PblNgridDragResizeComponent;
     }

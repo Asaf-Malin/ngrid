@@ -1,4 +1,4 @@
-import { PblColumn } from '@pebula/ngrid';
+import { PblColumn } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 /**
  * Use to set the a default `pblNgridInfiniteVirtualRowDef` if the user did not set one.

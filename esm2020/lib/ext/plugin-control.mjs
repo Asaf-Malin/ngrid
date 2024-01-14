@@ -1,7 +1,7 @@
 import { of, Subject } from 'rxjs';
 import { mapTo } from 'rxjs/operators';
 import { InjectFlags } from '@angular/core';
-import { ON_INIT } from '@pebula/ngrid/core';
+import { ON_INIT } from '@asafmalin/ngrid/core';
 import { PLUGIN_STORE } from './grid-plugin';
 const NGRID_PLUGIN_CONTEXT = new WeakMap();
 const CREATED$ = new Subject();

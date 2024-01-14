@@ -1,6 +1,6 @@
 import { Injector, OnDestroy } from '@angular/core';
 import { BooleanInput } from '@angular/cdk/coercion';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 export declare class PblNgridCellEditDirective<T> implements OnDestroy {
     set cellEditClick(value: boolean);

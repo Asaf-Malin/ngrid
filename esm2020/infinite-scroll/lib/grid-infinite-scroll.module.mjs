@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CdkTableModule } from '@angular/cdk/table';
-import { PblNgridModule, ngridPlugin, PblNgridPluginController } from '@pebula/ngrid';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridModule, ngridPlugin, PblNgridPluginController } from '@asafmalin/ngrid';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 import './infinite-scroll-plugin'; // to make sure d.ts stay in published lib and so agumentation kicks in
 import { PblNgridInfiniteScrollPlugin, PLUGIN_KEY } from './infinite-scroll-plugin';
 import { PblNgridInfiniteVirtualRowRefDirective } from './infinite-virtual-row/directives';

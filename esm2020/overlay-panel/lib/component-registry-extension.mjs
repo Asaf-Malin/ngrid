@@ -1,4 +1,4 @@
-import { PblNgridMultiComponentRegistry } from '@pebula/ngrid';
+import { PblNgridMultiComponentRegistry } from '@asafmalin/ngrid';
 export class PblNgridOverlayPanelComponentExtension extends PblNgridMultiComponentRegistry {
     constructor(name, component, cfr, injector) {
         super();

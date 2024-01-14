@@ -1,5 +1,5 @@
 import { ViewContainerRef } from '@angular/core';
-import { PblNgridExtensionApi } from '@pebula/ngrid';
+import { PblNgridExtensionApi } from '@asafmalin/ngrid';
 import { PblNgridDetailRowComponent } from './row';
 /**
  * In charge of handling the lifecycle of detail row instances.

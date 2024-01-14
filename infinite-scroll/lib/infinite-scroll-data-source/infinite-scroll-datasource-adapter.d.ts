@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { PblDataSourceAdapter, PblDataSourceConfigurableTriggers } from '@pebula/ngrid';
+import { PblDataSourceAdapter, PblDataSourceConfigurableTriggers } from '@asafmalin/ngrid';
 import { PblInfiniteScrollTriggerChangedEvent } from './infinite-scroll-datasource.types';
 import { PblInfiniteScrollDSContext } from './infinite-scroll-datasource.context';
 export declare class PblInfiniteScrollDataSourceAdapter<T = any, TData = any> extends PblDataSourceAdapter<T, TData, PblInfiniteScrollTriggerChangedEvent<TData>> {

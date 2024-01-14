@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 import { CdkRow } from '@angular/cdk/table';
-import { PblNgridRowComponent } from '@pebula/ngrid';
+import { PblNgridRowComponent } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
 export const PBL_NGRID_ROW_TEMPLATE = `<ng-content select=".pbl-ngrid-row-prefix"></ng-content><ng-content></ng-content><ng-content select=".pbl-ngrid-row-suffix"></ng-content>`;
 export class PblNgridInfiniteRowComponent extends PblNgridRowComponent {

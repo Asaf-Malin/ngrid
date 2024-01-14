@@ -1,10 +1,10 @@
 import { filter } from 'rxjs/operators';
 import { Directive, Injector, Input } from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
-import { unrx } from '@pebula/ngrid/core';
-import { PblNgridComponent, PblNgridPluginController, PblNgridConfigService } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblNgridComponent, PblNgridPluginController, PblNgridConfigService } from '@asafmalin/ngrid';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 const IS_OSX = /^mac/.test(navigator.platform.toLowerCase());
 const DEFAULT_CELL_SEP = '\t';
 const DEFAULT_ROW_SEP = '\n';

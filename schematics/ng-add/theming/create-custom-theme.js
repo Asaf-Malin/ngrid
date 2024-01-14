@@ -11,7 +11,7 @@ exports.createCustomTheme = void 0;
 /** Create custom theme for the given application configuration. */
 function createCustomTheme(name = 'app') {
     return `
-@use '@pebula/ngrid' as ngrid;
+@use '@asafmalin/ngrid' as ngrid;
 
 $${name}-palette: ngrid.define-palette(ngrid.$blue-palette);
 

@@ -1,6 +1,6 @@
 import { ComponentFactoryResolver } from '@angular/core';
-import { ON_DESTROY } from '@pebula/ngrid/core';
-import { PblNgridPluginController } from '@pebula/ngrid';
+import { ON_DESTROY } from '@asafmalin/ngrid/core';
+import { PblNgridPluginController } from '@asafmalin/ngrid';
 import { PblInfiniteScrollDataSource } from './infinite-scroll-data-source/infinite-scroll-datasource';
 import { INFINITE_SCROLL_DEFFERED_ROW } from './infinite-scroll-data-source/infinite-scroll-deffered-row';
 import { PblNgridDefaultInfiniteVirtualRowComponent } from './default-infinite-virtual-row/default-infinite-virtual-row.component';

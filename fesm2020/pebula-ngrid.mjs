@@ -1,9 +1,9 @@
 import { Subject, asapScheduler, animationFrameScheduler, of, BehaviorSubject, fromEventPattern, EMPTY, fromEvent, race, timer, Observable } from 'rxjs';
 import * as i0 from '@angular/core';
 import { InjectionToken, Injectable, Inject, Component, Input, EventEmitter, Directive, Output, isDevMode, NgZone, InjectFlags, Injector, ViewContainerRef, Optional, ViewChild, ChangeDetectionStrategy, ViewEncapsulation, Attribute, SkipSelf, IterableDiffers, ElementRef, ChangeDetectorRef, forwardRef, TemplateRef, ViewChildren, ComponentFactoryResolver, NgModule, Self } from '@angular/core';
-import * as i1$2 from '@pebula/ngrid/core';
-import { unrx, ON_RESIZE_ROW, getValue, deepPathSet, deprecatedWarning, ON_INVALIDATE_HEADERS, ON_INIT, StylingDiffer, ON_DESTROY, removeFromArray, ON_CONSTRUCTED, PblDataSource, createDS, PEB_NGRID_CONFIG, PblNgridConfigService } from '@pebula/ngrid/core';
-export { PEB_NGRID_CONFIG, PblDataSource, PblDataSourceAdapter, PblDataSourceFactory, PblNgridConfigService, applySort, createDS } from '@pebula/ngrid/core';
+import * as i1$2 from '@asafmalin/ngrid/core';
+import { unrx, ON_RESIZE_ROW, getValue, deepPathSet, deprecatedWarning, ON_INVALIDATE_HEADERS, ON_INIT, StylingDiffer, ON_DESTROY, removeFromArray, ON_CONSTRUCTED, PblDataSource, createDS, PEB_NGRID_CONFIG, PblNgridConfigService } from '@asafmalin/ngrid/core';
+export { PEB_NGRID_CONFIG, PblDataSource, PblDataSourceAdapter, PblDataSourceFactory, PblNgridConfigService, applySort, createDS } from '@asafmalin/ngrid/core';
 import { debounceTime, filter, auditTime, take, map, mapTo, buffer, first, takeUntil, skip, startWith, pairwise, tap, switchMap, observeOn, distinctUntilChanged } from 'rxjs/operators';
 import * as i1 from '@angular/common';
 import { DOCUMENT, CommonModule } from '@angular/common';

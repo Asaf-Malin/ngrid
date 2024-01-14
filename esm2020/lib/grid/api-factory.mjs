@@ -1,6 +1,6 @@
 import { of, Subject, EMPTY } from 'rxjs';
 import { ChangeDetectorRef, ElementRef, Injector, IterableDiffers, ViewContainerRef } from '@angular/core';
-import { ON_DESTROY, ON_CONSTRUCTED } from '@pebula/ngrid/core';
+import { ON_DESTROY, ON_CONSTRUCTED } from '@asafmalin/ngrid/core';
 import { PblNgridPluginContext } from '../ext/plugin-control';
 import { ColumnApi, PblColumnStore } from './column/management';
 import { PblNgridColumnWidthCalc } from './column/width-logic/column-width-calc';

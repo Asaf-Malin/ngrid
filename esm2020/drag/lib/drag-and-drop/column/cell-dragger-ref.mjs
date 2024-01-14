@@ -1,8 +1,8 @@
 import { Directive, TemplateRef } from '@angular/core';
-import { PblNgridRegistryService, PblNgridMultiTemplateRegistry, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridRegistryService, PblNgridMultiTemplateRegistry, PblNgridPluginController } from '@asafmalin/ngrid';
 import { COL_DRAG_CONTAINER_PLUGIN_KEY } from './column-drag-container';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 /**
  * Marks the element as the resizer template for cells.
  */

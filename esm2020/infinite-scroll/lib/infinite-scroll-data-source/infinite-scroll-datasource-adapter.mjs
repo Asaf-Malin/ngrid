@@ -1,4 +1,4 @@
-import { PblDataSourceAdapter } from '@pebula/ngrid';
+import { PblDataSourceAdapter } from '@asafmalin/ngrid';
 import { debounceTime } from 'rxjs/operators';
 export class PblInfiniteScrollDataSourceAdapter extends PblDataSourceAdapter {
     constructor(context, config, onVirtualLoading) {

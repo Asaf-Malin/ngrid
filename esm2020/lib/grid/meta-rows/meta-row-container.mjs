@@ -1,6 +1,6 @@
 import { Subject } from 'rxjs';
 import { Component, Input, ElementRef } from '@angular/core';
-import { ON_RESIZE_ROW, unrx } from '@pebula/ngrid/core';
+import { ON_RESIZE_ROW, unrx } from '@asafmalin/ngrid/core';
 import { PblNgridMetaRowService } from './meta-row.service';
 import * as i0 from "@angular/core";
 import * as i1 from "./meta-row.service";

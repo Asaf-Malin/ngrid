@@ -61,7 +61,7 @@ export declare class PblNgridHeaderExtensionRefDirective extends PblNgridMultiTe
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridHeaderExtensionRefDirective, never>;
     static ɵdir: i0.ɵɵDirectiveDeclaration<PblNgridHeaderExtensionRefDirective, "[pblNgridHeaderExtensionRef]", never, { "shouldRender": "pblNgridHeaderExtensionRef"; }, {}, never, never, false>;
 }
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridMultiRegistryMap {
         dataHeaderExtensions?: (PblNgridMultiTemplateRegistry<PblNgridDataHeaderExtensionContext, 'dataHeaderExtensions'> & PblNgridDataHeaderExtensionRef) | (PblNgridMultiComponentRegistry<any, 'dataHeaderExtensions'> & PblNgridDataHeaderExtensionRef);
     }

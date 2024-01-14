@@ -1,12 +1,12 @@
-import { PblDataSourceBaseFactory, ON_DESTROY } from '@pebula/ngrid/core';
+import { PblDataSourceBaseFactory, ON_DESTROY } from '@asafmalin/ngrid/core';
 import { Observable, Subject, of, isObservable, from, BehaviorSubject } from 'rxjs';
 import { take, debounceTime, tap, finalize, filter, map } from 'rxjs/operators';
-import { PblDataSource, PblDataSourceAdapter, PblNgridRowDef, PblNgridRowComponent, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@pebula/ngrid';
+import { PblDataSource, PblDataSourceAdapter, PblNgridRowDef, PblNgridRowComponent, PblNgridPluginController, ngridPlugin, PblNgridModule } from '@asafmalin/ngrid';
 import * as i0 from '@angular/core';
 import { Directive, Component, ChangeDetectionStrategy, ViewEncapsulation, ComponentFactoryResolver, NgModule } from '@angular/core';
 import { CdkRow, CdkTableModule } from '@angular/cdk/table';
 import { CommonModule } from '@angular/common';
-import { PblNgridTargetEventsModule } from '@pebula/ngrid/target-events';
+import { PblNgridTargetEventsModule } from '@asafmalin/ngrid/target-events';
 
 const INFINITE_SCROLL_DEFFERED_ROW = {};
 

@@ -1,4 +1,4 @@
-import { PblMetaRowDefinitions, PblColumnSet } from '@pebula/ngrid/core';
+import { PblMetaRowDefinitions, PblColumnSet } from '@asafmalin/ngrid/core';
 import { PblMetaColumn } from './meta-column';
 import { PblColumn } from './column';
 import { PblColumnGroup, PblColumnGroupStore } from './group-column';

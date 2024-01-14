@@ -1,5 +1,5 @@
 import { IterableChanges } from '@angular/core';
-import { PblColumnSet, PblMetaColumnDefinition, PblColumnGroupDefinition } from '@pebula/ngrid/core';
+import { PblColumnSet, PblMetaColumnDefinition, PblColumnGroupDefinition } from '@asafmalin/ngrid/core';
 import { PblMetaColumn, PblColumn, PblColumnGroup, COLUMN } from '../model';
 import { GridRowType } from '../../row/types';
 export interface PblMetaColumnStore {

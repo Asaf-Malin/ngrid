@@ -1,5 +1,5 @@
 import { map } from 'rxjs/operators';
-import { ON_RESIZE_ROW } from '@pebula/ngrid/core';
+import { ON_RESIZE_ROW } from '@asafmalin/ngrid/core';
 import { isPblColumn } from '../model/column';
 export class ColumnApi {
     constructor() { }

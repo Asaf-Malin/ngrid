@@ -2,11 +2,11 @@ import { Input, Directive, ElementRef, Optional, Inject, SkipSelf, ChangeDetecto
 import { Directionality } from '@angular/cdk/bidi';
 import { ScrollDispatcher } from '@angular/cdk/scrolling';
 import { DragDrop, CdkDropListGroup, CdkDropList, CDK_DROP_LIST, CDK_DROP_LIST_GROUP, CDK_DRAG_CONFIG, } from '@angular/cdk/drag-drop';
-import { PblNgridComponent, PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridComponent, PblNgridPluginController } from '@asafmalin/ngrid';
 import { PblDropListRef } from './drop-list-ref';
 import { PblDragDrop } from './drag-drop';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 import * as i2 from "@angular/cdk/drag-drop";
 import * as i3 from "@angular/cdk/scrolling";
 import * as i4 from "@angular/cdk/bidi";

@@ -1,10 +1,10 @@
 import { Directive, EventEmitter, Injector, Input, Output, ComponentFactoryResolver, NgZone, ViewContainerRef, Component } from '@angular/core';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import { PblNgridPluginController } from '@pebula/ngrid';
+import { PblNgridPluginController } from '@asafmalin/ngrid';
 import { PLUGIN_KEY } from './tokens';
 import { DetailRowController } from './detail-row-controller';
 import * as i0 from "@angular/core";
-import * as i1 from "@pebula/ngrid";
+import * as i1 from "@asafmalin/ngrid";
 import * as i2 from "./row";
 import * as i3 from "./directives";
 export const ROW_WHEN_TRUE = () => true;

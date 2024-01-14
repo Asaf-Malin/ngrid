@@ -1,5 +1,5 @@
 import { Directive, Input, ElementRef } from '@angular/core';
-import { StylingDiffer } from '@pebula/ngrid/core';
+import { StylingDiffer } from '@asafmalin/ngrid/core';
 import * as i0 from "@angular/core";
 /*
     We're using `StylingDiffer`, which is an exact copy of the style differ used for `ngStyle` and `ngClass`.

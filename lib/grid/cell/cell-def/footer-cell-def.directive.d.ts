@@ -10,7 +10,7 @@ export declare class PblNgridFooterCellDefDirective<T> extends PblNgridBaseCellD
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridFooterCellDefDirective<any>, never>;
     static ɵdir: i0.ɵɵDirectiveDeclaration<PblNgridFooterCellDefDirective<any>, "[pblNgridFooterCellDef], [pblNgridFooterCellTypeDef]", never, { "name": "pblNgridFooterCellDef"; "type": "pblNgridFooterCellTypeDef"; }, {}, never, never, false>;
 }
-declare module '@pebula/ngrid/core/lib/registry/types' {
+declare module '@asafmalin/ngrid/core/lib/registry/types' {
     interface PblNgridMultiRegistryMap {
         footerCell?: PblNgridFooterCellDefDirective<any>;
     }

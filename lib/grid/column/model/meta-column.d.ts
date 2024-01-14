@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { PblMetaColumnDefinition, PblColumnTypeDefinition } from '@pebula/ngrid/core';
+import { PblMetaColumnDefinition, PblColumnTypeDefinition } from '@asafmalin/ngrid/core';
 import { PblNgridColumnDef } from '../directives/column-def';
 import { PblNgridMetaCellContext } from '../../context/types';
 export declare function isPblMetaColumn(def: any): def is PblMetaColumn;

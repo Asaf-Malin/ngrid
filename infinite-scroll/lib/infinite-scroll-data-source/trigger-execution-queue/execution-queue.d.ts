@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { PblDataSourceTriggerChangeHandler } from '@pebula/ngrid';
+import { PblDataSourceTriggerChangeHandler } from '@asafmalin/ngrid';
 import { PblInfiniteScrollTriggerChangedEvent } from '../infinite-scroll-datasource.types';
 /**
  * Execute a data source trigger based on infinite trigger change events provided.

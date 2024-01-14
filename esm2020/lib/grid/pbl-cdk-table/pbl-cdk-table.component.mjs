@@ -6,7 +6,7 @@ import { _VIEW_REPEATER_STRATEGY } from '@angular/cdk/collections';
 import { ViewportRuler } from '@angular/cdk/scrolling';
 import { CDK_TABLE_TEMPLATE, CdkTable, CDK_TABLE, _COALESCED_STYLE_SCHEDULER, _CoalescedStyleScheduler, STICKY_POSITIONING_LISTENER, StickyStyler, } from '@angular/cdk/table';
 import { Directionality } from '@angular/cdk/bidi';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { PBL_NGRID_COMPONENT } from '../../tokens';
 import { EXT_API_TOKEN } from '../../ext/grid-ext-api';
 import { PblNgridCachedRowViewRepeaterStrategy } from './ngrid-cached-row-view-repeater-strategy';

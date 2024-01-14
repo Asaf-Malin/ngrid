@@ -1,9 +1,9 @@
-import { PblDataSourceTriggerChangedEvent, DataSourceOf } from '@pebula/ngrid/core';
+import { PblDataSourceTriggerChangedEvent, DataSourceOf } from '@asafmalin/ngrid/core';
 import { PblInfiniteScrollFactoryOptions, PblInfiniteScrollDsOptions } from './infinite-scroll-datasource.types';
 import { PblInfiniteScrollDataSourceCache } from './infinite-scroll-datasource.cache';
 import { PblInfiniteScrollDataSource } from './infinite-scroll-datasource';
 import { PblInfiniteScrollDataSourceAdapter } from './infinite-scroll-datasource-adapter';
-declare module '@pebula/ngrid/core/lib/data-source/adapter/types' {
+declare module '@asafmalin/ngrid/core/lib/data-source/adapter/types' {
     interface PblDataSourceTriggerChangedEventSource {
         /**
          * The source of the event was from a scroll that reached into a group of rows that the grid needs to fetch.

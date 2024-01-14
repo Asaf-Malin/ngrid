@@ -1,5 +1,5 @@
 import { TemplateRef, OnInit, OnDestroy } from '@angular/core';
-import { PblNgridSingleRegistryMap } from '@pebula/ngrid/core';
+import { PblNgridSingleRegistryMap } from '@asafmalin/ngrid/core';
 import { PblNgridRegistryService } from '../registry.service';
 import * as i0 from "@angular/core";
 export declare abstract class PblNgridSingleTemplateRegistry<T, TKind extends keyof PblNgridSingleRegistryMap> implements OnInit, OnDestroy {

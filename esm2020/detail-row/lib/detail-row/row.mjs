@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation, ViewContainerRef, ViewChild, } from '@angular/core';
 import { ENTER, SPACE } from '@angular/cdk/keycodes';
 import { CdkRow } from '@angular/cdk/table';
-import { unrx } from '@pebula/ngrid/core';
-import { PblNgridRowComponent } from '@pebula/ngrid';
+import { unrx } from '@asafmalin/ngrid/core';
+import { PblNgridRowComponent } from '@asafmalin/ngrid';
 import { PLUGIN_KEY } from './tokens';
 import * as i0 from "@angular/core";
 export const PBL_NGRID_ROW_TEMPLATE = '<ng-content select=".pbl-ngrid-row-prefix"></ng-content><ng-container #viewRef></ng-container><ng-content select=".pbl-ngrid-row-suffix"></ng-content>';

@@ -1,5 +1,5 @@
 import { ComponentRef, InjectionToken, Type, NgModuleRef, ModuleWithProviders } from '@angular/core';
-import { PblNgridConfig } from '@pebula/ngrid/core';
+import { PblNgridConfig } from '@asafmalin/ngrid/core';
 /**
  * NOTE ABOUT IMPORTS
  *

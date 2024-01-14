@@ -3,14 +3,14 @@ import { AfterViewInit, ElementRef, EventEmitter, InjectionToken, ChangeDetector
 import { Directionality } from '@angular/cdk/bidi';
 import { ListRange } from '@angular/cdk/collections';
 import { CdkVirtualScrollViewport, ScrollDispatcher, CdkVirtualForOf, ViewportRuler, CdkVirtualScrollable } from '@angular/cdk/scrolling';
-import { PblNgridConfigService } from '@pebula/ngrid/core';
+import { PblNgridConfigService } from '@asafmalin/ngrid/core';
 import { PblNgridBaseVirtualScrollDirective } from './strategies/base-v-scroll.directive';
 import { PblNgridVirtualScrollStrategy } from './strategies/types';
 import { NgeVirtualTableRowInfo } from './virtual-scroll-for-of';
 import { PblNgridInternalExtensionApi } from '../../../ext/grid-ext-api';
 import { RowIntersectionTracker } from './row-intersection';
 import * as i0 from "@angular/core";
-declare module '@pebula/ngrid/core/lib/configuration/type' {
+declare module '@asafmalin/ngrid/core/lib/configuration/type' {
     interface PblNgridConfig {
         virtualScroll?: {
             wheelMode?: PblNgridBaseVirtualScrollDirective['wheelMode'];

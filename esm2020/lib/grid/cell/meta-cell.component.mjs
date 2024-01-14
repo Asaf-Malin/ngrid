@@ -1,6 +1,6 @@
 import { filter } from 'rxjs/operators';
 import { Component, ChangeDetectionStrategy, ViewEncapsulation, ViewContainerRef, ViewChild, } from '@angular/core';
-import { unrx } from '@pebula/ngrid/core';
+import { unrx } from '@asafmalin/ngrid/core';
 import { isPblColumnGroup } from '../column/model';
 import { MetaCellContext } from '../context/index';
 import { PblNgridColumnDef } from '../column/directives/column-def';

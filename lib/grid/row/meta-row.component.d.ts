@@ -1,5 +1,5 @@
 import { ElementRef, ComponentRef, ChangeDetectorRef, OnInit, OnDestroy } from '@angular/core';
-import { PblMetaRowDefinitions } from '@pebula/ngrid/core';
+import { PblMetaRowDefinitions } from '@asafmalin/ngrid/core';
 import { _PblNgridComponent } from '../../tokens';
 import { PblNgridMetaCellComponent } from '../cell/meta-cell.component';
 import { PblNgridBaseRowComponent } from './base-row.component';
