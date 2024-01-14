@@ -1,5 +1,5 @@
 {
-  "name": "@pebula/ngrid",
+  "name": "@asafmalin/ngrid",
   "version": "5.0.0",
   "description": "Angular Grid",
   "license": "MIT",
@@ -33,7 +33,6 @@
     "nx": "./node_modules/.bin/nx",
     "postinstall": "npx rimraf ./node_modules/node-sass && node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "14.2.4",
     "@angular/cdk": "14.2.3",
