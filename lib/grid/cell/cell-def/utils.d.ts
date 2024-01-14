@@ -1,0 +1,10 @@
+import { PblNgridRegistryService } from '../../registry/registry.service';
+import { PblColumn, PblMetaColumn } from '../../column/model';
+import { PblNgridHeaderCellDefDirective } from './header-cell-def.directive';
+import { PblNgridCellDefDirective } from './cell-def.directive';
+import { PblNgridFooterCellDefDirective } from './footer-cell-def.directive';
+import { PblNgridCellDefDirectiveBase } from './types';
+export declare function findCellDefById<T extends PblNgridCellDefDirectiveBase>(cellDefs: Array<T>, colDef: Pick<PblMetaColumn, 'id' | 'type'>, searchParent?: boolean): T;
+export declare function findCellDef<T = any>(registry: PblNgridRegistryService, colDef: PblColumn, kind: 'tableCell' | 'editorCell', searchParent?: boolean): PblNgridCellDefDirective<T>;
+export declare function findCellDef<T = any>(registry: PblNgridRegistryService, colDef: PblMetaColumn | PblColumn, kind: 'headerCell', searchParent?: boolean): PblNgridHeaderCellDefDirective<T>;
+export declare function findCellDef<T = any>(registry: PblNgridRegistryService, colDef: PblMetaColumn | PblColumn, kind: 'footerCell', searchParent?: boolean): PblNgridFooterCellDefDirective<T>;

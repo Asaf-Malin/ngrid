@@ -1,0 +1,33 @@
+import { Observable, BehaviorSubject } from 'rxjs';
+import { PblPaginator, PblPaginatorChangeEvent } from './types';
+export declare class PblTokenPaginator implements PblPaginator<string> {
+    readonly kind: 'token';
+    noCacheMode: boolean;
+    get perPage(): number;
+    set perPage(value: number);
+    get page(): string;
+    set page(value: string);
+    get total(): number;
+    set total(value: number);
+    get totalPages(): number;
+    get range(): [number, number];
+    readonly onChange: Observable<PblPaginatorChangeEvent<string>>;
+    protected onChange$: BehaviorSubject<PblPaginatorChangeEvent<string>>;
+    protected queuedChanges: PblPaginatorChangeEvent<string> | undefined;
+    protected _range: [number, number];
+    protected _perPage: number;
+    protected _page: any;
+    protected _total: number;
+    protected _tokens: any[];
+    protected _cursor: number;
+    constructor();
+    reset(): void;
+    canMove(value: string): boolean;
+    hasNext(): boolean;
+    hasPrev(): boolean;
+    move(value: string): void;
+    nextPage(): void;
+    prevPage(): void;
+    addNext(value: any): void;
+    private emit;
+}

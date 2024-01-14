@@ -1,0 +1,21 @@
+import { Subject } from 'rxjs';
+import { DropListRef } from '@angular/cdk/drag-drop';
+import { coerceElement } from '@angular/cdk/coercion';
+export class PblDropListRef extends DropListRef {
+    constructor() {
+        super(...arguments);
+        /** Emits right before dragging has started. */
+        this.beforeExit = new Subject();
+    }
+    withElement(element) {
+        // TODO: Workaround, see if we can push this through https://github.com/angular/material2/issues/15086
+        this.element = coerceElement(element);
+        this.withScrollableParents([this.element]);
+        return this;
+    }
+    dispose() {
+        this.beforeExit.complete();
+        super.dispose();
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZHJvcC1saXN0LXJlZi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uLy4uL2xpYnMvbmdyaWQvZHJhZy9zcmMvbGliL2RyYWctYW5kLWRyb3AvY29yZS9kcm9wLWxpc3QtcmVmLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxPQUFPLEVBQUUsTUFBTSxNQUFNLENBQUM7QUFFL0IsT0FBTyxFQUFFLFdBQVcsRUFBRSxNQUFNLHdCQUF3QixDQUFDO0FBQ3JELE9BQU8sRUFBRSxhQUFhLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQztBQUV0RCxNQUFNLE9BQU8sY0FBd0IsU0FBUSxXQUFjO0lBQTNEOztRQUNFLCtDQUErQztRQUMvQyxlQUFVLEdBQUcsSUFBSSxPQUFPLEVBQWdELENBQUM7SUFhM0UsQ0FBQztJQVhDLFdBQVcsQ0FBQyxPQUE4QztRQUN4RCxzR0FBc0c7UUFDdEcsSUFBSSxDQUFDLE9BQU8sR0FBRyxhQUFhLENBQUMsT0FBTyxDQUFDLENBQUM7UUFDdEMsSUFBSSxDQUFDLHFCQUFxQixDQUFDLENBQUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUM7UUFDM0MsT0FBTyxJQUFJLENBQUM7SUFDZCxDQUFDO0lBRUQsT0FBTztRQUNMLElBQUksQ0FBQyxVQUFVLENBQUMsUUFBUSxFQUFFLENBQUM7UUFDM0IsS0FBSyxDQUFDLE9BQU8sRUFBRSxDQUFDO0lBQ2xCLENBQUM7Q0FDRiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFN1YmplY3QgfSBmcm9tICdyeGpzJztcbmltcG9ydCB7IEVsZW1lbnRSZWYgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IERyb3BMaXN0UmVmIH0gZnJvbSAnQGFuZ3VsYXIvY2RrL2RyYWctZHJvcCc7XG5pbXBvcnQgeyBjb2VyY2VFbGVtZW50IH0gZnJvbSAnQGFuZ3VsYXIvY2RrL2NvZXJjaW9uJztcblxuZXhwb3J0IGNsYXNzIFBibERyb3BMaXN0UmVmPFQgPSBhbnk+IGV4dGVuZHMgRHJvcExpc3RSZWY8VD4ge1xuICAvKiogRW1pdHMgcmlnaHQgYmVmb3JlIGRyYWdnaW5nIGhhcyBzdGFydGVkLiAqL1xuICBiZWZvcmVFeGl0ID0gbmV3IFN1YmplY3Q8eyBpdGVtOiBpbXBvcnQoJy4vZHJhZy1yZWYnKS5QYmxEcmFnUmVmPFQ+IH0+KCk7XG5cbiAgd2l0aEVsZW1lbnQoZWxlbWVudDogRWxlbWVudFJlZjxIVE1MRWxlbWVudD4gfCBIVE1MRWxlbWVudCk6IHRoaXMge1xuICAgIC8vIFRPRE86IFdvcmthcm91bmQsIHNlZSBpZiB3ZSBjYW4gcHVzaCB0aGlzIHRocm91Z2ggaHR0cHM6Ly9naXRodWIuY29tL2FuZ3VsYXIvbWF0ZXJpYWwyL2lzc3Vlcy8xNTA4NlxuICAgIHRoaXMuZWxlbWVudCA9IGNvZXJjZUVsZW1lbnQoZWxlbWVudCk7XG4gICAgdGhpcy53aXRoU2Nyb2xsYWJsZVBhcmVudHMoW3RoaXMuZWxlbWVudF0pO1xuICAgIHJldHVybiB0aGlzO1xuICB9XG5cbiAgZGlzcG9zZSgpOiB2b2lkIHtcbiAgICB0aGlzLmJlZm9yZUV4aXQuY29tcGxldGUoKTtcbiAgICBzdXBlci5kaXNwb3NlKCk7XG4gIH1cbn1cbiJdfQ==

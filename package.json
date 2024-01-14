@@ -1,0 +1,160 @@
+{
+  "name": "@pebula/ngrid",
+  "version": "5.0.0-alpha.0",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": ">=14.0.0",
+    "@angular/cdk": ">=14.0.0"
+  },
+  "description": "Angular Grid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shlomiassaf/ngrid.git"
+  },
+  "keywords": [
+    "angular",
+    "grid",
+    "table"
+  ],
+  "schematics": "./schematics/collection.json",
+  "author": "Shlomi Assaf",
+  "homepage": "https://github.com/shlomiassaf/ngrid",
+  "bugs": {
+    "url": "https://github.com/shlomiassaf/ngrid/issues"
+  },
+  "exports": {
+    ".": {
+      "sass": "./_index.scss",
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/pebula-ngrid.mjs",
+      "es2020": "./fesm2020/pebula-ngrid.mjs",
+      "es2015": "./fesm2015/pebula-ngrid.mjs",
+      "node": "./fesm2015/pebula-ngrid.mjs",
+      "default": "./fesm2020/pebula-ngrid.mjs"
+    },
+    "./theming": {
+      "sass": "./_theming.scss"
+    },
+    "./_theming": {
+      "sass": "./_theming.scss"
+    },
+    "./themes/default-dark.css": {
+      "style": "./themes/default-dark.css"
+    },
+    "./themes/default-light.css": {
+      "style": "./themes/default-light.css"
+    },
+    "./themes/*": {
+      "style": "./themes/*.css"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./block-ui": {
+      "types": "./block-ui/index.d.ts",
+      "esm2020": "./esm2020/block-ui/pebula-ngrid-block-ui.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-block-ui.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-block-ui.mjs",
+      "node": "./fesm2015/pebula-ngrid-block-ui.mjs",
+      "default": "./fesm2020/pebula-ngrid-block-ui.mjs"
+    },
+    "./clipboard": {
+      "types": "./clipboard/index.d.ts",
+      "esm2020": "./esm2020/clipboard/pebula-ngrid-clipboard.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-clipboard.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-clipboard.mjs",
+      "node": "./fesm2015/pebula-ngrid-clipboard.mjs",
+      "default": "./fesm2020/pebula-ngrid-clipboard.mjs"
+    },
+    "./core": {
+      "types": "./core/index.d.ts",
+      "esm2020": "./esm2020/core/pebula-ngrid-core.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-core.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-core.mjs",
+      "node": "./fesm2015/pebula-ngrid-core.mjs",
+      "default": "./fesm2020/pebula-ngrid-core.mjs"
+    },
+    "./detail-row": {
+      "types": "./detail-row/index.d.ts",
+      "esm2020": "./esm2020/detail-row/pebula-ngrid-detail-row.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-detail-row.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-detail-row.mjs",
+      "node": "./fesm2015/pebula-ngrid-detail-row.mjs",
+      "default": "./fesm2020/pebula-ngrid-detail-row.mjs"
+    },
+    "./drag": {
+      "types": "./drag/index.d.ts",
+      "esm2020": "./esm2020/drag/pebula-ngrid-drag.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-drag.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-drag.mjs",
+      "node": "./fesm2015/pebula-ngrid-drag.mjs",
+      "default": "./fesm2020/pebula-ngrid-drag.mjs"
+    },
+    "./infinite-scroll": {
+      "types": "./infinite-scroll/index.d.ts",
+      "esm2020": "./esm2020/infinite-scroll/pebula-ngrid-infinite-scroll.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-infinite-scroll.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-infinite-scroll.mjs",
+      "node": "./fesm2015/pebula-ngrid-infinite-scroll.mjs",
+      "default": "./fesm2020/pebula-ngrid-infinite-scroll.mjs"
+    },
+    "./overlay-panel": {
+      "types": "./overlay-panel/index.d.ts",
+      "esm2020": "./esm2020/overlay-panel/pebula-ngrid-overlay-panel.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-overlay-panel.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-overlay-panel.mjs",
+      "node": "./fesm2015/pebula-ngrid-overlay-panel.mjs",
+      "default": "./fesm2020/pebula-ngrid-overlay-panel.mjs"
+    },
+    "./state": {
+      "types": "./state/index.d.ts",
+      "esm2020": "./esm2020/state/pebula-ngrid-state.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-state.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-state.mjs",
+      "node": "./fesm2015/pebula-ngrid-state.mjs",
+      "default": "./fesm2020/pebula-ngrid-state.mjs"
+    },
+    "./sticky": {
+      "types": "./sticky/index.d.ts",
+      "esm2020": "./esm2020/sticky/pebula-ngrid-sticky.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-sticky.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-sticky.mjs",
+      "node": "./fesm2015/pebula-ngrid-sticky.mjs",
+      "default": "./fesm2020/pebula-ngrid-sticky.mjs"
+    },
+    "./target-events": {
+      "types": "./target-events/index.d.ts",
+      "esm2020": "./esm2020/target-events/pebula-ngrid-target-events.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-target-events.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-target-events.mjs",
+      "node": "./fesm2015/pebula-ngrid-target-events.mjs",
+      "default": "./fesm2020/pebula-ngrid-target-events.mjs"
+    },
+    "./testing": {
+      "types": "./testing/index.d.ts",
+      "esm2020": "./esm2020/testing/pebula-ngrid-testing.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-testing.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-testing.mjs",
+      "node": "./fesm2015/pebula-ngrid-testing.mjs",
+      "default": "./fesm2020/pebula-ngrid-testing.mjs"
+    },
+    "./transpose": {
+      "types": "./transpose/index.d.ts",
+      "esm2020": "./esm2020/transpose/pebula-ngrid-transpose.mjs",
+      "es2020": "./fesm2020/pebula-ngrid-transpose.mjs",
+      "es2015": "./fesm2015/pebula-ngrid-transpose.mjs",
+      "node": "./fesm2015/pebula-ngrid-transpose.mjs",
+      "default": "./fesm2020/pebula-ngrid-transpose.mjs"
+    }
+  },
+  "module": "fesm2015/pebula-ngrid.mjs",
+  "es2020": "fesm2020/pebula-ngrid.mjs",
+  "esm2020": "esm2020/pebula-ngrid.mjs",
+  "fesm2020": "fesm2020/pebula-ngrid.mjs",
+  "fesm2015": "fesm2015/pebula-ngrid.mjs",
+  "typings": "index.d.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

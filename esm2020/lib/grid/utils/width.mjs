@@ -1,0 +1,22 @@
+/**
+ * Updates the column sizes of the columns provided based on the column definition metadata for each column.
+ * The final width represent a static width, it is the value as set in the definition (except column without width, where the calculated global width is set).
+ */
+export function resetColumnWidths(rowWidth, tableColumns, metaColumns) {
+    const { pct, px } = rowWidth.defaultColumnWidth;
+    const defaultWidth = `calc(${pct}% - ${px}px)`;
+    for (const c of tableColumns) {
+        c.setDefaultWidth(defaultWidth);
+        c.updateWidth();
+    }
+    for (const m of metaColumns) {
+        for (const c of [m.header, m.footer]) {
+            if (c) {
+                c.updateWidth('');
+            }
+        }
+        // We don't handle groups because they are handled by `PblNgridComponent.resizeRows()`
+        // which set the width for each.
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid2lkdGguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi8uLi9saWJzL25ncmlkL3NyYy9saWIvZ3JpZC91dGlscy93aWR0aC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTs7O0dBR0c7QUFDSCxNQUFNLFVBQVUsaUJBQWlCLENBQUMsUUFBZ0MsRUFDaEMsWUFBeUIsRUFDekIsV0FBaUM7SUFDakUsTUFBTSxFQUFFLEdBQUcsRUFBRSxFQUFFLEVBQUUsR0FBRyxRQUFRLENBQUMsa0JBQWtCLENBQUM7SUFDaEQsTUFBTSxZQUFZLEdBQUcsUUFBUSxHQUFHLE9BQU8sRUFBRSxLQUFLLENBQUM7SUFFL0MsS0FBSyxNQUFNLENBQUMsSUFBSSxZQUFZLEVBQUU7UUFDNUIsQ0FBQyxDQUFDLGVBQWUsQ0FBQyxZQUFZLENBQUMsQ0FBQztRQUNoQyxDQUFDLENBQUMsV0FBVyxFQUFFLENBQUM7S0FDakI7SUFFRCxLQUFLLE1BQU0sQ0FBQyxJQUFJLFdBQVcsRUFBRTtRQUMzQixLQUFLLE1BQU0sQ0FBQyxJQUFJLENBQUMsQ0FBQyxDQUFDLE1BQU0sRUFBRSxDQUFDLENBQUMsTUFBTSxDQUFDLEVBQUU7WUFDcEMsSUFBSSxDQUFDLEVBQUU7Z0JBQ0wsQ0FBQyxDQUFDLFdBQVcsQ0FBQyxFQUFFLENBQUMsQ0FBQzthQUNuQjtTQUNGO1FBQ0Qsc0ZBQXNGO1FBQ3RGLGdDQUFnQztLQUNqQztBQUNILENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQYmxDb2x1bW4gfSBmcm9tICcuLi9jb2x1bW4vbW9kZWwnO1xuaW1wb3J0IHsgUGJsTWV0YUNvbHVtblN0b3JlIH0gZnJvbSAnLi4vY29sdW1uL21hbmFnZW1lbnQnO1xuaW1wb3J0IHsgU3RhdGljQ29sdW1uV2lkdGhMb2dpYyB9IGZyb20gJy4uL2NvbHVtbi93aWR0aC1sb2dpYy9zdGF0aWMtY29sdW1uLXdpZHRoJztcblxuLyoqXG4gKiBVcGRhdGVzIHRoZSBjb2x1bW4gc2l6ZXMgb2YgdGhlIGNvbHVtbnMgcHJvdmlkZWQgYmFzZWQgb24gdGhlIGNvbHVtbiBkZWZpbml0aW9uIG1ldGFkYXRhIGZvciBlYWNoIGNvbHVtbi5cbiAqIFRoZSBmaW5hbCB3aWR0aCByZXByZXNlbnQgYSBzdGF0aWMgd2lkdGgsIGl0IGlzIHRoZSB2YWx1ZSBhcyBzZXQgaW4gdGhlIGRlZmluaXRpb24gKGV4Y2VwdCBjb2x1bW4gd2l0aG91dCB3aWR0aCwgd2hlcmUgdGhlIGNhbGN1bGF0ZWQgZ2xvYmFsIHdpZHRoIGlzIHNldCkuXG4gKi9cbmV4cG9ydCBmdW5jdGlvbiByZXNldENvbHVtbldpZHRocyhyb3dXaWR0aDogU3RhdGljQ29sdW1uV2lkdGhMb2dpYyxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWJsZUNvbHVtbnM6IFBibENvbHVtbltdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1ldGFDb2x1bW5zOiBQYmxNZXRhQ29sdW1uU3RvcmVbXSk6IHZvaWQge1xuICBjb25zdCB7IHBjdCwgcHggfSA9IHJvd1dpZHRoLmRlZmF1bHRDb2x1bW5XaWR0aDtcbiAgY29uc3QgZGVmYXVsdFdpZHRoID0gYGNhbGMoJHtwY3R9JSAtICR7cHh9cHgpYDtcblxuICBmb3IgKGNvbnN0IGMgb2YgdGFibGVDb2x1bW5zKSB7XG4gICAgYy5zZXREZWZhdWx0V2lkdGgoZGVmYXVsdFdpZHRoKTtcbiAgICBjLnVwZGF0ZVdpZHRoKCk7XG4gIH1cblxuICBmb3IgKGNvbnN0IG0gb2YgbWV0YUNvbHVtbnMpIHtcbiAgICBmb3IgKGNvbnN0IGMgb2YgW20uaGVhZGVyLCBtLmZvb3Rlcl0pIHtcbiAgICAgIGlmIChjKSB7XG4gICAgICAgIGMudXBkYXRlV2lkdGgoJycpO1xuICAgICAgfVxuICAgIH1cbiAgICAvLyBXZSBkb24ndCBoYW5kbGUgZ3JvdXBzIGJlY2F1c2UgdGhleSBhcmUgaGFuZGxlZCBieSBgUGJsTmdyaWRDb21wb25lbnQucmVzaXplUm93cygpYFxuICAgIC8vIHdoaWNoIHNldCB0aGUgd2lkdGggZm9yIGVhY2guXG4gIH1cbn1cbiJdfQ==
