@@ -3926,7 +3926,7 @@ class ContextApi {
          * > Note that the notification is not immediate, it will occur on the closest micro-task after the change.
          */
         this.focusChanged = this.focusChanged$
-            .pipe(buffer(this.focusChanged$.pipe(debounceTime(0, asapScheduler))), map(events => ({ prev: events[0].prev, curr: events[events.length - 1].curr })));
+            .pipe(buffer(this.focusChanged$.pipe(debounceTime(0, asapScheduler))), map(events => ({ prev: events[0]?.prev, curr: events[events.length - 1].curr })));
         /**
          * Notify when the selected cells has changed.
          */

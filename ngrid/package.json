@@ -1,6 +1,6 @@
 {
   "name": "@asafmalin/ngrid",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "license": "MIT",
   "peerDependencies": {
     "@angular/core": ">=14.0.0",
