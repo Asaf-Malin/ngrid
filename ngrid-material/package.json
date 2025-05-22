@@ -1,6 +1,6 @@
 {
   "name": "@asafmalin/ngrid-material",
-  "version": "5.0.7",
+  "version": "5.0.8",
   "peerDependencies": {
     "@angular/material": "^18.2.14",
     "@asafmalin/ngrid": "5.0.7"

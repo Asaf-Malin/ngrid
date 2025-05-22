@@ -9,6 +9,6 @@
   $foreground: map.get($theme, foreground);
 
   .mat-menu-item.menu-item-selected {
-    color: mat.get-color-from-palette($primary);
+    color: mat.m2-get-color-from-palette($primary);
   }
 }
