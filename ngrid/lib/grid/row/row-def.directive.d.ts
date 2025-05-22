@@ -14,7 +14,12 @@ export declare class PblNgridRowDef<T> extends CdkRowDef<T> {
      * We render internally.
      */
     columns: Iterable<string>;
-    constructor(template: TemplateRef<PblNgridRowContext<T>>, _differs: IterableDiffers, registry: PblNgridRegistryService, _table?: any);
+    constructor(
+      template: TemplateRef<PblNgridRowContext<T>>, 
+      _differs: IterableDiffers, 
+      registry: PblNgridRegistryService, 
+      @Optional() @Inject(CDK_TABLE) _table: any
+    );
     getColumnsDiff(): any;
     clone(): this;
     static ɵfac: i0.ɵɵFactoryDeclaration<PblNgridRowDef<any>, [null, null, null, { optional: true; }]>;
