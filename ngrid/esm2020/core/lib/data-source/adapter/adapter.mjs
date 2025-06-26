@@ -93,7 +93,7 @@ export class PblDataSourceAdapter {
      * @returns The cached value or null if not there.
      */
     clearCache(cacheKey) {
-        if (cacheKey in this.cache) {
+        if (this.cache && cacheKey in this.cache) {
             const prev = this.cache[cacheKey];
             this.cache[cacheKey] = DEFAULT_INITIAL_CACHE_STATE[cacheKey];
             return prev;
